@@ -1,16 +1,583 @@
 ---
-
+import MainLayout from "../layouts/MainLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<MainLayout
+  title="Veritas Managed Solutions, inc."
+  seoTitle="Veritas Managed Solutions, inc."
+  seoDescription="Cabling and installation of low voltage systems, wireless, security, AV, electrical"
+>
+  <div class="-z-10">
+    <video
+      id="BGvideo"
+      autoplay
+      muted
+      loop
+      playsinline
+      poster="/assets/background/networkposter.png"
+      class="absolute right-0 bottom-0 object-cover min-w-full min-h-full"
+      src="/assets/background/networkbg.mp4"></video>
+  </div>
+  <div class="flex flex-col gap-1 w-full h-screen">
+    <div class="my-auto">
+      <div class="h-[120px] w-8/12 md:w-6/12 mx-auto overflow-hidden">
+        <h1
+          class="cursor-default text-4xl md:text-6xl text-center"
+          id="scramble"
+        >
+          Low Voltage Systems
+        </h1>
+      </div>
+      <div
+        class="flex flex-wrap w-1/2 mx-auto place-content-center my-10 gap-5"
+      >
+        <a
+          href="/projects"
+          class="inline-flex justify-center transition-all items-center py-3 px-5 text-base font-medium text-center dark:text-slate-700 text-slate-700 hover:text-slate-200 rounded-lg bg-white hover:bg-slate-800 focus:ring-4 focus:ring-slate-300 dark:focus:ring-slate-900"
+        >
+          Learn more
+          <svg
+            class="ml-2 -mr-1 w-5 h-5"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+            ><path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path></svg
+          >
+        </a>
+        <a
+          href="/about"
+          class="inline-flex transition-all justify-center items-center py-3 px-5 text-base font-medium text-center text-white hover:text-slate-700 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:focus:ring-gray-800"
+        >
+          Get in touch!
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="flex min-h-screen items-center justify-center px-12 md:px-24 py-6 sm:py-8 lg:py-12"
+  >
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div
+        class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12"
+      >
+        <div class="flex items-center gap-12">
+          <h2
+            class="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white"
+          >
+            Industries
+          </h2>
+
+          <p
+            class="hidden max-w-screen-sm text-gray-500 dark:text-gray-300 md:block"
+          >
+            Veritas Managed Solutions works on a variety of major low-voltage
+            systems. Select a system you're interested in below to view projects
+            and partners in that industry.
+          </p>
+        </div>
+
+        <a
+          href="#"
+          class="flex items-center rounded-lg border bg-white dark:bg-gray-700 dark:border-none px-4 py-2 text-center text-sm font-semibold text-gray-500 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base"
+        >
+          More industries
+          <svg
+            class="ml-2 -mr-1 w-5 h-5"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+            ><path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path></svg
+          ></a
+        >
+      </div>
+      <div class="mt-8 grid grid-cols-2 gap-6 md:grid-cols-4">
+        <a
+          class="grid group w-full min-w-[7rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
+          href="#"
+        >
+          <div class="relative space-y-8 py-12 p-8">
+            <svg
+              class="mx-auto group-hover:fill-gray-900"
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>cctv</title>
+              <path
+                d="M31.119 14.845c-0.116-0.314-0.346-0.563-0.639-0.702l-0.008-0.003-1.765-0.823 0.39-0.836c0.074-0.155 0.117-0.336 0.117-0.528 0-0.499-0.292-0.93-0.715-1.13l-0.008-0.003-21.254-9.911c-0.155-0.074-0.337-0.117-0.529-0.117-0.499 0-0.929 0.292-1.129 0.714l-0.003 0.008-4.589 9.842c-0.074 0.155-0.117 0.337-0.117 0.529 0 0.499 0.292 0.929 0.714 1.129l0.008 0.003 7.773 3.624-2.19 5.11h-3.926v-3.75c0-0.69-0.56-1.25-1.25-1.25s-1.25 0.56-1.25 1.25v0 10c0 0.69 0.56 1.25 1.25 1.25s1.25-0.56 1.25-1.25v0-3.75h4.75c0.512-0 0.953-0.309 1.146-0.75l0.003-0.008 2.484-5.795 11.215 5.229c0.154 0.074 0.334 0.117 0.525 0.117 0.001 0 0.002 0 0.003 0h-0c0.498-0 0.928-0.292 1.13-0.713l0.003-0.008 0.39-0.835 1.767 0.824c0.154 0.074 0.334 0.117 0.525 0.117 0.001 0 0.002 0 0.003 0h-0c0.499-0 0.929-0.293 1.13-0.715l0.003-0.008 2.754-5.904c0.074-0.155 0.117-0.336 0.117-0.527 0-0.154-0.028-0.301-0.079-0.437l0.003 0.009zM22.77 20.133l-11.174-5.211c-0.030-0.023-0.063-0.047-0.098-0.069l-0.005-0.003c-0.029-0.013-0.060-0.009-0.090-0.019l-7.62-3.554 3.532-7.576 18.988 8.854zM26.586 19.516l-0.631-0.295 1.697-3.639 0.631 0.295z"
+              ></path>
+            </svg>
+            <div class="space-y-2">
+              <h5
+                class="text-xl font-semibold text-gray-700 transition group-hover:text-gray-900"
+              >
+                CCTV and access control
+              </h5>
+              <p class="text-gray-900">Systems to keep your building safe</p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="grid group w-full min-w-[7rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
+          href="#"
+        >
+          <div class="relative space-y-8 py-12 p-8">
+            <svg
+              class="mx-auto group-hover:fill-gray-900"
+              viewBox="-5.5 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>wireless</title>
+              <path
+                d="M13.68 24.8h-2.28v-11.56c0-0.48-0.36-0.84-0.84-0.84s-0.84 0.36-0.84 0.84v11.56h-2.28c-0.48 0-0.84 0.36-0.84 0.84s0.36 0.84 0.84 0.84h6.24c0.44 0 0.84-0.4 0.84-0.84 0-0.48-0.36-0.84-0.84-0.84zM12.88 16.4c-0.2 0-0.44-0.080-0.6-0.24-0.32-0.32-0.32-0.84 0-1.2 0.48-0.48 0.72-1.080 0.72-1.72s-0.24-1.28-0.72-1.72c-0.32-0.32-0.32-0.84 0-1.2 0.32-0.32 0.84-0.32 1.2 0 0.76 0.76 1.2 1.8 1.2 2.92s-0.44 2.12-1.2 2.92c-0.16 0.16-0.4 0.24-0.6 0.24zM15.2 18.72c-0.2 0-0.44-0.080-0.6-0.24-0.32-0.32-0.32-0.84 0-1.2 1.080-1.080 1.68-2.52 1.68-4.040s-0.6-2.96-1.68-4.080c-0.32-0.32-0.32-0.84 0-1.2 0.32-0.32 0.84-0.32 1.2 0 1.4 1.4 2.16 3.28 2.16 5.24 0 2-0.76 3.84-2.16 5.24-0.16 0.2-0.36 0.28-0.6 0.28zM17.44 20.96c-0.2 0-0.44-0.080-0.6-0.24-0.32-0.32-0.32-0.84 0-1.2 1.68-1.68 2.6-3.92 2.6-6.28s-0.92-4.6-2.6-6.28c-0.32-0.32-0.32-0.84 0-1.2 0.32-0.32 0.84-0.32 1.2 0 2 2 3.080 4.64 3.080 7.48 0 2.8-1.080 5.48-3.080 7.48-0.2 0.16-0.4 0.24-0.6 0.24zM7.64 16.16c-0.76-0.8-1.2-1.8-1.2-2.92s0.44-2.16 1.2-2.92c0.36-0.32 0.88-0.32 1.2 0 0.32 0.36 0.32 0.88 0 1.2-0.48 0.44-0.72 1.080-0.72 1.72s0.24 1.24 0.72 1.72c0.32 0.36 0.32 0.88 0 1.2-0.16 0.16-0.4 0.24-0.6 0.24s-0.44-0.080-0.6-0.24zM5.32 18.44c-1.4-1.4-2.16-3.24-2.16-5.24 0-1.96 0.76-3.84 2.16-5.24 0.36-0.32 0.88-0.32 1.2 0 0.32 0.36 0.32 0.88 0 1.2-1.080 1.12-1.68 2.56-1.68 4.080s0.6 2.96 1.68 4.040c0.32 0.36 0.32 0.88 0 1.2-0.16 0.16-0.4 0.24-0.6 0.24-0.24 0-0.44-0.080-0.6-0.28zM3.080 20.72c-2-2-3.080-4.68-3.080-7.48 0-2.84 1.080-5.48 3.080-7.48 0.36-0.32 0.88-0.32 1.2 0 0.32 0.36 0.32 0.88 0 1.2-1.68 1.68-2.6 3.92-2.6 6.28s0.92 4.6 2.6 6.28c0.32 0.36 0.32 0.88 0 1.2-0.16 0.16-0.4 0.24-0.6 0.24s-0.4-0.080-0.6-0.24z"
+              ></path>
+            </svg>
+            <div class="space-y-2">
+              <h5
+                class="text-xl font-semibold text-gray-700 transition group-hover:text-gray-900"
+              >
+                Wireless and point-to point
+              </h5>
+              <p class="text-gray-900">WiFi connections</p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="grid group w-full min-w-[7rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
+          href="#"
+        >
+          <div class="relative space-y-8 py-12 p-8">
+            <svg
+              class="mx-auto fill-none stroke-black
+              group-hover:stroke-gray-900"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              ><title>data cabling</title>
+              <path
+                d="M18 7H18.01M15 7H15.01M18 17H18.01M15 17H15.01M6 10H18C18.9319 10 19.3978 10 19.7654 9.84776C20.2554 9.64477 20.6448 9.25542 20.8478 8.76537C21 8.39782 21 7.93188 21 7C21 6.06812 21 5.60218 20.8478 5.23463C20.6448 4.74458 20.2554 4.35523 19.7654 4.15224C19.3978 4 18.9319 4 18 4H6C5.06812 4 4.60218 4 4.23463 4.15224C3.74458 4.35523 3.35523 4.74458 3.15224 5.23463C3 5.60218 3 6.06812 3 7C3 7.93188 3 8.39782 3.15224 8.76537C3.35523 9.25542 3.74458 9.64477 4.23463 9.84776C4.60218 10 5.06812 10 6 10ZM6 20H18C18.9319 20 19.3978 20 19.7654 19.8478C20.2554 19.6448 20.6448 19.2554 20.8478 18.7654C21 18.3978 21 17.9319 21 17C21 16.0681 21 15.6022 20.8478 15.2346C20.6448 14.7446 20.2554 14.3552 19.7654 14.1522C19.3978 14 18.9319 14 18 14H6C5.06812 14 4.60218 14 4.23463 14.1522C3.74458 14.3552 3.35523 14.7446 3.15224 15.2346C3 15.6022 3 16.0681 3 17C3 17.9319 3 18.3978 3.15224 18.7654C3.35523 19.2554 3.74458 19.6448 4.23463 19.8478C4.60218 20 5.06812 20 6 20Z"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </svg>
+            <div class="space-y-2">
+              <h5
+                class="text-xl font-semibold text-gray-700 transition group-hover:text-gray-900"
+              >
+                Network infrastructure
+              </h5>
+              <p class="text-gray-900">Data cabling and server rooms</p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="grid group w-full min-w-[7rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
+          href="#"
+        >
+          <div class="relative space-y-8 py-12 p-8">
+            <svg
+              class="mx-auto group-hover:fill-gray-900"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              ><path
+                d="M2.898 12.581a2.467 2.467 0 0 1 2.073-.538 2.38 2.38 0 0 1 1.42.871l.419-1.023a3.39 3.39 0 0 0-.707-.489 2.5 2.5 0 1 0-3.215-.006 3.454 3.454 0 0 0-.631.418A3.491 3.491 0 0 0 1 14.5V16h1v-1.5a2.492 2.492 0 0 1 .898-1.919zM3 9.5A1.5 1.5 0 1 1 4.5 11 1.502 1.502 0 0 1 3 9.5zm18.103 1.902a2.5 2.5 0 1 0-3.215-.007 3.448 3.448 0 0 0-.631.419c-.026.021-.044.05-.07.072l.412 1.006a2.407 2.407 0 0 1 2.372-.849A2.608 2.608 0 0 1 22 14.646V16h1v-1.354a3.647 3.647 0 0 0-1.897-3.244zM18 9.5a1.5 1.5 0 1 1 1.5 1.5A1.502 1.502 0 0 1 18 9.5zM10 9V8a1.99 1.99 0 0 1 .764-1.572 2.02 2.02 0 0 1 1.739-.367A2.08 2.08 0 0 1 14 8.119V9h1v-.88a3.173 3.173 0 0 0-1.445-2.678 2.5 2.5 0 1 0-3.1.009 2.956 2.956 0 0 0-.31.192A2.984 2.984 0 0 0 9 8v1zm.5-5.5A1.5 1.5 0 1 1 12 5a1.502 1.502 0 0 1-1.5-1.5zm9.463 17.81l-.926.38L14.664 11H9.336L4.963 21.69l-.926-.38L8.41 10.622A.997.997 0 0 1 9.336 10h5.328a.996.996 0 0 1 .925.62z"
+              ></path><path fill="none" d="M0 0h24v24H0z"></path><title>
+                AV
+              </title></svg
+            >
+            <div class="space-y-2">
+              <h5
+                class="text-xl font-semibold text-gray-700 transition group-hover:text-gray-900"
+              >
+                AV rooms
+              </h5>
+              <p class="text-gray-900">
+                Cameras, speakers and microphones for meeting rooms
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white dark:bg-gray-800 h-screen h-full py-6 sm:py-8 lg:py-12">
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div
+        class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12"
+      >
+        <div class="flex items-center gap-12">
+          <h2
+            class="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white"
+          >
+            Experience
+          </h2>
+
+          <p
+            class="hidden max-w-screen-sm text-gray-500 dark:text-gray-300 md:block"
+          >
+            We develop a lasting relationship with our customers through our
+            work. Check out some of our past projects below.
+          </p>
+        </div>
+
+        <a
+          href="#"
+          class="flex items-center rounded-lg border bg-white dark:bg-gray-700 dark:border-none px-4 py-2 text-center text-sm font-semibold text-gray-500 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base"
+        >
+          More projects
+          <svg
+            class="ml-2 -mr-1 w-5 h-5"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+            ><path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path></svg
+          >
+        </a>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+        <!-- image - start -->
+        <a
+          href="#"
+          class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+            loading="lazy"
+            alt="Photo by Minh Pham"
+            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+
+          <div
+            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"
+          >
+          </div>
+
+          <span
+            class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg"
+            >Lucid</span
+          >
+        </a>
+        <!-- image - end -->
+
+        <!-- image - start -->
+        <a
+          href="#"
+          class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=1000"
+            loading="lazy"
+            alt="Photo by Magicle"
+            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+
+          <div
+            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"
+          >
+          </div>
+
+          <span
+            class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg"
+            >Tesla</span
+          >
+        </a>
+        <!-- image - end -->
+
+        <!-- image - start -->
+        <a
+          href="#"
+          class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=1000"
+            loading="lazy"
+            alt="Photo by Martin Sanchez"
+            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+
+          <div
+            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"
+          >
+          </div>
+
+          <span
+            class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg"
+            >Amazon</span
+          >
+        </a>
+        <!-- image - end -->
+
+        <!-- image - start -->
+        <a
+          href="#"
+          class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+            loading="lazy"
+            alt="Photo by Lorenzo Herrera"
+            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+
+          <div
+            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"
+          >
+          </div>
+
+          <span
+            class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg"
+            >Snowflake</span
+          >
+        </a>
+        <!-- image - end -->
+      </div>
+    </div>
+  </div>
+
+  <div class="h-screen h-full py-6 sm:py-8 lg:py-12">
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div
+        class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12"
+      >
+        <div class="flex items-center gap-12">
+          <h2
+            class="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white"
+          >
+            GAME
+          </h2>
+
+          <p
+            class="hidden max-w-screen-sm text-gray-500 dark:text-gray-300 md:block"
+          >
+            Our projects are accelerated through the implementation of our <strong
+              >GAME drawings</strong
+            >, which promote <strong>communication</strong> and <strong
+              >cost-effective</strong
+            > solutions in your projects.
+          </p>
+        </div>
+
+        <a
+          href="#"
+          class="flex items-center rounded-lg border bg-white dark:bg-gray-700 dark:border-none px-4 py-2 text-center text-sm font-semibold text-gray-500 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base"
+        >
+          More info
+          <svg
+            class="ml-2 -mr-1 w-5 h-5"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+            ><path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path></svg
+          >
+        </a>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+        <!-- image - start -->
+        <a
+          href="#"
+          class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+            loading="lazy"
+            alt="Photo by Minh Pham"
+            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+
+          <div
+            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"
+          >
+          </div>
+
+          <span
+            class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg"
+            >PreGAME</span
+          >
+        </a>
+        <!-- image - end -->
+
+        <!-- image - start -->
+        <a
+          href="#"
+          class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=1000"
+            loading="lazy"
+            alt="Photo by Magicle"
+            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+
+          <div
+            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"
+          >
+          </div>
+
+          <span
+            class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg"
+            >Full GAME</span
+          >
+        </a>
+        <!-- image - end -->
+
+        <!-- image - start -->
+        <a
+          href="#"
+          class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=1000"
+            loading="lazy"
+            alt="Photo by Martin Sanchez"
+            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+
+          <div
+            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"
+          >
+          </div>
+
+          <span
+            class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg"
+            >GAME in the field</span
+          >
+        </a>
+        <!-- image - end -->
+
+        <!-- image - start -->
+        <a
+          href="#"
+          class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+            loading="lazy"
+            alt="Photo by Lorenzo Herrera"
+            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+
+          <div
+            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"
+          >
+          </div>
+
+          <span
+            class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg"
+            >Final GAME pack</span
+          >
+        </a>
+        <!-- image - end -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ——————————————————————————————————————————————————
+    // TextScramble
+    // ——————————————————————————————————————————————————
+
+    class TextScramble {
+      constructor(el) {
+        this.el = el;
+        this.chars = "!<>-_\\/[]{}—=+*^?#________";
+        this.update = this.update.bind(this);
+      }
+      setText(newText) {
+        const oldText = this.el.innerText;
+        const length = Math.max(oldText.length, newText.length);
+        const promise = new Promise((resolve) => (this.resolve = resolve));
+        this.queue = [];
+        for (let i = 0; i < length; i++) {
+          const from = oldText[i] || "";
+          const to = newText[i] || "";
+          const start = Math.floor(Math.random() * 40);
+          const end = start + Math.floor(Math.random() * 40);
+          this.queue.push({ from, to, start, end });
+        }
+        cancelAnimationFrame(this.frameRequest);
+        this.frame = 0;
+        this.update();
+        return promise;
+      }
+      update() {
+        let output = "";
+        let complete = 0;
+        for (let i = 0, n = this.queue.length; i < n; i++) {
+          let { from, to, start, end, char } = this.queue[i];
+          if (this.frame >= end) {
+            complete++;
+            output += to;
+          } else if (this.frame >= start) {
+            if (!char || Math.random() < 0.28) {
+              char = this.randomChar();
+              this.queue[i].char = char;
+            }
+            output += `<span class="dud">${char}</span>`;
+          } else {
+            output += from;
+          }
+        }
+        this.el.innerHTML = output;
+        if (complete === this.queue.length) {
+          this.resolve();
+        } else {
+          this.frameRequest = requestAnimationFrame(this.update);
+          this.frame++;
+        }
+      }
+      randomChar() {
+        return this.chars[Math.floor(Math.random() * this.chars.length)];
+      }
+    }
+
+    // ——————————————————————————————————————————————————
+    // Phrases
+    // ——————————————————————————————————————————————————
+
+    const phrases = [
+      "Low Voltage Systems",
+      "Data Cabling",
+      "AV Rooms",
+      "Electrical",
+      "Server Racks",
+      "Security Systems",
+      "Wireless",
+    ];
+
+    const el = document.querySelector("#scramble");
+    const fx = new TextScramble(el);
+
+    let counter = 0;
+    const next = () => {
+      fx.setText(phrases[counter]).then(() => {
+        setTimeout(next, 1500);
+      });
+      counter = (counter + 1) % phrases.length;
+    };
+
+    next();
+  </script>
+
+  <script>
+    let vid = document.getElementById("BGvideo");
+    vid.playbackRate = 0.1;
+  </script>
+
+  <style>
+    #scramble {
+      font-family: "Roboto Mono", ui-monospace;
+    }
+  </style>
+</MainLayout>

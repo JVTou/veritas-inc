@@ -1,0 +1,40 @@
+---
+import type { GetStaticPaths } from "astro";
+import MainLayout from "../../layouts/MainLayout.astro";
+export async function getStaticPaths() {
+  return [
+    {
+      params: { projects: "cctv" },
+      props: { name: "cctv", desc: "description of CCTV projects" },
+    },
+    {
+      params: { projects: "av" },
+      props: { name: "av", desc: "description of AV projects" },
+    },
+    {
+      params: { projects: "data" },
+      props: { name: "data", desc: "description of data projects" },
+    },
+    {
+      params: { projects: "wireless" },
+      props: { name: "wireless", desc: "description of wireless projects" },
+    },
+  ];
+}
+
+const { projects } = Astro.params;
+const { name, desc } = Astro.props;
+---
+
+<MainLayout>
+  <section class="mx-auto w-3/6">
+    <img
+      src=`/assets/install_pictures/${projects}.jpg`
+      class="w-96 h-96 rounded object-cover"
+    />
+    <h1 class="font-bold mt-4">
+      {name} projects
+    </h1>
+    <p>{desc}</p>
+  </section>
+</MainLayout>

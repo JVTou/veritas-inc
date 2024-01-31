@@ -1,0 +1,20 @@
+---
+import MainHead from "./MainHead.astro";
+import Nav from "../components/navbar.astro";
+import Footer from "../components/footer.astro";
+const { title, seoTitle, seoDescription } = Astro.props;
+---
+
+<html>
+  <MainHead title={title} seoTitle={seoTitle} seoDescription={seoDescription} />
+  <body class="bg-slate-900 text-white grid gap-0">
+    <Nav />
+    <slot />
+    <Footer />
+    <style>
+      body {
+        min-height: 100vh;
+      }
+    </style>
+  </body>
+</html>
