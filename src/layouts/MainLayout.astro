@@ -5,9 +5,9 @@ import Footer from "../components/footer.astro";
 const { title, seoTitle, seoDescription } = Astro.props;
 ---
 
-<html>
+<html data-theme="business">
   <MainHead title={title} seoTitle={seoTitle} seoDescription={seoDescription} />
-  <body class="bg-slate-900 text-white grid gap-0">
+  <body>
     <Nav />
     <slot />
     <Footer />
