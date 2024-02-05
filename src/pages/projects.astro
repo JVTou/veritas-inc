@@ -14,43 +14,34 @@ import MainLayout from "../layouts/MainLayout.astro";
       <p>Veritas Projects</p>
     </div>
   </section>
-  <section class="bg-white dark:bg-gray-900">
-    <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-      <dl
-        class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white"
-      >
-        <div class="flex flex-col items-center justify-center">
-          <dt
-            class="mb-2 text-3xl md:text-4xl font-extrabold countup"
-            id="techs"
-          >
-          </dt>
-          <dd class="font-light text-gray-500 dark:text-gray-400">
-            technicians
-          </dd>
-        </div>
-        <div class="flex flex-col items-center justify-center">
-          <dt class="mb-2 text-3xl md:text-4xl font-extrabold" id="projects">
-          </dt>
-          <dd class="font-light text-gray-500 dark:text-gray-400">
-            completed projects
-          </dd>
-        </div>
-        <div class="flex flex-col items-center justify-center">
-          <dt class="mb-2 text-3xl md:text-4xl font-extrabold" id="partners">
-          </dt>
-          <dd class="font-light text-gray-500 dark:text-gray-400">partners</dd>
-        </div>
-      </dl>
+  <div class="my-6 text-center">
+    <div class="stats stats-vertical lg:stats-horizontal shadow">
+      <div class="stat">
+        <div class="stat-title">Technicians</div>
+        <div class="stat-value" id="technicians"></div>
+        <div class="stat-desc">↗︎ 42 YoY (+34%)</div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-title">Completed Projects</div>
+        <div class="stat-value" id="projects"></div>
+        <div class="stat-desc">↗︎ 4360 YoY (+22%)</div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-title">Partners</div>
+        <div class="stat-value" id="partners"></div>
+        <div class="stat-desc">↗︎ 6 (+14%)</div>
+      </div>
     </div>
-  </section>
+  </div>
   <section class="w-8/12 lg:w-6/12 mx-auto">
     <div
       class="relative mx-auto max-w-6xl rounded-lg bg-gradient-to-tr from-pink-300 to-blue-300 p-0.5 shadow-lg"
     >
       <div class="bg-slate-800 p-7 rounded-md">
         <h1 class="font-bold text-xl mb-2">Verified. Certified. Tested.</h1>
-        <p>
+        <p class="prose prose-slate">
           Veritas Managed Solutions has established itself as a leading provider
           of
           <strong>low voltage</strong> projects in commercial, industrial, office,
@@ -233,7 +224,7 @@ import MainLayout from "../layouts/MainLayout.astro";
     suffix: "+",
     enableScrollSpy: true,
   };
-  let techs = new CountUp("techs", 160, options);
-  let projects = new CountUp("projects", 10000, options);
-  let partners = new CountUp("partners", 50, options);
+  let techs = new CountUp("technicians", 163, options);
+  let projects = new CountUp("projects", 13343, options);
+  let partners = new CountUp("partners", 53, options);
 </script>
