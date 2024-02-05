@@ -1,6 +1,7 @@
 ---
 import { SEO } from "astro-seo";
 const { title, seoTitle, seoDescription } = Astro.props;
+import SpeedInsights from "@vercel/speed-insights/astro";
 ---
 
 <head>
@@ -21,3 +22,5 @@ const { title, seoTitle, seoDescription } = Astro.props;
     rel="stylesheet"
   />
 </head>
+
+<SpeedInsights />
