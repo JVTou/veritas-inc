@@ -33,33 +33,7 @@ import MainLayout from "../layouts/MainLayout.astro";
       </div>
     </div>
   </div>
-  <section class="w-8/12 lg:w-6/12 mx-auto">
-    <div class="relative mx-auto max-w-6xl rounded-lg shadow-lg">
-      <div class="bg-neutral p-7 rounded-md">
-        <h1 class="font-bold text-xl mb-2 text-primary-content">
-          Verified. Certified. Tested.
-        </h1>
-        <p>
-          Veritas Managed Solutions has established itself as a leading provider
-          of
-          <strong>low voltage</strong> projects in commercial, industrial, office,
-          and residential environments since its establishment in 2009. With over
-          <strong>30 years experience</strong>, our technicians and project
-          managers are dedicated to delivering high-quality services to our
-          clients, regardless of the size or complexity of the project. We are
-          committed to providing <strong>innovative solutions</strong> that are tailored
-          to the specific needs of each client, ensuring that our projects are completed
-          on time and within budget. Veritas Managed Solutions' dedication to <strong
-            >quality, reliability, and exceptional</strong
-          > customer service has made us a reputation as a trusted partner for low
-          voltage projects in various environments. Our <strong
-            >commitment to excellence</strong
-          > makes us the go-to choice for both businesses and homeowners looking
-          to install low voltage systems.
-        </p>
-      </div>
-    </div>
-  </section>
+
   <section
     class="mt-8 p-6 grid grid-flow-row lg:grid-cols-3 gap-5 shadow-accent justify-around justify-items-center"
   >
@@ -144,6 +118,8 @@ import MainLayout from "../layouts/MainLayout.astro";
   const options = {
     suffix: "+",
     enableScrollSpy: true,
+    scrollSpyOnce: true,
+    scrollSpyDelay: 1000,
   };
   let techs = new CountUp("technicianstat", 163, options);
   let projects = new CountUp("projectstat", 13343, options);

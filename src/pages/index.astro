@@ -13,7 +13,7 @@ import MainLayout from "../layouts/MainLayout.astro";
       loop
       muted
       playsinline
-      class="absolute z-10 object-cover min-w-full min-h-screen"
+      class="absolute z-10 top-0 object-cover min-w-full min-h-screen"
       id="BGvideo"
       src="/assets/background/networkbg.mp4"
     >
@@ -33,15 +33,57 @@ import MainLayout from "../layouts/MainLayout.astro";
           class="h-[120px] lg:h-[130px] overflow-hidden text-4xl lg:text-6xl pointer-events-none justify-center flex flex-row items-center"
           id="scramble"
         >
-          Veritas Managed Solutions, inc.
+          Services
         </h1>
         <div class="w-full">
-          <button class="btn btn-primary"> Learn More</button>
-          <button class="btn btn-outline">Contact Us</button>
+          <a href="/projects">
+            <button class="btn btn-primary"
+              >More Services<svg
+                class="ml-1 w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+                ><path
+                  fill-rule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path></svg
+              ></button
+            ></a
+          >
+          <a href="/about">
+            <button class="btn btn-outline">Contact Us</button></a
+          >
         </div>
       </div>
     </div>
   </div>
+  <section class="w-8/12 lg:w-6/12 mx-auto z-30 relative">
+    <div class="relative mx-auto max-w-6xl rounded-lg shadow-lg">
+      <div class="bg-neutral p-7 rounded-md">
+        <h1 class="font-bold text-xl mb-2 text-primary-content">
+          Verified. Certified. Tested.
+        </h1>
+        <p>
+          Veritas Managed Solutions has established itself as a leading provider
+          of
+          <strong>low voltage</strong> projects in commercial, industrial, office,
+          and residential environments since its establishment in 2009. With over
+          <strong>30 years experience</strong>, our technicians and project
+          managers are dedicated to delivering high-quality services to our
+          clients, regardless of the size or complexity of the project. We are
+          committed to providing <strong>innovative solutions</strong> that are tailored
+          to the specific needs of each client, ensuring that our projects are completed
+          on time and within budget. Veritas Managed Solutions' dedication to <strong
+            >quality, reliability, and exceptional</strong
+          > customer service has made us a reputation as a trusted partner for low
+          voltage projects in various environments. Our <strong
+            >commitment to excellence</strong
+          > makes us the go-to choice for both businesses and homeowners looking
+          to install low voltage systems.
+        </p>
+      </div>
+    </div>
+  </section>
 
   <script>
     // ——————————————————————————————————————————————————
