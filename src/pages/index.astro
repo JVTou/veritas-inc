@@ -91,6 +91,11 @@ import MainLayout from "../layouts/MainLayout.astro";
     // ——————————————————————————————————————————————————
 
     class TextScramble {
+      el: any;
+      chars: string;
+      queue: any[];
+      frameRequest: number;
+      frame: number;
       constructor(el) {
         this.el = el;
         this.chars = "!<>-_\\/[]{}—=+*^?#________";
