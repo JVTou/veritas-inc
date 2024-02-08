@@ -1,7 +1,7 @@
 ---
-import type { GetStaticPaths } from "astro";
+import type { getStaticPaths } from "astro";
 import MainLayout from "../../layouts/MainLayout.astro";
-export async function getStaticPaths() {
+export async function GetStaticPaths() {
   return [
     {
       params: { projects: "cctv" },

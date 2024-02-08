@@ -20,16 +20,25 @@ import MainLayout from "../layouts/MainLayout.astro";
       Your browser does not support the video tag.
     </video>
     <div class="hero-overlay bg-transparent"></div>
-    <div class="hero-content text-center text-neutral-content z-20">
-      <div class="max-w-md">
+    <div class="hero-content text-center z-20">
+      <div
+        class="max-w-xl flex flex-col justify-between text-primary-content gap-5"
+      >
         <h1
-          class="mb-5 h-[120px] lg:h-[130px] overflow-hidden text-4xl lg:text-6xl pointer-events-none"
+          class="text-6xl font-bold font-mono hidden lg:inline pointer-events-none"
+        >
+          Veritas Managed Solutions, inc.
+        </h1>
+        <h1
+          class="h-[120px] lg:h-[130px] overflow-hidden text-4xl lg:text-6xl pointer-events-none justify-center flex flex-row items-center"
           id="scramble"
         >
           Veritas Managed Solutions, inc.
         </h1>
-        <button class="btn btn-primary">Learn More</button>
-        <button class="btn btn-outline">Contact Us</button>
+        <div class="w-full">
+          <button class="btn btn-primary"> Learn More</button>
+          <button class="btn btn-outline">Contact Us</button>
+        </div>
       </div>
     </div>
   </div>
