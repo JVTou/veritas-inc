@@ -24,10 +24,8 @@ import MainLayout from "../layouts/MainLayout.astro";
       <div
         class="max-w-xl flex flex-col justify-between text-primary-content gap-5"
       >
-        <h1
-          class="text-6xl font-bold font-mono hidden lg:inline pointer-events-none"
-        >
-          Veritas Managed Solutions, inc.
+        <h1 class="text-7xl hidden lg:inline pointer-events-none" id="title">
+          veritas managed solutions, inc.
         </h1>
         <h1
           class="h-[120px] lg:h-[130px] overflow-hidden text-4xl lg:text-6xl pointer-events-none justify-center flex flex-row items-center"
@@ -57,7 +55,7 @@ import MainLayout from "../layouts/MainLayout.astro";
       </div>
     </div>
   </div>
-  <section class="w-8/12 lg:w-6/12 mx-auto z-30 relative">
+  <section class="w-11/12 lg:w-6/12 mx-auto z-20 relative">
     <div class="relative mx-auto max-w-6xl rounded-lg shadow-lg">
       <div class="bg-neutral p-7 rounded-md">
         <h1 class="font-bold text-xl mb-2 text-primary-content">
@@ -154,13 +152,16 @@ import MainLayout from "../layouts/MainLayout.astro";
     // ——————————————————————————————————————————————————
 
     const phrases = [
-      "Low Voltage Systems",
+      "Low Voltage",
       "Data Cabling",
       "AV Rooms",
       "Electrical",
       "Server Racks",
-      "Security Systems",
+      "Security",
       "Wireless",
+      "Access Control",
+      "Fiber Optics",
+      "Data Centers",
     ];
 
     const el = document.querySelector("#scramble");
@@ -185,6 +186,9 @@ import MainLayout from "../layouts/MainLayout.astro";
   <style>
     #scramble {
       font-family: "Roboto Mono", ui-monospace;
+    }
+    #title {
+      font-family: "EB Garamond", serif;
     }
   </style>
 </MainLayout>
