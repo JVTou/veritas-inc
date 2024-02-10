@@ -3,8 +3,8 @@ import MainLayout from "../layouts/MainLayout.astro";
 ---
 
 <MainLayout
-  title="Veritas Projects"
-  seoTitle="Projects with low and high voltage systems"
+  title="Veritas | Projects"
+  seoTitle="Veritas | Projects"
   seoDescription="Low voltage projects completed by Veritas for nationwide projects"
 >
   <section class="w-8/12 lg:w-6/12 mx-auto">
@@ -114,14 +114,19 @@ import MainLayout from "../layouts/MainLayout.astro";
 </MainLayout>
 
 <script>
+  document.addEventListener("astro:page-load", () => {
+    Numbers();
+  });
   import { CountUp } from "countup.js";
-  const options = {
-    suffix: "+",
-    enableScrollSpy: true,
-    scrollSpyOnce: true,
-    scrollSpyDelay: 1000,
-  };
-  let techs = new CountUp("technicianstat", 163, options);
-  let projects = new CountUp("projectstat", 13343, options);
-  let partners = new CountUp("partnerstat", 53, options);
+  function Numbers() {
+    const options = {
+      suffix: "+",
+      enableScrollSpy: true,
+      scrollSpyOnce: true,
+      scrollSpyDelay: 750,
+    };
+    let techs = new CountUp("technicianstat", 163, options);
+    let projects = new CountUp("projectstat", 13343, options);
+    let partners = new CountUp("partnerstat", 53, options);
+  }
 </script>
