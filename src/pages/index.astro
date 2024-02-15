@@ -186,8 +186,13 @@ import MainLayout from "../layouts/MainLayout.astro";
   </script>
 
   <script>
-    let vid = document.getElementById("BGvideo");
-    vid.playbackRate = 0.2;
+    document.addEventListener("astro:page-load", () => {
+      Slowmo();
+    });
+    function Slowmo() {
+      let vid = document.getElementById("BGvideo");
+      vid.playbackRate = 0.1;
+    }
   </script>
 
   <style>
