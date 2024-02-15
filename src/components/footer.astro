@@ -102,7 +102,12 @@
 </footer>
 
 <script>
-  document.querySelector("#copyright").textContent = new Date()
-    .getFullYear()
-    .toString();
+  document.addEventListener("astro:page-load", () => {
+    footerYear();
+  });
+  function footerYear() {
+    document.querySelector("#copyright").textContent = new Date()
+      .getFullYear()
+      .toString();
+  }
 </script>
