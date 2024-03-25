@@ -15,7 +15,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "@vercel/analytics": "^1.1.2",
     "@vercel/speed-insights": "^1.0.9",
-    "astro": "^4.3.2",
+    "astro": "^4.5.9",
     "astro-navbar": "^2.3.0",
     "astro-seo": "^0.8.0",
     "countup.js": "^2.8.0",
