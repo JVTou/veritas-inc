@@ -12,27 +12,6 @@ import MainLayout from "../layouts/MainLayout.astro";
       <p class="text-4xl text-center my-5">Veritas Projects</p>
     </div>
   </section>
-  <div class="my-6 text-center">
-    <div class="stats stats-vertical lg:stats-horizontal shadow">
-      <div class="stat">
-        <div class="stat-title">Technicians</div>
-        <div class="stat-value" id="technicianstat"></div>
-        <div class="stat-desc">↗︎ 42 YoY (+34%)</div>
-      </div>
-
-      <div class="stat">
-        <div class="stat-title">Completed Projects</div>
-        <div class="stat-value" id="projectstat"></div>
-        <div class="stat-desc">↗︎ 2360 YoY (+22%)</div>
-      </div>
-
-      <div class="stat">
-        <div class="stat-title">Partners</div>
-        <div class="stat-value" id="partnerstat"></div>
-        <div class="stat-desc">↗︎ 6 YoY (+14%)</div>
-      </div>
-    </div>
-  </div>
 
   <section
     class="mt-8 p-6 grid grid-flow-row lg:grid-cols-3 gap-5 shadow-accent justify-around justify-items-center"
@@ -49,10 +28,7 @@ import MainLayout from "../layouts/MainLayout.astro";
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">
-            Nationwide multi-system conference room deployment
-          </h2>
-          <p>Click to view details and more A/V projects</p>
+          <h2 class="card-title">A/V projects</h2>
         </div>
       </div>
     </a>
@@ -67,8 +43,7 @@ import MainLayout from "../layouts/MainLayout.astro";
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Warehouse heat maps</h2>
-          <p>Click to view details and more wireless projects</p>
+          <h2 class="card-title">Wireless</h2>
         </div>
       </div>
     </a>
@@ -80,8 +55,7 @@ import MainLayout from "../layouts/MainLayout.astro";
           <img src="/assets/featured/CCTV.jpg" alt="Security Camera" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Gigafactory CCTV system</h2>
-          <p>Click to view details and more CCTV projects</p>
+          <h2 class="card-title">CCTV systems</h2>
         </div>
       </div>
     </a>
@@ -93,8 +67,19 @@ import MainLayout from "../layouts/MainLayout.astro";
           <img src="/assets/featured/Fiber.jpeg" alt="Fiber Optic Cable" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Campus network and data cabling</h2>
-          <p>Click to view details and more data cabling projects</p>
+          <h2 class="card-title">Data cabling</h2>
+        </div>
+      </div>
+    </a>
+    <a href="projects/data">
+      <div
+        class="card lg:card-side image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96"
+      >
+        <figure>
+          <img src="/assets/featured/Security.png" alt="Security panel" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Security</h2>
         </div>
       </div>
     </a>
