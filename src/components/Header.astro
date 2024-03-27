@@ -169,11 +169,23 @@
         Veritas Managed Solutions, Inc.
       </h1>
       <ul
-        class="hidden menu lg:menu-horizontal grow shrink menu-md overflow-y-auto"
+        class="hidden menu lg:menu-horizontal grow shrink menu-md overflow-y-visible"
       >
         <li><a class="py-3 text-base" id="home" href="/">Home</a></li>
-        <li>
+        <li class="dropdown dropdown-hover dropdown-end">
           <a class="py-3 text-base" id="projects" href="/projects">Projects</a>
+          <ul
+            tabindex="0"
+            class="dropdown-content z-[1] menu p-2 bg-neutral rounded-box w-52"
+          >
+            <li><a href="/projects/data">Cable Infrastructure</a></li>
+            <li><a href="/projects/wireless">Wireless</a></li>
+            <li><a href="/projects/av">Audio Video</a></li>
+            <li><a href="/projects/cctv">CCTV</a></li>
+            <li><a href="/projects/security">Security</a></li>
+            <li><a href="/projects/managedservices">Managed Services</a></li>
+            <li><a href="/projects/electrical">Electrical</a></li>
+          </ul>
         </li>
         <li>
           <a class="py-3 text-base" id="services" href="/partners">Partners</a>
