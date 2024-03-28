@@ -12,7 +12,29 @@ import MainLayout from "../layouts/MainLayout.astro";
       <p class="text-4xl text-center my-5">Veritas Projects</p>
     </div>
   </section>
+  <section>
+    <div class="my-6 text-center">
+      <div class="stats stats-vertical lg:stats-horizontal shadow">
+        <div class="stat">
+          <div class="stat-title">Technicians</div>
+          <div class="stat-value" id="technicianstat"></div>
+          <div class="stat-desc">↗︎ 42 YoY (+34%)</div>
+        </div>
 
+        <div class="stat">
+          <div class="stat-title">Completed Projects</div>
+          <div class="stat-value" id="projectstat"></div>
+          <div class="stat-desc">↗︎ 2360 YoY (+22%)</div>
+        </div>
+
+        <div class="stat">
+          <div class="stat-title">Partners</div>
+          <div class="stat-value" id="partnerstat"></div>
+          <div class="stat-desc">↗︎ 6 (+14%)</div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section
     class="mt-8 p-6 grid grid-flow-row lg:grid-cols-3 gap-5 shadow-accent justify-around justify-items-center"
   >

@@ -351,8 +351,11 @@ import MainLayout from "../layouts/MainLayout.astro";
       Slowmo();
     });
     function Slowmo() {
-      let vid = document.getElementById("BGvideo");
-      vid.playbackRate = 0.1;
+      const video = document.querySelector("#BGvideo");
+
+      if (video) {
+        video.playbackRate = 0.15;
+      }
     }
   </script>
 

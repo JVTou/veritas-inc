@@ -7,7 +7,7 @@ import MainLayout from "../layouts/MainLayout.astro";
   seoTitle="Veritas | Contact"
   seoDescription="Address, email, phone number and request form for prospective customers"
 >
-  <section class="text-primary-content body-font relative">
+  <section class="bg-base-300 text-primary-content body-font relative">
     <div class="container px-5 py-24 mx-auto !flex">
       <div
         class="rounded-lg p-8 flex flex-col w-full bg-base-200 mt-10 lg:mt-0 relative z-10 shadow-md !h-fit"
@@ -78,9 +78,15 @@ import MainLayout from "../layouts/MainLayout.astro";
       </div>
     </div>
   </section>
-  <section class="text-center p-5">
-    <h2 class="text-3xl font-extrabold text-base-content">Our locations</h2>
-    <div id="locations" class="mx-auto w-5/6 h-screen"></div>
+  <section class="bg-base-300">
+    <h2 class="text-3xl text-center font-extrabold text-base-content">
+      Our work
+    </h2>
+    <div
+      id="locations"
+      class="relative mx-auto w-5/6 h-screen text-accent text-center"
+    >
+    </div>
   </section>
 </MainLayout>
 
@@ -90,22 +96,240 @@ import MainLayout from "../layouts/MainLayout.astro";
   is:inline
   src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"
 ></script>
-<script is:inline src="node_modules/datamaps/dist/datamaps.all.min.js"></script>
+<script is:inline src="/node_modules/datamaps/dist/datamaps.usa.min.js"
+></script>
 
 <script is:inline>
-  var arcs = new Datamap({
-    element: document.getElementById("locations"),
-    scope: "usa",
-    fills: {
-      defaultFill: "#ABDDA4",
-      win: "#0fa0fa",
-    },
-    data: {
-      TX: { fillKey: "win" },
-      AZ: { fillKey: "win" },
-      ID: { fillKey: "win" },
-      CA: { fillKey: "win" },
-      NV: { fillKey: "win" },
-    },
+  document.addEventListener("astro:page-load", () => {
+    Veritasmap();
   });
+  function Veritasmap() {
+    var locations = new Datamap({
+      scope: "usa",
+      element: document.querySelector("#locations"),
+      geographyConfig: {
+        highlightBorderColor: "Iron",
+        popupTemplate: function (geography, data) {
+          return (
+            '<div class="hoverinfo"><strong>' +
+            geography.properties.name +
+            "</strong><br>" +
+            " Projects: " +
+            data.projects +
+            " + "
+          );
+        },
+        highlightOnHover: true,
+        highlightBorderWidth: 3,
+        highlightFillColor: "gray",
+      },
+
+      fills: {
+        office: "#2b3275",
+        defaultFill: "#bdbcbb",
+      },
+      data: {
+        AZ: {
+          fillKey: "office",
+          projects: 1943,
+        },
+        CO: {
+          fillKey: "Light Democrat",
+          projects: 144,
+        },
+        DE: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        FL: {
+          fillKey: "UNDECIDED",
+          projects: 29,
+        },
+        GA: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        HI: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        ID: {
+          fillKey: "office",
+          projects: 32,
+        },
+        IL: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        IN: {
+          fillKey: "Republican",
+          projects: 11,
+        },
+        IA: {
+          fillKey: "Light Democrat",
+          projects: 11,
+        },
+        KS: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        KY: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        LA: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        MD: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        ME: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        MA: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        MN: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        MI: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        MS: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        MO: {
+          fillKey: "Republican",
+          projects: 13,
+        },
+        MT: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        NC: {
+          fillKey: "Light Republican",
+          projects: 32,
+        },
+        NE: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        NV: {
+          fillKey: "office",
+          projects: 32,
+        },
+        NH: {
+          fillKey: "Light Democrat",
+          projects: 32,
+        },
+        NJ: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        NY: {
+          fillKey: "Democrat",
+          projects: 2026,
+        },
+        ND: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        NM: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        OH: {
+          fillKey: "UNDECIDED",
+          projects: 32,
+        },
+        OK: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        OR: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        PA: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        RI: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        SC: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        SD: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        TN: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        TX: {
+          fillKey: "office",
+          projects: 32,
+        },
+        UT: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        WI: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        VA: {
+          fillKey: "Light Democrat",
+          projects: 32,
+        },
+        VT: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        WA: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        WV: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        WY: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        CA: {
+          fillKey: "office",
+          projects: 2276,
+        },
+        CT: {
+          fillKey: "Democrat",
+          projects: 32,
+        },
+        AK: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        AR: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+        AL: {
+          fillKey: "Republican",
+          projects: 32,
+        },
+      },
+    });
+  }
 </script>
