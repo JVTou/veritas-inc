@@ -7,6 +7,88 @@ import MainLayout from "../layouts/MainLayout.astro";
   seoTitle="Veritas | Contact"
   seoDescription="Address, email, phone number and request form for prospective customers"
 >
+  <section class="bg-base-300">
+    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
+      <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-extrabold text-base-content">
+          Contact Information
+        </h2>
+      </div>
+      <div class="mt-16 lg:mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="inset-0 bg-neutral rounded-lg">
+            <iframe
+              class="h-full w-full border-0 grayscale"
+              loading="lazy"
+              allowfullscreen
+              title="map"
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJO2XQGpvNj4ARgjZUfpbCWv4&key=AIzaSyBCEfQ6JZJgM4W01L9XGXzErfLigAD0vqQ"
+            ></iframe>
+          </div>
+          <div>
+            <div class="max-w-full mx-auto rounded-lg overflow-hidden">
+              <div class="px-6 py-4">
+                <h3 class="text-lg font-medium text-base-content">
+                  Our Headquarters
+                </h3>
+                <p class="mt-1 text-base-content">
+                  <span class="text-accent font-semibold"
+                    >Northern California:</span
+                  >
+                  398 Martin Avenue, Santa Clara, CA 95050
+                </p>
+              </div>
+              <div class="border-t border-accent px-6 py-4">
+                <h3 class="text-lg font-medium text-base-content">Branches</h3>
+                <p class="mt-1 text-base-content">
+                  <span class="text-accent font-semibold"
+                    >Southern California:
+                  </span>1251 Pomona Rd, Unit 104, Corona, CA 92882
+                </p>
+                <p class="mt-1 text-base-content">
+                  <span class="text-accent font-semibold">Idaho: </span>920 N
+                  Spokane St, Post Falls, ID 83854
+                </p>
+                <p class="mt-1 text-base-content">
+                  <span class="text-accent font-semibold">Texas: </span>720
+                  Bastrop Hwy, Suite 109, Austin, TX 78741
+                </p>
+                <p class="mt-1 text-base-content">
+                  <span class="text-accent font-semibold">Nevada: </span>625
+                  Spice Islands Dr, Suite C, Sparks, NV 89431
+                </p>
+                <p class="mt-1 text-base-content">
+                  <span class="text-accent font-semibold"
+                    >Arizona:
+                  </span>Opening soon...
+                </p>
+              </div>
+              <div class="border-t border-accent px-6 py-4">
+                <h3 class="text-lg font-medium text-base-content">Contact</h3>
+                <p class="mt-1 text-base-content">
+                  <span class="text-accent font-semibold">Email:</span>
+                  <span class="badge">info@veritas-inc.com</span>
+                </p>
+                <p class="mt-1 text-base-content">
+                  <span class="text-accent font-semibold">Phone:</span> +1 877-971-0849
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-base-300">
+    <h2 class="text-3xl text-center font-extrabold text-base-content">
+      Office Locations
+    </h2>
+    <div
+      id="locations"
+      class="relative mx-auto w-5/6 h-screen text-accent text-center"
+    >
+    </div>
+  </section>
   <section class="bg-base-300 text-primary-content body-font relative">
     <div class="container px-5 py-24 mx-auto !flex">
       <div
@@ -29,63 +111,6 @@ import MainLayout from "../layouts/MainLayout.astro";
           );
         </script>
       </div>
-    </div>
-  </section>
-  <section class="bg-base-300">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
-      <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-extrabold text-base-content">
-          Contact Information
-        </h2>
-      </div>
-      <div class="mt-16 lg:mt-20">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div class="inset-0 bg-neutral rounded-lg">
-            <iframe
-              class="h-full w-full border-0 grayscale"
-              loading="lazy"
-              allowfullscreen
-              title="map"
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJO2XQGpvNj4ARgjZUfpbCWv4&key=AIEfQ6JZJgM4W01L9XGXzErfLigAD0vqQ"
-            ></iframe>
-          </div>
-          <div>
-            <div class="max-w-full mx-auto rounded-lg overflow-hidden">
-              <div class="px-6 py-4">
-                <h3 class="text-lg font-medium text-base-content">
-                  Our Headquarters
-                </h3>
-                <p class="mt-1 text-base-content">
-                  398 Martin Avenue, Santa Clara, CA 95050
-                </p>
-              </div>
-              <div class="border-t border-accent px-6 py-4">
-                <h3 class="text-lg font-medium text-base-content">Hours</h3>
-                <p class="mt-1 text-base-content">Monday - Friday: 7am - 5pm</p>
-                <p class="mt-1 text-base-content">Saturday: Closed</p>
-                <p class="mt-1 text-base-content">Sunday: Closed</p>
-              </div>
-              <div class="border-t border-accent px-6 py-4">
-                <h3 class="text-lg font-medium text-base-content">Contact</h3>
-                <p class="mt-1 text-base-content">
-                  Email: info@veritas-inc.com
-                </p>
-                <p class="mt-1 text-base-content">Phone: +1 877-971-0849</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg-base-300">
-    <h2 class="text-3xl text-center font-extrabold text-base-content">
-      Our work
-    </h2>
-    <div
-      id="locations"
-      class="relative mx-auto w-5/6 h-screen text-accent text-center"
-    >
     </div>
   </section>
 </MainLayout>
