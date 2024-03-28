@@ -46,7 +46,7 @@ import MainLayout from "../layouts/MainLayout.astro";
               loading="lazy"
               allowfullscreen
               title="map"
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJO2XQGpvNj4ARgjZUfpbCWv4&key=AIzaSyBCEfQ6JZJgM4W01L9XGXzErfLigAD0vqQ"
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJO2XQGpvNj4ARgjZUfpbCWv4&key=AIEfQ6JZJgM4W01L9XGXzErfLigAD0vqQ"
             ></iframe>
           </div>
           <div>
@@ -116,7 +116,11 @@ import MainLayout from "../layouts/MainLayout.astro";
             "</strong><br>" +
             " Projects: " +
             data.projects +
-            " + "
+            " + " +
+            "<br>" +
+            "<strong> " +
+            data.locationInfo +
+            " </strong>"
           );
         },
         highlightOnHover: true,
@@ -132,204 +136,260 @@ import MainLayout from "../layouts/MainLayout.astro";
         AZ: {
           fillKey: "office",
           projects: 1943,
+          locationInfo: "Office branch in progress",
         },
         CO: {
-          fillKey: "Light Democrat",
-          projects: 144,
+          fillKey: "",
+          projects: 29,
+          locationInfo: "",
         },
         DE: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 19,
+          locationInfo: "",
         },
         FL: {
-          fillKey: "UNDECIDED",
-          projects: 29,
+          fillKey: "",
+          projects: 781,
+          locationInfo: "",
         },
         GA: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 5,
+          locationInfo: "",
         },
         HI: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 7,
+          locationInfo: "",
         },
         ID: {
           fillKey: "office",
           projects: 32,
+          locationInfo: "920 N Spokane St, Post Falls",
         },
         IL: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 781,
+          locationInfo: "",
         },
         IN: {
-          fillKey: "Republican",
-          projects: 11,
+          fillKey: "",
+          projects: 31,
+          locationInfo: "",
         },
         IA: {
-          fillKey: "Light Democrat",
-          projects: 11,
+          fillKey: "",
+          projects: 33,
+          locationInfo: "",
         },
         KS: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 41,
+          locationInfo: "",
         },
         KY: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 50,
+          locationInfo: "",
         },
         LA: {
-          fillKey: "Republican",
+          fillKey: "",
           projects: 32,
+          locationInfo: "",
         },
         MD: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 35,
+          locationInfo: "",
         },
         ME: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 50,
+          locationInfo: "",
         },
         MA: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 38,
+          locationInfo: "",
         },
         MN: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 15,
+          locationInfo: "",
         },
         MI: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 11,
+          locationInfo: "",
         },
         MS: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 24,
+          locationInfo: "",
         },
         MO: {
-          fillKey: "Republican",
-          projects: 13,
+          fillKey: "",
+          projects: 28,
+          locationInfo: "",
         },
         MT: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 27,
+          locationInfo: "",
         },
         NC: {
-          fillKey: "Light Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 20,
+          locationInfo: "",
         },
         NE: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 34,
+          locationInfo: "",
         },
         NV: {
           fillKey: "office",
-          projects: 32,
+          projects: 1593,
+          locationInfo: "625 Spice Islands Dr, Sparks",
         },
         NH: {
-          fillKey: "Light Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 14,
+          locationInfo: "",
         },
         NJ: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 199,
+          locationInfo: "",
         },
         NY: {
-          fillKey: "Democrat",
+          fillKey: "",
           projects: 2026,
+          locationInfo: "",
         },
         ND: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 10,
+          locationInfo: "",
         },
         NM: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 37,
+          locationInfo: "",
         },
         OH: {
-          fillKey: "UNDECIDED",
-          projects: 32,
+          fillKey: "",
+          projects: 806,
+          locationInfo: "",
         },
         OK: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 23,
+          locationInfo: "",
         },
         OR: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 16,
+          locationInfo: "",
         },
         PA: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 12,
+          locationInfo: "",
         },
         RI: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 13,
+          locationInfo: "",
         },
         SC: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 8,
+          locationInfo: "",
         },
         SD: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 4,
+          locationInfo: "",
         },
         TN: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 9,
+          locationInfo: "",
         },
         TX: {
           fillKey: "office",
-          projects: 32,
+          projects: 1325,
+          locationInfo: "720 Bastrop Hwy, Austin",
         },
         UT: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 30,
+          locationInfo: "",
         },
         WI: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 17,
+          locationInfo: "",
         },
         VA: {
-          fillKey: "Light Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 54,
+          locationInfo: "",
         },
         VT: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 36,
+          locationInfo: "",
         },
         WA: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 25,
+          locationInfo: "",
         },
         WV: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 6,
+          locationInfo: "",
         },
         WY: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 22,
+          locationInfo: "",
         },
         CA: {
           fillKey: "office",
           projects: 2276,
+          locationInfo: "398 Martin Ave, Santa Clara<br>1251 Pomona Rd, Corona",
         },
         CT: {
-          fillKey: "Democrat",
-          projects: 32,
+          fillKey: "",
+          projects: 26,
+          locationInfo: "",
         },
         AK: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 15,
+          locationInfo: "",
         },
         AR: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 26,
+          locationInfo: "",
         },
         AL: {
-          fillKey: "Republican",
-          projects: 32,
+          fillKey: "",
+          projects: 21,
+          locationInfo: "",
         },
       },
     });
   }
 </script>
+
+<style>
+  #locations {
+    font-family: "Roboto Mono", ui-monospace;
+  }
+</style>
