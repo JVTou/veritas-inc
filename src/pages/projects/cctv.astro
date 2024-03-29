@@ -1,5 +1,14 @@
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
+import { Image } from "astro:assets";
+import cctvcoverpicture from "../../assets/featured/CCTV.png";
+import cctv1 from "../../assets/install_pictures/cctv/1.png";
+import cctv2 from "../../assets/install_pictures/cctv/2.png";
+import cctv3 from "../../assets/install_pictures/cctv/3.png";
+import cctv4 from "../../assets/install_pictures/cctv/4.png";
+import cctv5 from "../../assets/install_pictures/cctv/5.png";
+import cctv6 from "../../assets/install_pictures/cctv/6.png";
+import cctv7 from "../../assets/install_pictures/cctv/7.png";
 ---
 
 <MainLayout>
@@ -28,10 +37,10 @@ import MainLayout from "../../layouts/MainLayout.astro";
           </div>
 
           <div>
-            <img
-              src="/assets/featured/CCTV.png"
+            <Image
+              src={cctvcoverpicture}
               class="w-full rounded-lg shadow-lg dark:shadow-black/20"
-              alt="conference room"
+              alt="Veritas video system installation"
             />
           </div>
         </div>

@@ -1,5 +1,10 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+import { Image } from "astro:assets";
+import coverpicture from "../assets/featured/lars-kienle-IlxX7xnbRF8-unsplash.jpg";
+import gameexample1 from "../assets/featured/honeywellgame.png";
+import gameexample2 from "../assets/featured/thisisengineering-raeng-hoivM01c-vg-unsplash.jpg";
+import bgvideo from "../assets/background/networkbg.mp4";
 ---
 
 <MainLayout
@@ -15,7 +20,7 @@ import MainLayout from "../layouts/MainLayout.astro";
       playsinline
       class="absolute z-10 top-0 object-cover min-w-full min-h-screen brightness-75"
       id="BGvideo"
-      src="/assets/background/networkbg.mp4"
+      src={bgvideo}
     >
       Your browser does not support the video tag.
     </video>
@@ -112,10 +117,10 @@ import MainLayout from "../layouts/MainLayout.astro";
       <div
         class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden"
       >
-        <img
+        <Image
+          src={coverpicture}
           class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-          src="/assets/featured/lars-kienle-IlxX7xnbRF8-unsplash.jpg"
-          alt="Game document cover"
+          alt="example of Veritas cabling installation"
         />
       </div>
       <div
@@ -231,15 +236,15 @@ import MainLayout from "../layouts/MainLayout.astro";
         </p>
       </div>
       <div class="grid grid-cols-2 gap-4 mt-8">
-        <img
+        <Image
           class="w-full rounded-lg"
-          src="/assets/background/honeywellgame.png"
-          alt="office content 1"
+          src={gameexample1}
+          alt="Veritas engineer working on a GAME"
         />
-        <img
+        <Image
           class="mt-4 w-full lg:mt-10 rounded-lg"
-          src="/assets/featured/thisisengineering-raeng-hoivM01c-vg-unsplash.jpg"
-          alt="office content 2"
+          src={gameexample2}
+          alt="honeywell security drawing"
         />
       </div>
     </div>
