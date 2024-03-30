@@ -1,5 +1,10 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+import { Image } from "astro:assets";
+import wirelesscover from "../assets/featured/Wireless.jpeg";
+import securitycover from "../assets/featured/Security.png";
+import datacover from "../assets/featured/Fiber.jpeg";
+import avcover from "../assets/featured/AudioVisual.jpeg";
 ---
 
 <MainLayout
@@ -43,10 +48,10 @@ import MainLayout from "../layouts/MainLayout.astro";
         class="card lg:card-side image-full bg-base-100 shadow-xl transition-all hover:brightness-150 hover:scale-105 w-full min-h-full max-h-96"
       >
         <figure>
-          <img
-            src="/assets/featured/AudioVisual.jpeg"
-            alt="Conference Room"
+          <Image
+            src={avcover}
             class="object-cover object-center"
+            alt="Veritas conference room setup"
           />
         </figure>
         <div class="card-body">
@@ -60,9 +65,10 @@ import MainLayout from "../layouts/MainLayout.astro";
         class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96"
       >
         <figure>
-          <img
-            src="/assets/featured/Wireless.jpeg"
-            alt="Wireless Access Point"
+          <Image
+            src={wirelesscover}
+            class="object-cover object-center"
+            alt="Veritas access point installation"
           />
         </figure>
         <div class="card-body">
@@ -76,7 +82,11 @@ import MainLayout from "../layouts/MainLayout.astro";
         class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96"
       >
         <figure>
-          <img src="/assets/featured/Fiber.jpeg" alt="Fiber Optic Cable" />
+          <Image
+            src={datacover}
+            class="object-cover object-center"
+            alt="Veritas server rack installation"
+          />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Data cabling</h2>
@@ -89,7 +99,11 @@ import MainLayout from "../layouts/MainLayout.astro";
         class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96"
       >
         <figure>
-          <img src="/assets/featured/Security.png" alt="Security panel" />
+          <Image
+            src={securitycover}
+            class="object-cover object-center"
+            alt="Veritas security panel installation"
+          />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Security</h2>
