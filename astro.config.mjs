@@ -12,4 +12,8 @@ export default defineConfig({
       enabled: true,
     },
   }),
+  prefetch: true,
+  prefetch: {
+    prefetchAll: true,
+  },
 });
