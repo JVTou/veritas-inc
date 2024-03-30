@@ -1,5 +1,13 @@
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
+import { Image } from "astro:assets";
+import datacover from "../../assets/featured/Fiber.jpeg";
+import data1 from "../../assets/install_pictures/data/20231227_174523717_iOS.jpg";
+import data2 from "../../assets/install_pictures/data/986.jpg";
+import data3 from "../../assets/install_pictures/data/988.jpg";
+import data4 from "../../assets/install_pictures/data/990.jpg";
+import data5 from "../../assets/install_pictures/data/Rack Overview Closed.jpg";
+import data6 from "../../assets/install_pictures/data/data.jpg";
 ---
 
 <MainLayout>
@@ -27,10 +35,10 @@ import MainLayout from "../../layouts/MainLayout.astro";
           </div>
 
           <div>
-            <img
-              src="/assets/featured/Fiber.jpeg"
+            <Image
               class="w-full rounded-lg shadow-lg dark:shadow-black/20"
-              alt="conference room"
+              src={datacover}
+              alt="Veritas data cabling installation"
             />
           </div>
         </div>
@@ -161,47 +169,47 @@ import MainLayout from "../../layouts/MainLayout.astro";
     <div class="-m-1 flex flex-wrap md:-m-2">
       <div class="flex w-1/2 flex-wrap">
         <div class="w-1/2 p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/data/986.jpg"
+            src={data1}
+            alt="Veritas data cabling installation"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/data/988.jpg"
+            src={data2}
+            alt="Veritas data cabling installation"
           />
         </div>
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/data/data.jpg"
+            src={data3}
+            alt="Veritas data cabling installation"
           />
         </div>
       </div>
       <div class="flex w-1/2 flex-wrap">
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/data/Rack Overview Closed.jpg"
+            src={data4}
+            alt="Veritas data cabling installation"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/data/990.jpg"
+            src={data5}
+            alt="Veritas data cabling installation"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/data/20231227_174523717_iOS.jpg"
+            src={data6}
+            alt="Veritas data cabling installation"
           />
         </div>
       </div>

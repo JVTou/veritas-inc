@@ -1,5 +1,17 @@
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
+import { Image } from "astro:assets";
+import securitycover from "../../assets/featured/Security.png";
+import cctvcover from "../../assets/featured/CCTV.png";
+import security1 from "../../assets/install_pictures/security/1.png";
+import security2 from "../../assets/install_pictures/security/2.png";
+import security3 from "../../assets/install_pictures/security/3.png";
+import security4 from "../../assets/install_pictures/security/4.png";
+import security5 from "../../assets/install_pictures/security/5.png";
+import security6 from "../../assets/install_pictures/security/6.png";
+import security7 from "../../assets/install_pictures/security/7.png";
+import security8 from "../../assets/install_pictures/security/8.png";
+import security9 from "../../assets/install_pictures/security/9.png";
 ---
 
 <MainLayout>
@@ -29,10 +41,10 @@ import MainLayout from "../../layouts/MainLayout.astro";
           </div>
 
           <div>
-            <img
-              src="/assets/featured/Security.png"
+            <Image
               class="w-full rounded-lg shadow-lg dark:shadow-black/20"
-              alt="conference room"
+              src={securitycover}
+              alt="Veritas security panel installation"
             />
           </div>
         </div>
@@ -48,7 +60,7 @@ import MainLayout from "../../layouts/MainLayout.astro";
         class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96"
       >
         <figure>
-          <img src="/assets/featured/CCTV.png" alt="Security Camera" />
+          <Image src={cctvcover} alt="Veritas-installed camera" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">CCTV systems</h2>
@@ -150,82 +162,82 @@ import MainLayout from "../../layouts/MainLayout.astro";
     <div class="-m-1 flex flex-wrap md:-m-2">
       <div class="flex w-1/3 flex-wrap">
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/security/1.png"
+            src={security1}
+            alt="Veritas security panel installation"
           />
         </div>
       </div>
       <div class="flex w-1/3 flex-wrap">
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/security/2.png"
+            src={security2}
+            alt="Veritas security panel installation"
           />
         </div>
       </div>
       <div class="flex w-1/3 flex-wrap">
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/security/3.png"
+            src={security3}
+            alt="Veritas security panel installation"
           />
         </div>
       </div>
       <div class="flex w-1/3 flex-wrap">
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/security/4.png"
+            src={security4}
+            alt="Veritas security panel installation"
           />
         </div>
       </div>
       <div class="flex w-1/3 flex-wrap">
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/security/5.png"
+            src={security5}
+            alt="Veritas security panel installation"
           />
         </div>
       </div>
       <div class="flex w-1/3 flex-wrap">
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/security/6.png"
+            src={security6}
+            alt="Veritas security panel installation"
           />
         </div>
       </div>
       <div class="flex w-1/3 flex-wrap">
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/security/7.png"
+            src={security7}
+            alt="Veritas security panel installation"
           />
         </div>
       </div>
       <div class="flex w-1/3 flex-wrap">
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/security/8.png"
+            src={security8}
+            alt="Veritas security panel installation"
           />
         </div>
       </div>
       <div class="flex w-1/3 flex-wrap">
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/security/9.png"
+            src={security9}
+            alt="Veritas security panel installation"
           />
         </div>
       </div>

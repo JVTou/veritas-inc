@@ -1,5 +1,16 @@
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
+import { Image } from "astro:assets";
+import wirelesscover from "../../assets/featured/Wireless.jpeg";
+import wireless1 from "../../assets/install_pictures/wireless/1.png";
+import wireless2 from "../../assets/install_pictures/wireless/2.jpg";
+import wireless3 from "../../assets/install_pictures/wireless/3.jpg";
+import wireless4 from "../../assets/install_pictures/wireless/4.jpg";
+import wireless5 from "../../assets/install_pictures/wireless/5.jpg";
+import wireless6 from "../../assets/install_pictures/wireless/6.jpg";
+import wireless7 from "../../assets/install_pictures/wireless/7.jpg";
+import wireless8 from "../../assets/install_pictures/wireless/8.jpg";
+import wireless9 from "../../assets/install_pictures/wireless/9.jpg";
 ---
 
 <MainLayout>
@@ -27,10 +38,10 @@ import MainLayout from "../../layouts/MainLayout.astro";
           </div>
 
           <div>
-            <img
-              src="/assets/install_pictures/wireless/1.png"
+            <Image
+              src={wirelesscover}
               class="w-full rounded-lg shadow-lg dark:shadow-black/20"
-              alt="conference room"
+              alt="An access point installed by Veritas"
             />
           </div>
         </div>
@@ -168,47 +179,47 @@ import MainLayout from "../../layouts/MainLayout.astro";
     <div class="-m-1 flex flex-wrap md:-m-2">
       <div class="flex w-1/2 flex-wrap">
         <div class="w-1/2 p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
+            src={wireless1}
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/wireless/2.jpg"
+            alt="Veritas wireless installation"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
+            src={wireless2}
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/wireless/3.jpg"
+            alt="Veritas wireless installation"
           />
         </div>
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
+            src={wireless3}
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/wireless/4.jpg"
+            alt="Veritas wireless installation"
           />
         </div>
       </div>
       <div class="flex w-1/2 flex-wrap">
         <div class="w-full p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
+            src={wireless4}
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/wireless/8.jpg"
+            alt="Veritas wireless installation"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
+            src={wireless5}
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/wireless/6.jpg"
+            alt="Veritas wireless installation"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
-          <img
-            alt="gallery"
+          <Image
+            src={wireless6}
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src="/assets/install_pictures/wireless/7.jpg"
+            alt="Veritas wireless installation"
           />
         </div>
       </div>
