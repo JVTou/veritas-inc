@@ -4,7 +4,11 @@
 >
   <div class="navbar">
     <div class="navbar-start">
-      <label for="my-drawer" class="btn btn-square btn-ghost lg:hidden">
+      <label
+        for="my-drawer"
+        id="drawer-button"
+        class="btn btn-square btn-ghost lg:hidden"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -184,7 +188,8 @@
       >
         <li><a class="py-3 text-base" id="home" href="/">Home</a></li>
         <li class="dropdown dropdown-hover dropdown-end">
-          <a class="py-3 text-base" id="projects" href="/projects">Solutions</a>
+          <a class="py-3 text-base" id="solutions" href="/projects">Solutions</a
+          >
           <ul
             tabindex="0"
             class="dropdown-content z-[1] menu p-2 bg-neutral rounded-box w-52"
@@ -196,9 +201,9 @@
           </ul>
         </li>
         <li>
-          <a class="py-3 text-base" id="services" href="/partners">Partners</a>
+          <a class="py-3 text-base" id="partners" href="/partners">Partners</a>
         </li>
-        <li><a class="py-3 text-base" id="store" href="/about">About</a></li>
+        <li><a class="py-3 text-base" id="about" href="/about">About</a></li>
       </ul>
     </div>
     <div class="navbar-end"></div>
