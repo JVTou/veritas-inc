@@ -4,8 +4,8 @@ import { Image } from "astro:assets";
 import coverpicture from "../assets/featured/lars-kienle-IlxX7xnbRF8-unsplash.jpg";
 import gameexample1 from "../assets/featured/honeywellgame.png";
 import gameexample2 from "../assets/featured/thisisengineering-raeng-hoivM01c-vg-unsplash.jpg";
-import bgvideo from "../assets/background/networkbg.mp4";
-import bgvideo2 from "../assets/background/networkbg.webm";
+import bgvideomp4 from "../assets/background/networkbg.mp4";
+import bgvideowebm from "../assets/background/networkbg.webm";
 ---
 
 <MainLayout
@@ -21,9 +21,9 @@ import bgvideo2 from "../assets/background/networkbg.webm";
       playsinline
       class="absolute z-10 top-0 object-cover min-w-full min-h-screen brightness-75"
       id="BGvideo"
-      src={bgvideo2}
-      src={bgvideo}
     >
+      <source src={bgvideowebm} type="video/webm" />
+      <source src={bgvideomp4} type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     <div class="hero-overlay bg-transparent"></div>
