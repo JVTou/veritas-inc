@@ -1,5 +1,6 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+import Contactform from "../components/contactform.astro";
 ---
 
 <MainLayout
@@ -79,28 +80,5 @@ import MainLayout from "../layouts/MainLayout.astro";
       </div>
     </div>
   </section>
-  <section class="bg-base-300 text-primary-content body-font relative">
-    <div class="container px-5 pb-24 mx-auto !flex">
-      <div
-        class="rounded-lg p-8 flex flex-col w-full bg-base-200 mt-10 lg:mt-0 relative z-10 shadow-md !h-fit"
-      >
-        <script
-          type="text/javascript"
-          src="https://opnform.com/widgets/iframeResize.min.js"></script>
-        <iframe
-          style="border:none;width:100%"
-          id="form-contact-us-yvm0ss"
-          src="https://opnform.com/forms/contact-us-yvm0ss"></iframe>
-        <script type="text/javascript">
-          document.addEventListener("astro:page-load", () => {
-            iFrameResize();
-          });
-          iFrameResize(
-            { log: false, checkOrigin: false },
-            "#form-contact-us-yvm0ss"
-          );
-        </script>
-      </div>
-    </div>
-  </section>
+  <Contactform />
 </MainLayout>
