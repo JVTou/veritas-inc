@@ -199,9 +199,19 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
       enableScrollSpy: true,
       scrollSpyOnce: true,
       scrollSpyDelay: 750,
+      duration: 3,
+    };
+    const bigoptions = {
+      suffix: "+",
+      enableScrollSpy: true,
+      scrollSpyOnce: true,
+      scrollSpyDelay: 750,
+      useEasing: true,
+      smartEasingThreshold: 11000,
+      duration: 6,
     };
     let techs = new CountUp("technicianstat", 163, options);
-    let projects = new CountUp("projectstat", 13343, options);
+    let projects = new CountUp("projectstat", 14677, bigoptions);
     let partners = new CountUp("partnerstat", 53, options);
   }
 </script>
