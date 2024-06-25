@@ -61,28 +61,28 @@
   </aside>
 
   <nav>
-    <h6 class="footer-title link link-hover">
+    <h6 class="footer-title link link-underline link-underline-black">
       <a href="/projects">Solutions</a>
     </h6>
-    <a class="link link-hover" href="/projects/data">Cable Infrastructure</a>
-    <a class="link link-hover" href="/projects/wireless">Wireless Services</a>
-    <a class="link link-hover" href="/projects/av">Audio and Visual</a>
-    <a class="link link-hover" href="/projects/security">Security Services</a>
-    <a class="link link-hover" href="/projects/IT">Information Technology</a>
-    <a class="link link-hover" href="/projects/managedservices"
+    <a class="link link-underline link-underline-black" href="/projects/data">Cable Infrastructure</a>
+    <a class="link link-underline link-underline-black" href="/projects/wireless">Wireless Services</a>
+    <a class="link link-underline link-underline-black" href="/projects/av">Audio and Visual</a>
+    <a class="link link-underline link-underline-black" href="/projects/security">Security Services</a>
+    <a class="link link-underline link-underline-black" href="/projects/IT">Information Technology</a>
+    <a class="link link-underline link-underline-black" href="/projects/managedservices"
       >Managed Services</a
     >
-    <a class="link link-hover" href="/projects/electrical">Electrical</a>
-    <a class="link link-hover" href="/projects/consultation">Consultation</a>
+    <a class="link link-underline link-underline-black" href="/projects/electrical">Electrical</a>
+    <a class="link link-underline link-underline-black" href="/projects/consultation">Consultation</a>
   </nav>
   <nav>
     <h6 class="footer-title">Company</h6>
-    <a class="link link-hover" href="/about">About us</a>
-    <a class="link link-hover" href="/about#contactanchor">Contact</a>
+    <a class="link link-underline link-underline-black" href="/about">About us</a>
+    <a class="link link-underline link-underline-black" href="/about#contactanchor">Contact</a>
   </nav>
   <nav>
     <h6 class="footer-title">Legal</h6>
-    <a class="link link-hover" href="/privacy">Privacy policy</a>
+    <a class="link link-underline link-underline-black" href="/privacy">Privacy policy</a>
   </nav>
   <nav class="grid-flow-col gap-4 md:place-self-start md:justify-self-end">
     <a
@@ -141,7 +141,26 @@
     font-family: "EBGaramond-Medium,", serif;
   }
 </style>
+<style>
+	.link-underline {
+		border-bottom-width: 0;
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+		background-size: 0 3px;
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+		transition: background-size .5s ease-in-out;
+		text-decoration-line: none;
+	}
 
+	.link-underline-black {
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#F4F4F4, #F4F4F4)
+	}
+
+	.link-underline:hover {
+		background-size: 100% 3px;
+		background-position: 0 100%
+	}
+</style>
 <script>
   document.addEventListener("astro:page-load", () => {
     footerYear();
