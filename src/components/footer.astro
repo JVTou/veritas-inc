@@ -1,7 +1,7 @@
-<footer class="footer z-30 items-center p-4 text-neutral-content bg-base-100">
-  <aside class="items-center grid-flow-col">
+<footer class="footer bg-base-200 text-base-content p-10">
+  <aside>
     <svg
-      class="w-[60px] h-[60px]"
+      class="w-[120px] h-[120px]"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 643.4 327.66"
@@ -52,10 +52,39 @@
       ></svg
     >
     <p class="text-base-content">
-      <span id="copyright"></span> | All right reserved
+      <span class="text-base-content text-base" id="footertitle"
+        >Veritas Managed Solutions, Inc.
+      </span>
+      <br />
+      <span id="copyright"></span> | All rights reserved
     </p>
   </aside>
-  <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+
+  <nav>
+    <h6 class="footer-title link link-hover">
+      <a href="/projects">Solutions</a>
+    </h6>
+    <a class="link link-hover" href="/projects/data">Cable Infrastructure</a>
+    <a class="link link-hover" href="/projects/wireless">Wireless Services</a>
+    <a class="link link-hover" href="/projects/av">Audio and Visual</a>
+    <a class="link link-hover" href="/projects/security">Security Services</a>
+    <a class="link link-hover" href="/projects/IT">Information Technology</a>
+    <a class="link link-hover" href="/projects/managedservices"
+      >Managed Services</a
+    >
+    <a class="link link-hover" href="/projects/electrical">Electrical</a>
+    <a class="link link-hover" href="/projects/consultation">Consultation</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Company</h6>
+    <a class="link link-hover" href="/about">About us</a>
+    <a class="link link-hover" href="/about#contactanchor">Contact</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Legal</h6>
+    <a class="link link-hover">Privacy policy</a>
+  </nav>
+  <nav class="grid-flow-col gap-4 md:place-self-start md:justify-self-end">
     <a
       class="btn btn-ghost"
       aria-label="Veritas Linkedin page"
@@ -106,6 +135,12 @@
     >
   </nav>
 </footer>
+
+<style>
+  #footertitle {
+    font-family: "EBGaramond-Medium,", serif;
+  }
+</style>
 
 <script>
   document.addEventListener("astro:page-load", () => {
