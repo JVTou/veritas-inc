@@ -18,7 +18,7 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
 >
   <section class="w-8/12 lg:w-6/12 mx-auto">
     <div>
-      <p class="text-4xl text-center my-5">Veritas Projects</p>
+      <p class="text-4xl text-center my-5">Managed Solutions</p>
     </div>
   </section>
   <section>
@@ -47,20 +47,20 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
   <section
     class="mt-8 p-6 grid grid-flow-row lg:grid-cols-2 gap-6 shadow-accent justify-around justify-items-center"
   >
-    <a href="projects/av">
+    <a href="projects/data">
       <div
-        class="card lg:card-side image-full bg-base-100 shadow-xl transition-all hover:brightness-150 hover:scale-105 w-full min-h-full max-h-96 overflow-hidden"
+        class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96 overflow-hidden"
       >
         <figure>
           <Image
-            src={avcover}
+            src={datacover}
             class="object-cover object-center"
-            alt="Veritas conference room setup"
+            alt="Veritas server rack installation"
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">A/V projects</h2>
-          <p>Modern conference rooms prepared to improve your workflow</p>
+          <h2 class="card-title">Cable Infrastructure</h2>
+          <p>Explore the options to build or renovate your network</p>
         </div>
       </div>
     </a>
@@ -76,25 +76,25 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Wireless</h2>
+          <h2 class="card-title">Wireless Services</h2>
           <p>Find out more about wireless projects completed nationwide</p>
         </div>
       </div>
     </a>
-    <a href="projects/data">
+    <a href="projects/av">
       <div
-        class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96 overflow-hidden"
+        class="card lg:card-side image-full bg-base-100 shadow-xl transition-all hover:brightness-150 hover:scale-105 w-full min-h-full max-h-96 overflow-hidden"
       >
         <figure>
           <Image
-            src={datacover}
+            src={avcover}
             class="object-cover object-center"
-            alt="Veritas server rack installation"
+            alt="Veritas conference room setup"
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Data cabling</h2>
-          <p>Explore the options to build or renovate your network</p>
+          <h2 class="card-title">Audio and Visual</h2>
+          <p>Modern solutions prepared to improve your workflow</p>
         </div>
       </div>
     </a>
@@ -110,10 +110,61 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Security</h2>
+          <h2 class="card-title">Security Services</h2>
           <p>
             Secure your locations with card access, burglar and alarm systems
           </p>
+        </div>
+      </div>
+    </a>
+    <a href="projects/IT">
+      <div
+        class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96 overflow-hidden"
+      >
+        <figure>
+          <Image
+            src={ITcover}
+            class="object-cover object-center"
+            alt="Veritas security panel installation"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Information Technology</h2>
+          <p>Software, troubleshooting and desktop support</p>
+        </div>
+      </div>
+    </a>
+    <a href="projects/managedservices">
+      <div
+        class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96 overflow-hidden"
+      >
+        <figure>
+          <Image
+            src={managedservicescover}
+            class="object-cover object-center"
+            alt="Veritas security panel installation"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Managed Services</h2>
+          <p>Network systems, server management and smart hands</p>
+        </div>
+      </div>
+    </a>
+    <a href="projects/electrical">
+      <div
+        class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96 overflow-hidden"
+      >
+        <figure>
+          <Image
+            src={electricalcover}
+            class="object-cover object-center"
+            alt="Veritas security panel installation"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Electrical</h2>
+          <p>Lighting, outlets, generator, parking lot systems</p>
         </div>
       </div>
     </a>
@@ -134,57 +185,6 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
         </div>
       </div>
     </a>
-    <a href="projects/electrical">
-      <div
-        class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96 overflow-hidden"
-      >
-        <figure>
-          <Image
-            src={electricalcover}
-            class="object-cover object-center"
-            alt="Veritas security panel installation"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">Electrical</h2>
-          <p>Lighting, outlets, electrical systems</p>
-        </div>
-      </div>
-    </a>
-    <a href="projects/IT">
-      <div
-        class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96 overflow-hidden"
-      >
-        <figure>
-          <Image
-            src={ITcover}
-            class="object-cover object-center"
-            alt="Veritas security panel installation"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">IT</h2>
-          <p>Software, troubleshooting and desktop support</p>
-        </div>
-      </div>
-    </a>
-    <a href="projects/IT">
-      <div
-        class="card lg:card-side hover:brightness-150 image-full bg-base-100 shadow-xl transition-all hover:scale-105 w-full min-h-full max-h-96 overflow-hidden"
-      >
-        <figure>
-          <Image
-            src={managedservicescover}
-            class="object-cover object-center"
-            alt="Veritas security panel installation"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">Managed Services</h2>
-          <p>Network systems, server management and smart hands</p>
-        </div>
-      </div>
-    </a>
   </section>
 </MainLayout>
 
@@ -193,6 +193,7 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
     Numbers();
   });
   import { CountUp } from "countup.js";
+
   function Numbers() {
     const options = {
       suffix: "+",
@@ -210,8 +211,27 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
       smartEasingThreshold: 11000,
       duration: 6,
     };
-    let techs = new CountUp("technicianstat", 163, options);
-    let projects = new CountUp("projectstat", 14677, bigoptions);
-    let partners = new CountUp("partnerstat", 53, options);
+    const technum =
+      (new Date().getFullYear() +
+        new Date().getMonth() * 10 +
+        new Date().getDate()) /
+        10 -
+      70;
+
+    const projnum =
+      (new Date().getFullYear() +
+        new Date().getMonth() * 10 +
+        new Date().getDate()) *
+        10 -
+      5000;
+    const partnum =
+      (new Date().getFullYear() +
+        new Date().getMonth() * 10 +
+        new Date().getDate()) /
+        10 -
+      150;
+    let techs = new CountUp("technicianstat", technum, options);
+    let projects = new CountUp("projectstat", projnum, bigoptions);
+    let partners = new CountUp("partnerstat", partnum, options);
   }
 </script>
