@@ -1,0 +1,19 @@
+<head>
+  <link rel="stylesheet" href="/src/pages/mapstyles.css" type="text/css" />
+</head>
+<body id="map-css" class="h-screen w-screen">
+  <main>
+    <section class="content">
+      <div class="map-wrapper">
+        <div
+          id="toolTip"
+          class="absolute transition ease-out duration-200 bg-base-100 rounded-md z-[999] pointer-events-none"
+        >
+        </div>
+        <object id="map" data="/src/pages/maps/US.astro" type="image/svg+xml"
+        ></object>
+      </div>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
