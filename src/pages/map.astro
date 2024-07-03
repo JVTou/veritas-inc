@@ -1,19 +1,96 @@
-<head>
-  <link rel="stylesheet" href="/src/pages/mapstyles.css" type="text/css" />
-</head>
-<body id="map-css" class="h-screen w-screen">
-  <main>
-    <section class="content">
-      <div class="map-wrapper">
-        <div
-          id="toolTip"
-          class="absolute transition ease-out duration-200 bg-base-100 rounded-md z-[999] pointer-events-none"
-        >
-        </div>
-        <object id="map" data="/src/pages/maps/US.astro" type="image/svg+xml"
-        ></object>
+<div class="flex flex-col md:flex-row relative h-full">
+  <section
+    class="content flex-[1_1_50%] order-1 md:flex-[1_1_80%] md:p-8 md:relative"
+  >
+    <div class="map-wrapper w-full h-full m-auto">
+      <div
+        id="toolTip"
+        class="absolute transition ease-out duration-200 bg-base-100 rounded-md z-[999] pointer-events-none"
+      >
       </div>
-    </section>
-  </main>
+      <object
+        id="map"
+        data="/src/pages/maps/US2.astro"
+        type="image/svg+xml"
+        class="w-full h-full relative z-[998]"></object>
+      <section
+        class="absolute top-0 left-0 z-[999] rounded-md bg-base-100 p-2 m-2"
+      >
+        <div class="inline-flex items-center p-4">
+          <span
+            class="size-6 inline-block bg-gradient-to-r from-[#c2ae41] to-[#3498db] rounded-full me-2"
+          ></span>
+          <span class="text-base-content">Headquarters</span>
+        </div>
+        <div class="inline-flex items-center">
+          <span class="size-6 inline-block bg-accent rounded-full me-2"></span>
+          <span class="text-base-content">Offices</span>
+        </div>
+        <form class="max-w-sm mx-auto p-4">
+          <label
+            for="states"
+            class="block mb-2 text-sm font-medium text-base-content"
+            >Select an option</label
+          >
+          <select
+            id="states"
+            class="text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-50 dark:border-gray-300 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          >
+            <option value="CA">California</option>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="DC">District Of Columbia</option>
+            <option value="FL">Florida</option>
+            <option value="GA">Georgia</option>
+            <option value="HI">Hawaii</option>
+            <option value="ID">Idaho</option>
+            <option value="IL">Illinois</option>
+            <option value="IN">Indiana</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="KY">Kentucky</option>
+            <option value="LA">Louisiana</option>
+            <option value="ME">Maine</option>
+            <option value="MD">Maryland</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MI">Michigan</option>
+            <option value="MN">Minnesota</option>
+            <option value="MS">Mississippi</option>
+            <option value="MO">Missouri</option>
+            <option value="MT">Montana</option>
+            <option value="NE">Nebraska</option>
+            <option value="NV">Nevada</option>
+            <option value="NH">New Hampshire</option>
+            <option value="NJ">New Jersey</option>
+            <option value="NM">New Mexico</option>
+            <option value="NY">New York</option>
+            <option value="NC">North Carolina</option>
+            <option value="ND">North Dakota</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="OR">Oregon</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+          </select>
+        </form>
+      </section>
+    </div>
+  </section>
   <script src="./script.js"></script>
-</body>
+</div>
