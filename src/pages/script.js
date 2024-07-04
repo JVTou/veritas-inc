@@ -1,6 +1,6 @@
 function loadMap() {
-  var map = document.getElementById("map").contentDocument.querySelector("svg");
-  var toolTip = document.getElementById("toolTip");
+  const map = document.getElementById("map");
+  const toolTip = document.getElementById("toolTip");
 
   // Add event listeners to map element
   if (
@@ -58,37 +58,29 @@ function loadMap() {
 
 function stateDropdown() {
   const stateDropdown = document.getElementById("states");
+  const map = document.getElementById("map");
   const toolTip = document.getElementById("toolTip");
-  const map = document
-    .getElementById("map")
-    .contentDocument.querySelector("svg");
+
   let previousState = stateDropdown.value;
 
   // Add event listeners to dropdown menu
   stateDropdown.addEventListener("change", () => {
-    const selectedState = stateDropdown.value;
+    const selectedStateID = stateDropdown.value;
+    const selectedState = map.querySelector("." + selectedStateID);
 
     // Reset style of previous selection
     map.querySelector("." + previousState).style.opacity = 1;
 
-    // Choose the element with that class and style it
-    map.querySelector("." + selectedState).style.opacity = 0.4;
+    //Reset tooltip position
+    toolTip.style.left = "8px";
+    toolTip.style.top = "-64px";
 
-    // Move selected state's tooltip to the state's position in the viewport
-    const selectedStateLocation = map
-      .querySelector("." + selectedState)
-      .getBoundingClientRect();
-    console.log(toolTip.offsetWidth);
-    if (window.innerWidth > toolTip.offsetWidth + selectedStateLocation.right) {
-      toolTip.style.transform = `translate(${selectedStateLocation.right}px, ${selectedStateLocation.y}px)`;
-    } else {
-      toolTip.style.transform = `translate(${
-        selectedStateLocation.left - toolTip.offsetWidth
-      }px, ${selectedStateLocation.y}px)`;
-    }
+    // Choose the element with the dropwdown selection's class and style it
+    selectedState.style.opacity = 0.4;
 
-    // Tooltip data
-    const details = map.querySelector("." + selectedState).attributes;
+    // Add data to toolTip
+    const details = selectedState.attributes;
+
     toolTip.innerHTML = `
         <ul class="font-sans list-none p-4 m-0">
             <li class="mb-3"><b>Region: ${details.region.value}</b></li>
@@ -96,6 +88,17 @@ function stateDropdown() {
             <li class="mb-3">Projects: ${details.projects.value}+</li>
             <li class="mb-3">Partners: ${details.partners.value}+</li>
         </ul>`;
+
+    // Move selected state's tooltip to the state's position in the viewport
+    const selectedStateLocation = selectedState.getBoundingClientRect();
+
+    if (window.innerWidth > toolTip.offsetWidth + selectedStateLocation.right) {
+      toolTip.style.transform = `translate(${selectedStateLocation.right}px, ${selectedStateLocation.top}px)`;
+    } else {
+      toolTip.style.transform = `translate(${
+        selectedStateLocation.left - toolTip.offsetWidth
+      }px, ${selectedStateLocation.y}px)`;
+    }
 
     previousState = stateDropdown.value;
   });
