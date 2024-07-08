@@ -1,19 +1,16 @@
 import { defineConfig } from "astro/config";
 import vercel from "@astrojs/vercel/serverless";
-
 import tailwind from "@astrojs/tailwind";
+
+import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
   output: "server",
-  adapter: vercel({
-    webAnalytics: {
-      enabled: true,
-    },
-  }),
+  adapter: netlify(),
   prefetch: true,
   prefetch: {
-    prefetchAll: true,
-  },
+    prefetchAll: true
+  }
 });
