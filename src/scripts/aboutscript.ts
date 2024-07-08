@@ -1,3 +1,27 @@
+import ClipboardJS from "clipboard";
+import tippy from "tippy.js";
+
+// Calls init function on window load
+document.addEventListener("astro:page-load", () => {
+  loadMap();
+  stateDropdown();
+  emailTooltip();
+});
+
+function emailTooltip() {
+  var clipboard = new ClipboardJS("#email");
+
+  const copiedTippy = tippy("#email", {
+    content: "Copied!",
+    trigger: "",
+  })[0];
+
+  clipboard.on("success", function (e) {
+    copiedTippy.show();
+    setTimeout(copiedTippy.hide, 2000);
+  });
+}
+
 function loadMap() {
   const map = document.getElementById("map");
   const toolTip = document.getElementById("toolTip");
@@ -103,9 +127,3 @@ function stateDropdown() {
     previousState = stateDropdown.value;
   });
 }
-
-// Calls init function on window load
-document.addEventListener("astro:page-load", () => {
-  loadMap();
-  stateDropdown();
-});

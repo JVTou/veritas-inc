@@ -1,5 +1,4 @@
 import { defineConfig } from "astro/config";
-import vercel from "@astrojs/vercel/serverless";
 import tailwind from "@astrojs/tailwind";
 
 import netlify from "@astrojs/netlify";
@@ -11,6 +10,6 @@ export default defineConfig({
   adapter: netlify(),
   prefetch: true,
   prefetch: {
-    prefetchAll: true
-  }
+    prefetchAll: true,
+  },
 });
