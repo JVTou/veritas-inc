@@ -11,14 +11,14 @@
       Got a technical project? Want to send feedback on our work? Need details
       about our services? Let us know.
     </p>
-    <form name="contact" netlify class="space-y-8">
+    <form name="Contact Form" class="space-y-8" data-netlify="true">
       <label class="form-control w-full max-w-xs">
         <div class="label">
           <span class="label-text">Your email:</span>
         </div>
         <input
           type="text"
-          name="email"
+          name="Email"
           placeholder="name@veritas-inc.com"
           class="input input-bordered input-primary w-full max-w-xs"
         />
@@ -27,7 +27,10 @@
         <div class="label">
           <span class="label-text">Choose your service type:</span>
         </div>
-        <select name="service" class="select select-primary w-full max-w-xs">
+        <select
+          name="Service Type"
+          class="select select-primary w-full max-w-xs"
+        >
           <option disabled selected>Service Types</option>
           <option>Cable Infrastructure</option>
           <option>Wireless Services</option>
@@ -44,7 +47,7 @@
           <span class="label-text">Project info:</span>
         </div>
         <textarea
-          name="message"
+          name="Message"
           class="textarea textarea-primary h-24"
           placeholder="Type your message"></textarea>
       </label>
