@@ -5,27 +5,22 @@ import ContactForm from "./contactform.astro";
 import Locations from "../components/map.astro";
 ---
 
-<div
-  class="snap-y snap-mandatory overflow-y-scroll overflow-x-hidden h-screen transition-all"
->
+<div class="snap-y overflow-y-scroll overflow-x-hidden h-screen transition-all">
   <MainLayout
     title="Veritas | Contact"
     seoTitle="Veritas | Contact"
     seoDescription="Address, email, phone number and request form for prospective customers"
   >
-    <section
-      class="snap-normal snap-start scroll-mt-16 bg-base-300 min-h-screen"
-      id="contactinfo"
-    >
+    <section class="scroll-mt-16 min-h-[90vh]" id="contactinfo">
       <ContactInfo />
     </section>
     <section
-      class="snap-always snap-start scroll-mt-16 h-screen w-screen overflow-hidden mx-auto bg-base-100"
+      class="snap-always snap-start target:before:block target:before:h-16 h-screen w-screen overflow-hidden mx-auto bg-base-100"
       id="locations"
     >
       <Locations />
     </section>
-    <section class="snap-always snap-start scroll-mt-16" id="contactanchor">
+    <section class="scroll-mt-16" id="contactform">
       <ContactForm />
     </section>
   </MainLayout>

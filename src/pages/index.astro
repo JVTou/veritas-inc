@@ -12,17 +12,40 @@ import bgvideomp4 from "../assets/background/networkbg.mp4";
   seoTitle="Veritas Managed Solutions, inc."
   seoDescription="Cabling and installation of low voltage systems, wireless, security, AV, electrical"
 >
-  <div class="hero min-w-screen min-h-[90vh] lg:min-h-screen overflow-hidden">
+  <div class="hero min-w-screen h-[90vh] overflow-hidden">
     <video
       autoplay
       loop
       muted
       playsinline
-      class="absolute z-10 top-0 object-cover min-w-full min-h-screen brightness-75"
+      class="absolute z-10 top-0 object-cover min-w-full h-screen brightness-75"
       id="BGvideo"
       src={bgvideomp4}>Your browser does not support the video tag.</video
     >
-    <div class="hero-overlay bg-transparent"></div>
+    <div class="absolute inset-0 z-20 overflow-hidden animate-pulse">
+      <svg
+        class="absolute left-[max(50%,25rem)] top-0 h-screen w-[128rem] -translate-x-1/2 stroke-primary [mask-image:linear-gradient(transparent_60%,black)]"
+        aria-hidden="true"
+      >
+        <defs>
+          <pattern
+            id="e813992c-7d03-4cc4-a2bd-151760b470a0"
+            width="200"
+            height="200"
+            x="50%"
+            y="-1"
+            patternUnits="userSpaceOnUse"
+          >
+            <path d="M100 200V.5M.5 .5H200" fill="none"></path>
+          </pattern>
+        </defs>
+        <rect
+          width="100%"
+          height="100%"
+          stroke-width="0"
+          fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"></rect>
+      </svg>
+    </div>
     <div class="hero-content text-center z-20">
       <div
         class="max-w-2xl flex flex-col justify-between text-base-content gap-5"
@@ -54,7 +77,7 @@ import bgvideomp4 from "../assets/background/networkbg.mp4";
               ></button
             ></a
           >
-          <a href="/about">
+          <a href="/about#contactform">
             <button class="btn btn-outline">Contact Us</button></a
           >
         </div>
