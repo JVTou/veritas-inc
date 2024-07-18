@@ -7,10 +7,9 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://veritas-inc.netlify.app/",
+  site: "https://veritas-inc.com/",
   integrations: [tailwind(), icon(), sitemap()],
   output: "static",
-  adapter: netlify(),
   prefetch: true,
   prefetch: {
     prefetchAll: true,
