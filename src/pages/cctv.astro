@@ -35,6 +35,7 @@ import cctv7 from "../assets/install_pictures/cctv/7.jpg";
             <Image
               src={cctvcoverpicture}
               class="w-full rounded-lg shadow-lg shadow-black/20"
+              loading="eager"
               widths={[240, 540, 720, cctvcoverpicture.width]}
               sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${cctvcoverpicture.width}px`}
               alt="Veritas video system installation"

@@ -26,19 +26,19 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
       <div class="stats stats-vertical lg:stats-horizontal shadow">
         <div class="stat">
           <div class="stat-title">Technicians</div>
-          <div class="stat-value" id="technicianstat"></div>
+          <div class="stat-value" id="technicianstat">70+</div>
           <div class="stat-desc">↗︎ 42 YoY (+34%)</div>
         </div>
 
         <div class="stat">
           <div class="stat-title">Completed Projects</div>
-          <div class="stat-value" id="projectstat"></div>
+          <div class="stat-value" id="projectstat">15000+</div>
           <div class="stat-desc">↗︎ 2360 YoY (+22%)</div>
         </div>
 
         <div class="stat">
           <div class="stat-title">Partners</div>
-          <div class="stat-value" id="partnerstat"></div>
+          <div class="stat-value" id="partnerstat">120+</div>
           <div class="stat-desc">↗︎ 6 (+14%)</div>
         </div>
       </div>
@@ -54,7 +54,10 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
         <figure>
           <Image
             src={datacover}
+            loading="eager"
             class="object-cover object-center"
+            widths={[240, 540, 720, datacover.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${datacover.width}px`}
             alt="Veritas server rack installation"
           />
         </figure>
@@ -71,7 +74,10 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
         <figure>
           <Image
             src={wirelesscover}
+            loading="eager"
             class="object-cover object-center"
+            widths={[240, 540, 720, wirelesscover.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${wirelesscover.width}px`}
             alt="Veritas access point installation"
           />
         </figure>
@@ -88,7 +94,10 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
         <figure>
           <Image
             src={avcover}
+            loading="eager"
             class="object-cover object-center"
+            widths={[240, 540, 720, avcover.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${avcover.width}px`}
             alt="Veritas conference room setup"
           />
         </figure>
@@ -106,6 +115,9 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
           <Image
             src={securitycover}
             class="object-cover object-center"
+            loading="eager"
+            widths={[240, 540, 720, securitycover.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${securitycover.width}px`}
             alt="Veritas security panel installation"
           />
         </figure>
@@ -125,6 +137,8 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
           <Image
             src={ITcover}
             class="object-cover object-center"
+            widths={[240, 540, 720, ITcover.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${ITcover.width}px`}
             alt="Veritas security panel installation"
           />
         </figure>
@@ -142,6 +156,8 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
           <Image
             src={managedservicescover}
             class="object-cover object-center"
+            widths={[240, 540, 720, managedservicescover.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservicescover.width}px`}
             alt="Veritas security panel installation"
           />
         </figure>
@@ -159,6 +175,8 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
           <Image
             src={electricalcover}
             class="object-cover object-center"
+            widths={[240, 540, 720, electricalcover.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${electricalcover.width}px`}
             alt="Veritas security panel installation"
           />
         </figure>
@@ -176,6 +194,8 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
           <Image
             src={consultationcover}
             class="object-cover object-center"
+            widths={[240, 540, 720, consultationcover.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${consultationcover.width}px`}
             alt="Veritas security panel installation"
           />
         </figure>

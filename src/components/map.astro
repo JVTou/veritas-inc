@@ -1,21 +1,21 @@
-<div class="flex flex-col md:flex-row relative h-full">
+<div class="flex flex-col md:flex-row relative h-screen">
   <section
     class="content flex-[1_1_50%] order-1 md:flex-[1_1_80%] md:p-8 md:relative"
   >
     <section
-      class="lg:absolute lg:top-0 lg:left-0 z-[999] rounded-md bg-base-300 p-2 m-2 sm:w-1/2 sm:mx-auto lg:mr-0 lg:ml-1 lg:w-fit"
+      class="3xl:absolute 3xl:top-0 3xl:left-0 z-[999] rounded-md bg-base-300 p-2 m-2 sm:mx-auto 3xl:mr-0 3xl:ml-1 3xl:w-fit"
     >
       <div class="inline-flex items-center p-4">
         <span
           class="size-6 inline-block bg-gradient-to-r from-[#c2ae41] to-[#3498db] rounded-full me-2"
         ></span>
-        <span class="text-base-content">Headquarters</span>
+        <span class="text-base-content text-xl">Headquarters</span>
       </div>
-      <div class="inline-flex items-center">
+      <div class="inline-flex items-center p-4">
         <span class="size-6 inline-block bg-accent rounded-full me-2"></span>
-        <span class="text-base-content">Offices</span>
+        <span class="text-base-content text-xl">Offices</span>
       </div>
-      <form class="max-w-sm mx-auto p-4">
+      <form class="max-w-sm p-4">
         <label
           for="states"
           class="block mb-2 text-sm font-medium text-base-content"
@@ -80,7 +80,7 @@
         </select>
       </form>
     </section>
-    <div class="map-wrapper w-full h-full m-auto">
+    <div class="map-wrapper w-full h-fit m-auto">
       <div
         id="toolTip"
         class="absolute transition ease-out duration-200 bg-base-300 rounded-md z-[999] pointer-events-none"
@@ -92,9 +92,7 @@
         version="1.1"
         viewBox="0 0 959 593"
         id="map"
-        height="90vh"
-        width="90vw"
-        class="block z-[998] mx-auto"
+        class="block z-[998] mx-auto w-[90vw] h-[70vh] 3xl:h-[80vh]"
       >
         <defs>
           <style type="text/css">

@@ -6,7 +6,11 @@ const { sideBarActiveItemID } = Astro.props;
 ---
 
 <div class="drawer-side z-[1001]">
-  <label for="my-drawer" id="drawer-overlay" class="drawer-overlay"></label>
+  <label
+    for="my-drawer"
+    id="drawer-overlay"
+    class="drawer-overlay"
+    aria-label="Menu panel"></label>
   <aside
     class="px-2 pt-2 h-auto min-h-full w-[19rem] bg-base-200 text-base-content flex flex-col"
   >

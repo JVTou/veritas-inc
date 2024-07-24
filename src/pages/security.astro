@@ -55,6 +55,7 @@ import security9 from "../assets/install_pictures/security/9.jpg";
             <Image
               class="w-full rounded-lg shadow-lg shadow-black/20"
               src={securitycover}
+              loading="eager"
               widths={[240, 540, 720, securitycover.width]}
               sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${securitycover.width}px`}
               alt="Veritas security panel installation"
@@ -73,6 +74,7 @@ import security9 from "../assets/install_pictures/security/9.jpg";
           <Image
             src={cctvcover}
             class="object-cover object-center"
+            loading="eager"
             widths={[240, 540, 720, cctvcover.width]}
             sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${cctvcover.width}px`}
             alt="Veritas-installed camera"
