@@ -5,11 +5,8 @@ import avcover from "../assets/install_pictures/av/av.jpg";
 ---
 
 <MainLayout>
-  <!-- Container for demo purpose -->
   <div class="my-24 md:px-6">
-    <!-- Section: Design Block -->
     <section class="mb-32">
-      <!-- Jumbotron -->
       <div class="container mx-auto text-center lg:text-left xl:px-32">
         <div class="flex flex-col-reverse lg:grid items-center lg:grid-cols-2">
           <div class="mb-12 lg:mb-0">
@@ -50,15 +47,14 @@ import avcover from "../assets/install_pictures/av/av.jpg";
           <Image
             class="w-full rounded-lg shadow-lg shadow-black/20"
             src={avcover}
+            widths={[240, 540, 720, avcover.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${avcover.width}px`}
             alt="A Veritas audio video installation"
           />
         </div>
       </div>
     </section>
-    <!-- Jumbotron -->
   </div>
-  <!-- Section: Design Block -->
-  <!-- Container for demo purpose -->
   <div class="container mx-auto mb-12 lg:mb-0">
     <div
       class="relative z-[1] block rounded-lg px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] bg-base-200 shadow-black/20 mx-5 md:px-12 lg:mx-32"

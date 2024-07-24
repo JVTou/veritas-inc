@@ -2,7 +2,7 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import { Image } from "astro:assets";
 import coverpicture from "../assets/featured/lars-kienle-IlxX7xnbRF8-unsplash.jpg";
-import gameexample1 from "../assets/featured/honeywellgame.png";
+import gameexample1 from "../assets/featured/GAME.png";
 import gameexample2 from "../assets/featured/thisisengineering-raeng-hoivM01c-vg-unsplash.jpg";
 import bgvideomp4 from "../assets/background/networkbg.mp4";
 ---
@@ -141,7 +141,9 @@ import bgvideomp4 from "../assets/background/networkbg.mp4";
         <Image
           src={coverpicture}
           class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-          alt="example of Veritas cabling installation"
+          widths={[240, 540, 720, coverpicture.width]}
+          sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${coverpicture.width}px`}
+          alt="Example of a Veritas cabling installation"
         />
       </div>
       <div
@@ -261,14 +263,18 @@ import bgvideomp4 from "../assets/background/networkbg.mp4";
       </div>
       <div class="grid grid-cols-2 gap-4 mt-8">
         <Image
-          class="w-full rounded-lg"
+          class="w-full rounded-lg h-full object-cover"
           src={gameexample1}
+          widths={[240, 540, 720, gameexample1.width]}
+          sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${gameexample1.width}px`}
           alt="Veritas engineer working on a GAME"
         />
         <Image
-          class="mt-4 w-full lg:mt-10 rounded-lg"
+          class="mt-4 w-full lg:mt-10 rounded-lg h-full object-cover"
           src={gameexample2}
-          alt="honeywell security drawing"
+          widths={[240, 540, 720, gameexample2.width]}
+          sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${gameexample2.width}px`}
+          alt="Honeywell security drawing"
         />
       </div>
     </div>

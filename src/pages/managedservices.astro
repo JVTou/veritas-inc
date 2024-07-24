@@ -11,11 +11,8 @@ import managedservices6 from "../assets/install_pictures/managedservices/thisise
 ---
 
 <MainLayout>
-  <!-- Container for demo purpose -->
   <div class="container my-8 lg:my-24 mx-auto md:px-6">
-    <!-- Section: Design Block -->
     <section class="lg:mb-32">
-      <!-- Jumbotron -->
       <div class="container mx-auto text-center lg:text-left xl:px-32">
         <div
           class="flex flex-col-reverse gap-2 lg:grid items-center lg:grid-cols-2"
@@ -62,17 +59,15 @@ import managedservices6 from "../assets/install_pictures/managedservices/thisise
             <Image
               class="w-full rounded-lg shadow-lg shadow-black/20"
               src={managedservicescover}
-              alt="Veritas data cabling installation"
+              widths={[240, 540, 720, managedservicescover.width]}
+              sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservicescover.width}px`}
+              alt="Veritas managed services"
             />
           </div>
         </div>
       </div>
-      <!-- Jumbotron -->
     </section>
-    <!-- Section: Design Block -->
   </div>
-  <!-- Container for demo purpose -->
-
   <div class="container mx-auto px-5 py-2 lg:px-32">
     <div class="-m-1 flex flex-wrap md:-m-2">
       <div class="flex w-1/2 flex-wrap">
@@ -80,21 +75,27 @@ import managedservices6 from "../assets/install_pictures/managedservices/thisise
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={managedservices1}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, managedservices1.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices1.width}px`}
+            alt="Veritas managed services"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={managedservices2}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, managedservices1.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices1.width}px`}
+            alt="Veritas managed services"
           />
         </div>
         <div class="w-full p-1 md:p-2">
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={managedservices3}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, managedservices3.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices3.width}px`}
+            alt="Veritas managed services"
           />
         </div>
       </div>
@@ -103,21 +104,27 @@ import managedservices6 from "../assets/install_pictures/managedservices/thisise
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={managedservices4}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, managedservices4.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices4.width}px`}
+            alt="Veritas managed services"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={managedservices5}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, managedservices5.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices5.width}px`}
+            alt="Veritas managed services"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={managedservices6}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, managedservices6.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices6.width}px`}
+            alt="Veritas managed services"
           />
         </div>
       </div>

@@ -7,7 +7,7 @@ import electrical2 from "../assets/install_pictures/electrical/troy-bridges-kXC6
 import electrical3 from "../assets/install_pictures/electrical/fahim-junaid-7MjXpkxFseU-unsplash.jpg";
 import electrical4 from "../assets/install_pictures/electrical/andre-spilborghs-m0soIvqOY-Q-unsplash.jpg";
 import electrical5 from "../assets/install_pictures/electrical/scott-webb-tYa2Myli6qE-unsplash.jpg";
-import electrical6 from "../assets/install_pictures/electrical/mostafa-mahmoudi-47jO5Y8nsYo-unsplash.jpg";
+import electrical6 from "../assets/install_pictures/electrical/koen-sweers-FaUtUCtXswA-unsplash.jpg";
 ---
 
 <MainLayout>
@@ -56,9 +56,11 @@ import electrical6 from "../assets/install_pictures/electrical/mostafa-mahmoudi-
 
           <div>
             <Image
-              class="w-full rounded-lg shadow-lg shadow-black/20"
+              class="w-full aspect-square rounded-lg shadow-lg shadow-black/20"
               src={electricalcover}
-              alt="Veritas data cabling installation"
+              widths={[240, 540, 720, electricalcover.width]}
+              sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${electricalcover.width}px`}
+              alt="Veritas electrical installation"
             />
           </div>
         </div>
@@ -73,21 +75,27 @@ import electrical6 from "../assets/install_pictures/electrical/mostafa-mahmoudi-
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={electrical1}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, electrical1.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${electrical1.width}px`}
+            alt="Veritas electrical installation"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={electrical2}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, electrical2.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${electrical2.width}px`}
+            alt="Veritas electrical installation"
           />
         </div>
         <div class="w-full p-1 md:p-2">
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={electrical3}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, electrical3.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${electrical3.width}px`}
+            alt="Veritas electrical installation"
           />
         </div>
       </div>
@@ -96,21 +104,27 @@ import electrical6 from "../assets/install_pictures/electrical/mostafa-mahmoudi-
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={electrical4}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, electrical4.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${electrical4.width}px`}
+            alt="Veritas electrical installation"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={electrical5}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, electrical5.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${electrical5.width}px`}
+            alt="Veritas electrical installation"
           />
         </div>
         <div class="w-1/2 p-1 md:p-2">
           <Image
             class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
             src={electrical6}
-            alt="Veritas data cabling installation"
+            widths={[240, 540, 720, electrical6.width]}
+            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${electrical6.width}px`}
+            alt="Veritas electrical installation"
           />
         </div>
       </div>
