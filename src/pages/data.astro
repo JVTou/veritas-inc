@@ -21,7 +21,10 @@ import data6 from "../assets/install_pictures/data/data6.jpg";
             <div
               class="relative z-[1] block rounded-lg px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] bg-base-200 shadow-black/20 md:px-12 lg:-mr-14"
             >
-              <h2 class="mb-8 text-3xl font-bold">Cable Infrastructure</h2>
+              <div transition:name="datadesc">
+                <h2 class="mb-3 text-3xl font-bold">Cable Infrastructure</h2>
+                <p>Explore the options to build or renovate your network</p>
+              </div>
               <p class="mb-8 pb-2 text-neutral-300 lg:pb-0">
                 <ul>
                   <li>
@@ -56,6 +59,7 @@ import data6 from "../assets/install_pictures/data/data6.jpg";
               loading="eager"
               widths={[240, 540, 720, datacover.width]}
               sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${datacover.width}px`}
+              transition:name="datacover"
               alt="Veritas data cabling installation"
             />
           </div>

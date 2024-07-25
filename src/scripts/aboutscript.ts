@@ -48,16 +48,16 @@ function loadMap() {
       toolTip.style.transform = `translate(${e.offsetX}px, ${e.offsetY}px)`;
 
       // Position tooltip in viewport
-
       if (window.innerWidth > e.offsetX + toolTip.offsetWidth + 50) {
         toolTip.style.left = `revert`;
       } else {
         toolTip.style.left = `${
           window.innerWidth - (e.offsetX + toolTip.offsetWidth + 50)
         }px`;
-      }
+	}
+	console.log(window.innerWidth, e.offsetX, toolTip.offsetWidth, target.className);
 
-      // Tooltip data
+	// Tooltip data
       toolTip.innerHTML = `
         <ul class="font-sans list-none p-4 m-0">
             <li class="mb-3"><b>Region: ${details.region.value}</b></li>
@@ -120,7 +120,7 @@ function stateDropdown() {
       toolTip.style.transform = `translate(${selectedStateLocation.right}px, ${selectedStateLocation.top}px)`;
     } else {
       toolTip.style.transform = `translate(${
-        selectedStateLocation.left - toolTip.offsetWidth
+        selectedStateLocation.left - toolTip.offsetWidth -20
       }px, ${selectedStateLocation.y}px)`;
     }
 

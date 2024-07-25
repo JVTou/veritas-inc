@@ -4,7 +4,7 @@ import { Image } from "astro:assets";
 import wirelesscover from "../assets/featured/Wireless.jpeg";
 import securitycover from "../assets/featured/security.jpg";
 import datacover from "../assets/featured/Fiber.jpeg";
-import avcover from "../assets/featured/AudioVisual.jpeg";
+import avcover from "../assets/featured/AudioVisual.jpg";
 import consultationcover from "../assets/featured/consultation.jpg";
 import electricalcover from "../assets/featured/electrical.jpg";
 import ITcover from "../assets/featured/IT.jpg";
@@ -26,19 +26,21 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
       <div class="stats stats-vertical lg:stats-horizontal shadow">
         <div class="stat">
           <div class="stat-title">Technicians</div>
-          <div class="stat-value" id="technicianstat">70+</div>
+          <div class="stat-value text-base-content" id="technicianstat">
+            70+
+          </div>
           <div class="stat-desc">↗︎ 42 YoY (+34%)</div>
         </div>
 
         <div class="stat">
           <div class="stat-title">Completed Projects</div>
-          <div class="stat-value" id="projectstat">15000+</div>
+          <div class="stat-value text-accent" id="projectstat">15000+</div>
           <div class="stat-desc">↗︎ 2360 YoY (+22%)</div>
         </div>
 
         <div class="stat">
           <div class="stat-title">Partners</div>
-          <div class="stat-value" id="partnerstat">120+</div>
+          <div class="stat-value text-base-content" id="partnerstat">120+</div>
           <div class="stat-desc">↗︎ 6 (+14%)</div>
         </div>
       </div>
@@ -58,10 +60,11 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
             class="object-cover object-center"
             widths={[240, 540, 720, datacover.width]}
             sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${datacover.width}px`}
+            transition:name="datacover"
             alt="Veritas server rack installation"
           />
         </figure>
-        <div class="card-body">
+        <div class="card-body" transition:name="datadesc">
           <h2 class="card-title">Cable Infrastructure</h2>
           <p>Explore the options to build or renovate your network</p>
         </div>
@@ -78,12 +81,13 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
             class="object-cover object-center"
             widths={[240, 540, 720, wirelesscover.width]}
             sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${wirelesscover.width}px`}
+            transition:name="wirelesscover"
             alt="Veritas access point installation"
           />
         </figure>
-        <div class="card-body">
+        <div class="card-body" transition:name="wirelessdesc">
           <h2 class="card-title">Wireless Services</h2>
-          <p>Find out more about wireless projects completed nationwide</p>
+          <p>Wireless systems designed by experts</p>
         </div>
       </div>
     </a>
@@ -98,10 +102,11 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
             class="object-cover object-center"
             widths={[240, 540, 720, avcover.width]}
             sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${avcover.width}px`}
+            transition:name="avcover"
             alt="Veritas conference room setup"
           />
         </figure>
-        <div class="card-body">
+        <div class="card-body" transition:name="avdesc">
           <h2 class="card-title">Audio and Visual</h2>
           <p>Modern solutions prepared to improve your workflow</p>
         </div>
@@ -118,10 +123,11 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
             loading="eager"
             widths={[240, 540, 720, securitycover.width]}
             sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${securitycover.width}px`}
+            transition:name="securitycover"
             alt="Veritas security panel installation"
           />
         </figure>
-        <div class="card-body">
+        <div class="card-body" transition:name="securitydesc">
           <h2 class="card-title">Security Services</h2>
           <p>
             Secure your locations with card access, burglar and alarm systems
@@ -139,10 +145,11 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
             class="object-cover object-center"
             widths={[240, 540, 720, ITcover.width]}
             sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${ITcover.width}px`}
+            transition:name="ITcover"
             alt="Veritas security panel installation"
           />
         </figure>
-        <div class="card-body">
+        <div class="card-body" transition:name="ITdesc">
           <h2 class="card-title">Information Technology</h2>
           <p>Software, troubleshooting and desktop support</p>
         </div>
@@ -158,10 +165,11 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
             class="object-cover object-center"
             widths={[240, 540, 720, managedservicescover.width]}
             sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservicescover.width}px`}
-            alt="Veritas security panel installation"
+            transition:name="MScover"
+            alt="Veritas managed services example"
           />
         </figure>
-        <div class="card-body">
+        <div class="card-body" transition:name="MSdesc">
           <h2 class="card-title">Managed Services</h2>
           <p>Network systems, server management and smart hands</p>
         </div>
@@ -177,10 +185,11 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
             class="object-cover object-center"
             widths={[240, 540, 720, electricalcover.width]}
             sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${electricalcover.width}px`}
-            alt="Veritas security panel installation"
+            transition:name="electricalcover"
+            alt="Veritas electrical installation"
           />
         </figure>
-        <div class="card-body">
+        <div class="card-body" transition:name="electricaldesc">
           <h2 class="card-title">Electrical</h2>
           <p>Lighting, outlets, generator, parking lot systems</p>
         </div>
@@ -196,10 +205,11 @@ import managedservicescover from "../assets/featured/managedservices.jpg";
             class="object-cover object-center"
             widths={[240, 540, 720, consultationcover.width]}
             sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${consultationcover.width}px`}
-            alt="Veritas security panel installation"
+            transition:name="consultationcover"
+            alt="Veritas consultation facilities"
           />
         </figure>
-        <div class="card-body">
+        <div class="card-body" transition:name="consultationdesc">
           <h2 class="card-title">Consultation</h2>
           <p>Consultation, design and project management</p>
         </div>

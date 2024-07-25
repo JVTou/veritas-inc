@@ -21,7 +21,10 @@ import electrical6 from "../assets/install_pictures/electrical/koen-sweers-FaUtU
             <div
               class="relative z-[1] block rounded-lg px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] bg-base-200 shadow-black/20 md:px-12 lg:-mr-14"
             >
-              <h2 class="mb-8 text-3xl font-bold">Electrical Services</h2>
+              <div transition:name="electricaldesc">
+                <h2 class="mb-3 text-3xl font-bold">Electrical</h2>
+                <p>Lighting, outlets, generator, parking lot systems</p>
+              </div>
               <p class="mb-8 pb-2 text-neutral-300 lg:pb-0">
                 <ul>
                   <li>
@@ -56,11 +59,12 @@ import electrical6 from "../assets/install_pictures/electrical/koen-sweers-FaUtU
 
           <div>
             <Image
-              class="w-full aspect-square rounded-lg shadow-lg shadow-black/20"
+              class="w-full aspect-video object-cover rounded-lg shadow-lg shadow-black/20"
               src={electricalcover}
               loading="eager"
               widths={[240, 540, 720, electricalcover.width]}
               sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${electricalcover.width}px`}
+              transition:name="electricalcover"
               alt="Veritas electrical installation"
             />
           </div>

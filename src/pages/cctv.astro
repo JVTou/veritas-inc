@@ -22,7 +22,9 @@ import cctv7 from "../assets/install_pictures/cctv/7.jpg";
             <div
               class="relative z-[1] block rounded-lg px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] bg-base-200 shadow-black/20 md:px-12 lg:-mr-14"
             >
-              <h2 class="mb-8 text-3xl font-bold">Camera Systems</h2>
+              <h2 class="mb-8 text-3xl font-bold" transition:name="cameradesc">
+                Camera Systems
+              </h2>
               <p class="mb-8 pb-2 text-neutral-300 lg:pb-0">
                 Veritas Managed Solutions offers top-tier video surveillance
                 systems designed to provide comprehensive monitoring and
@@ -38,6 +40,7 @@ import cctv7 from "../assets/install_pictures/cctv/7.jpg";
               loading="eager"
               widths={[240, 540, 720, cctvcoverpicture.width]}
               sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${cctvcoverpicture.width}px`}
+              transition:name="cctvcover"
               alt="Veritas video system installation"
             />
           </div>

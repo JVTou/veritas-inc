@@ -1,7 +1,7 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import { Image } from "astro:assets";
-import avcover from "../assets/install_pictures/av/av.jpg";
+import avcover from "../assets/featured/AudioVisual.jpg";
 ---
 
 <MainLayout>
@@ -13,7 +13,10 @@ import avcover from "../assets/install_pictures/av/av.jpg";
             <div
               class="relative z-[1] block rounded-lg px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] bg-base-200 shadow-black/20 md:px-12 lg:-mr-14"
             >
-              <h2 class="mb-8 text-3xl font-bold">Audio and visual systems</h2>
+              <div transition:name="avdesc">
+                <h2 class="mb-3 text-3xl font-bold">Audio and Visual</h2>
+                <p>Modern solutions prepared to improve your workflow</p>
+              </div>
               <p class="mb-8 pb-2 text-neutral-300 lg:pb-0">
                 <ul>
                   <li>
@@ -50,6 +53,7 @@ import avcover from "../assets/install_pictures/av/av.jpg";
             loading="eager"
             widths={[240, 540, 720, avcover.width]}
             sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${avcover.width}px`}
+            transition:name="avcover"
             alt="A Veritas audio video installation"
           />
         </div>

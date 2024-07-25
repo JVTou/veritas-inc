@@ -17,7 +17,7 @@ import { Icon } from "astro-icon/components";
         <div class="label">
           <span class="label-text">Which systems do you use?</span>
         </div>
-        <div id="typed-strings">
+        <div class="hidden" id="typed-strings">
           <p>3M</p>
           <p>Allen Tel</p>
           <p>APC</p>
@@ -45,39 +45,15 @@ import { Icon } from "astro-icon/components";
           class="input input-bordered w-full max-w-xs"
         />
       </label>
+
+      <!--Data Infrastructure Partner Logos-->
+
+      <div class="divider divider-primary text-3xl py-6">
+        Data Infrastructure
+      </div>
       <div
         class="grid grid-cols-2 gap-8 text-primary-content sm:gap-12 md:grid-cols-3 lg:grid-cols-6"
       >
-        <button
-          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="cisco logo"
-        >
-          <Icon name="cisco" class="size-32" />
-        </button>
-        <button
-          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="gallagher logo"
-        >
-          <Icon name="gallagher" class="size-32" />
-        </button>
-        <button
-          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="bosch logo"
-        >
-          <Icon name="bosch" class="size-32" />
-        </button>
-        <button
-          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="axis logo"
-        >
-          <Icon name="axis" class="size-32" />
-        </button>
-        <button
-          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="logitech logo"
-        >
-          <Icon name="logitech" class="size-32" />
-        </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
           aria-label="leviton logo"
@@ -86,21 +62,9 @@ import { Icon } from "astro-icon/components";
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="honeywell logo"
+          aria-label="Fluke networks logo"
         >
-          <Icon name="honeywell" class="size-32" />
-        </button>
-        <button
-          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="jbl logo"
-        >
-          <Icon name="jbl" class="size-32" />
-        </button>
-        <button
-          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="sonos logo"
-        >
-          <Icon name="sonos" class="size-32" />
+          <Icon name="fluke" class="size-32" />
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
@@ -110,21 +74,65 @@ import { Icon } from "astro-icon/components";
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="brightsign logo"
+          aria-label="Commscope logo"
         >
-          <Icon name="brightsign" class="size-32" />
+          <Icon name="commscope" class="size-32" />
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="samsung logo"
+          aria-label="Belden logo"
         >
-          <Icon name="samsung" class="size-32" />
+          <Icon name="belden" class="size-32" />
+        </button>
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="American Power Conversion logo"
+        >
+          <Icon name="apc" class="size-32" />
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
           aria-label="nvent logo"
         >
           <Icon name="nvent" class="size-32" />
+        </button>
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="tripp lite logo"
+        >
+          <Icon name="tripplite" class="size-32" />
+        </button>
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="Basor logo"
+        >
+          <Icon name="basor" class="size-32" />
+        </button>
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="Cooper B Line logo"
+        >
+          <Icon name="bline" class="size-32" />
+        </button>
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="Berk Tek cable logo"
+        >
+          <Icon name="berktek" class="size-32" />
+        </button>
+      </div>
+
+      <!--Wireless Partner Logos-->
+
+      <div class="divider divider-primary text-3xl py-6">Wireless Systems</div>
+      <div
+        class="grid grid-cols-2 gap-8 text-primary-content sm:gap-12 md:grid-cols-3 lg:grid-cols-6"
+      >
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="cisco logo"
+        >
+          <Icon name="cisco" class="size-32" />
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
@@ -140,9 +148,43 @@ import { Icon } from "astro-icon/components";
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="altronix logo"
+          aria-label="aruba logo"
         >
-          <Icon name="altronix" class="size-32" />
+          <Icon name="aruba" class="size-32" />
+        </button>
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="Air Magnet logo"
+        >
+          <Icon name="airmagnet" class="size-32" />
+        </button>
+      </div>
+
+      <!--Audio Visual Partner Logos-->
+
+      <div class="divider divider-primary text-3xl py-6">
+        Audio Visual Products
+      </div>
+      <div
+        class="grid grid-cols-2 gap-8 text-primary-content sm:gap-12 md:grid-cols-3 lg:grid-cols-6"
+      >
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="brightsign logo"
+        >
+          <Icon name="brightsign" class="size-32" />
+        </button>
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="jbl logo"
+        >
+          <Icon name="jbl" class="size-32" />
+        </button>
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="samsung logo"
+        >
+          <Icon name="samsung" class="size-32" />
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
@@ -164,33 +206,41 @@ import { Icon } from "astro-icon/components";
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="logitech logo"
+        >
+          <Icon name="logitech" class="size-32" />
+        </button>
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="sonos logo"
+        >
+          <Icon name="sonos" class="size-32" />
+        </button>
+      </div>
+
+      <!--Security Partner Logos-->
+
+      <div class="divider divider-primary text-3xl py-6">Security Partners</div>
+      <div
+        class="grid grid-cols-2 gap-8 text-primary-content sm:gap-12 md:grid-cols-3 lg:grid-cols-6"
+      >
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="gallagher logo"
+        >
+          <Icon name="gallagher" class="size-32" />
+        </button>
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
           aria-label="assa abloy logo"
         >
           <Icon name="assaabloy" class="size-32" />
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="hanwha vision logo"
+          aria-label="bosch logo"
         >
-          <Icon name="hanwha" class="size-32" />
-        </button>
-        <button
-          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="aruba logo"
-        >
-          <Icon name="aruba" class="size-32" />
-        </button>
-        <button
-          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="American Power Conversion logo"
-        >
-          <Icon name="apc" class="size-32" />
-        </button>
-        <button
-          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="Fluke networks logo"
-        >
-          <Icon name="fluke" class="size-32" />
+          <Icon name="bosch" class="size-32" />
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
@@ -212,21 +262,27 @@ import { Icon } from "astro-icon/components";
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="Air Magnet logo"
+          aria-label="honeywell logo"
         >
-          <Icon name="airmagnet" class="size-32" />
+          <Icon name="honeywell" class="size-32" />
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="Commscope logo"
+          aria-label="hanwha vision logo"
         >
-          <Icon name="commscope" class="size-32" />
+          <Icon name="hanwha" class="size-32" />
         </button>
         <button
           class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
-          aria-label="Belden logo"
+          aria-label="axis logo"
         >
-          <Icon name="belden" class="size-32" />
+          <Icon name="axis" class="size-32" />
+        </button>
+        <button
+          class="flex text-primary-content hover:text-secondary justify-center items-center transition-all cursor-default"
+          aria-label="altronix logo"
+        >
+          <Icon name="altronix" class="size-32" />
         </button>
       </div>
     </div>

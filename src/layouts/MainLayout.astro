@@ -4,6 +4,7 @@ import Footer from "../components/footer.astro";
 import SideBar from "../components/SideBar.astro";
 import MainHead from "./MainHead.astro";
 import { ViewTransitions } from "astro:transitions";
+import LoadingIndicator from "astro-loading-indicator/component";
 const {
   title,
   seoTitle,
@@ -16,6 +17,7 @@ const {
 <html lang="en" data-theme="business">
   <MainHead title={title} seoTitle={seoTitle} seoDescription={seoDescription} />
   <ViewTransitions />
+  <LoadingIndicator color="#ffe989" />
   <body>
     <div class="bg-base-100 drawer">
       <input
