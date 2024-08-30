@@ -66,3 +66,17 @@ import { Head } from "astro-capo";
     rel="stylesheet"
   />
 </Head>
+<!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-SD9XMSYRL4"
+  is:inline></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "G-SD9XMSYRL4");
+</script>
