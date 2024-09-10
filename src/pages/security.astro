@@ -3,15 +3,7 @@ import MainLayout from "../layouts/MainLayout.astro";
 import { Image } from "astro:assets";
 import securitycover from "../assets/featured/security.jpg";
 import cctvcover from "../assets/featured/CCTV.jpg";
-import security1 from "../assets/install_pictures/security/1.jpg";
-import security2 from "../assets/install_pictures/security/2.jpg";
-import security3 from "../assets/install_pictures/security/3.jpg";
-import security4 from "../assets/install_pictures/security/4.jpg";
-import security5 from "../assets/install_pictures/security/5.jpg";
-import security6 from "../assets/install_pictures/security/6.jpg";
-import security7 from "../assets/install_pictures/security/7.jpg";
-import security8 from "../assets/install_pictures/security/8.jpg";
-import security9 from "../assets/install_pictures/security/9.jpg";
+import Securitycarousel from "../components/securitycarousel.astro";
 ---
 
 <MainLayout>
@@ -194,108 +186,5 @@ import security9 from "../assets/install_pictures/security/9.jpg";
       </div>
     </div>
   </div>
-
-  <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
-    <div class="-m-1 flex flex-wrap md:-m-2">
-      <div class="flex w-1/3 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={security1}
-            widths={[240, 540, 720, security1.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${security1.width}px`}
-            alt="Veritas security panel installation"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/3 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={security2}
-            widths={[240, 540, 720, security2.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${security2.width}px`}
-            alt="Veritas security panel installation"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/3 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={security3}
-            widths={[240, 540, 720, security3.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${security3.width}px`}
-            alt="Veritas security panel installation"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/3 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={security4}
-            widths={[240, 540, 720, security4.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${security4.width}px`}
-            alt="Veritas security panel installation"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/3 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={security5}
-            widths={[240, 540, 720, security5.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${security5.width}px`}
-            alt="Veritas security panel installation"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/3 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={security6}
-            widths={[240, 540, 720, security6.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${security6.width}px`}
-            alt="Veritas security panel installation"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/3 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={security7}
-            widths={[240, 540, 720, security7.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${security7.width}px`}
-            alt="Veritas security panel installation"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/3 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={security8}
-            widths={[240, 540, 720, security8.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${security8.width}px`}
-            alt="Veritas security panel installation"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/3 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={security9}
-            widths={[240, 540, 720, security9.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${security9.width}px`}
-            alt="Veritas security panel installation"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
+  <Securitycarousel />
 </MainLayout>

@@ -2,12 +2,7 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import { Image } from "astro:assets";
 import managedservicescover from "../assets/featured/managedservices.jpg";
-import managedservices1 from "../assets/install_pictures/managedservices/damir-kopezhanov-nC6CyrVBtkU-unsplash.jpg";
-import managedservices2 from "../assets/install_pictures/managedservices/israel-andrade-YI_9SivVt_s-unsplash.jpg";
-import managedservices3 from "../assets/install_pictures/managedservices/john-schnobrich-FlPc9_VocJ4-unsplash.jpg";
-import managedservices4 from "../assets/install_pictures/managedservices/lycs-architecture-U2BI3GMnSSE-unsplash.jpg";
-import managedservices5 from "../assets/install_pictures/managedservices/mohammad-rahmani-8OnkIkFBBtM-unsplash.jpg";
-import managedservices6 from "../assets/install_pictures/managedservices/thisisengineering-SyRlD4s_amw-unsplash.jpg";
+import MScarousel from "../components/MScarousel.astro";
 ---
 
 <MainLayout>
@@ -73,66 +68,5 @@ import managedservices6 from "../assets/install_pictures/managedservices/thisise
       </div>
     </section>
   </div>
-  <div class="container mx-auto px-5 py-2 lg:px-32">
-    <div class="-m-1 flex flex-wrap md:-m-2">
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={managedservices1}
-            widths={[240, 540, 720, managedservices1.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices1.width}px`}
-            alt="Veritas managed services"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={managedservices2}
-            widths={[240, 540, 720, managedservices1.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices1.width}px`}
-            alt="Veritas managed services"
-          />
-        </div>
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={managedservices3}
-            widths={[240, 540, 720, managedservices3.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices3.width}px`}
-            alt="Veritas managed services"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={managedservices4}
-            widths={[240, 540, 720, managedservices4.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices4.width}px`}
-            alt="Veritas managed services"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={managedservices5}
-            widths={[240, 540, 720, managedservices5.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices5.width}px`}
-            alt="Veritas managed services"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={managedservices6}
-            widths={[240, 540, 720, managedservices6.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${managedservices6.width}px`}
-            alt="Veritas managed services"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
+  <MScarousel />
 </MainLayout>

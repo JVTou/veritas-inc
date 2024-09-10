@@ -1,0 +1,82 @@
+---
+import Carousel from "./carousel.astro";
+import Photo from "./photo.astro";
+import type { ComponentProps } from "astro/types";
+import electrical1 from "../assets/install_pictures/electrical/doris-morgan-mXUFJ1U2AeA-unsplash.jpg";
+import electrical2 from "../assets/install_pictures/electrical/troy-bridges-kXC6XhVL1e4-unsplash.jpg";
+import electrical3 from "../assets/install_pictures/electrical/fahim-junaid-7MjXpkxFseU-unsplash.jpg";
+import electrical4 from "../assets/install_pictures/electrical/andre-spilborghs-m0soIvqOY-Q-unsplash.jpg";
+import electrical5 from "../assets/install_pictures/electrical/scott-webb-tYa2Myli6qE-unsplash.jpg";
+import electrical6 from "../assets/install_pictures/electrical/koen-sweers-FaUtUCtXswA-unsplash.jpg";
+
+const electricalimages: ComponentProps<typeof Carousel>["images"] = [
+  {
+    src: electrical1,
+    alt: "Veritas electrical cabling installation",
+    width: electrical1.width,
+    height: electrical1.height,
+    widths: [200, 675, 1350, electrical1.width],
+  },
+  {
+    src: electrical2,
+    alt: "Veritas electrical cabling installation",
+    width: electrical2.width,
+    height: electrical2.height,
+    widths: [200, 675, 1350, electrical2.width],
+  },
+  {
+    src: electrical3,
+    alt: "Veritas electrical cabling installation",
+    width: electrical3.width,
+    height: electrical3.height,
+    widths: [200, 675, 1350, electrical3.width],
+  },
+  {
+    src: electrical4,
+    alt: "Veritas electrical cabling installation",
+    width: electrical4.width,
+    height: electrical4.height,
+    widths: [200, 675, 1350, electrical4.width],
+  },
+  {
+    src: electrical5,
+    alt: "Veritas electrical cabling installation",
+    width: electrical5.width,
+    height: electrical5.height,
+    widths: [200, 675, 1350, electrical5.width],
+  },
+  {
+    src: electrical6,
+    alt: "Veritas electrical cabling installation",
+    width: electrical6.width,
+    height: electrical6.height,
+    widths: [200, 675, 1350, electrical6.width],
+  },
+];
+---
+
+<Carousel images={electricalimages} />
+<ul
+  class="grid sm:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-2 lg:gap-8 list-none m-3 lg:m-20"
+  id="carouselTargetList"
+>
+  {
+    electricalimages.map((img, i) => {
+      return (
+        <li class="cursor-pointer">
+          <a
+            href={`?image=${i}`}
+            data-carousel-index={i}
+            class="block hover:-translate-y-2 transition-all"
+            data-astro-reload
+          >
+            <Photo
+              {...img}
+              class="object-contain object-center w-full min-h-full"
+            />
+          </a>
+        </li>
+      );
+    })
+  }
+</ul>

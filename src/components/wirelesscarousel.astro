@@ -1,0 +1,122 @@
+---
+import Carousel from "./carousel.astro";
+import Photo from "./photo.astro";
+import type { ComponentProps } from "astro/types";
+import wireless1 from "../assets/install_pictures/wireless/1.png";
+import wireless2 from "../assets/install_pictures/wireless/2.jpg";
+import wireless3 from "../assets/install_pictures/wireless/3.jpg";
+import wireless4 from "../assets/install_pictures/wireless/4.jpg";
+import wireless5 from "../assets/install_pictures/wireless/5.jpg";
+import wireless6 from "../assets/install_pictures/wireless/6.jpg";
+import wireless7 from "../assets/install_pictures/wireless/7.jpg";
+import wireless8 from "../assets/install_pictures/wireless/8.jpg";
+import wireless9 from "../assets/install_pictures/wireless/9.jpg";
+import wireless10 from "../assets/install_pictures/wireless/10.jpg";
+import wireless11 from "../assets/install_pictures/wireless/11.jpg";
+
+const wirelessimages: ComponentProps<typeof Carousel>["images"] = [
+  {
+    src: wireless1,
+    alt: "Veritas wireless devices and cabling installation",
+    width: wireless1.width,
+    height: wireless1.height,
+    widths: [200, 675, 1350, wireless1.width],
+  },
+  {
+    src: wireless2,
+    alt: "Veritas wireless devices and cabling installation",
+    width: wireless2.width,
+    height: wireless2.height,
+    widths: [200, 675, 1350, wireless2.width],
+  },
+  {
+    src: wireless3,
+    alt: "Veritas wireless devices and cabling installation",
+    width: wireless3.width,
+    height: wireless3.height,
+    widths: [200, 675, 1350, wireless3.width],
+  },
+  {
+    src: wireless4,
+    alt: "Veritas wireless devices and cabling installation",
+    width: wireless4.width,
+    height: wireless4.height,
+    widths: [200, 675, 1350, wireless4.width],
+  },
+  {
+    src: wireless5,
+    alt: "Veritas wireless devices and cabling installation",
+    width: wireless5.width,
+    height: wireless5.height,
+    widths: [200, 675, 1350, wireless5.width],
+  },
+  {
+    src: wireless6,
+    alt: "Veritas wireless devices and cabling installation",
+    width: wireless6.width,
+    height: wireless6.height,
+    widths: [200, 675, 1350, wireless6.width],
+  },
+  {
+    src: wireless7,
+    alt: "Veritas wireless devices and cabling installation",
+    width: wireless7.width,
+    height: wireless7.height,
+    widths: [200, 675, 1350, wireless7.width],
+  },
+  {
+    src: wireless8,
+    alt: "Veritas wireless devices and cabling installation",
+    width: wireless8.width,
+    height: wireless8.height,
+    widths: [200, 675, 1350, wireless8.width],
+  },
+  {
+    src: wireless9,
+    alt: "Veritas wireless devices and cabling installation",
+    width: wireless9.width,
+    height: wireless9.height,
+    widths: [200, 675, 1350, wireless9.width],
+  },
+  {
+    src: wireless10,
+    alt: "Veritas wireless devices and cabling installation",
+    width: wireless10.width,
+    height: wireless10.height,
+    widths: [200, 675, 1350, wireless10.width],
+  },
+  {
+    src: wireless11,
+    alt: "Veritas wireless devices and cabling installation",
+    width: wireless11.width,
+    height: wireless11.height,
+    widths: [200, 675, 1350, wireless11.width],
+  },
+];
+---
+
+<Carousel images={wirelessimages} />
+<ul
+  class="grid sm:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-2 lg:gap-8 list-none m-3 lg:m-20"
+  id="carouselTargetList"
+>
+  {
+    wirelessimages.map((img, i) => {
+      return (
+        <li class="cursor-pointer">
+          <a
+            href={`?image=${i}`}
+            data-carousel-index={i}
+            class="block hover:-translate-y-2 transition-all"
+            data-astro-reload
+          >
+            <Photo
+              {...img}
+              class="object-contain object-center w-full min-h-full"
+            />
+          </a>
+        </li>
+      );
+    })
+  }
+</ul>

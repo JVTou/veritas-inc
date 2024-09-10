@@ -2,12 +2,7 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import { Image } from "astro:assets";
 import datacover from "../assets/featured/Fiber.jpeg";
-import data1 from "../assets/install_pictures/data/data1.jpg";
-import data2 from "../assets/install_pictures/data/data2.jpg";
-import data3 from "../assets/install_pictures/data/data3.jpg";
-import data4 from "../assets/install_pictures/data/data4.jpg";
-import data5 from "../assets/install_pictures/data/data5.jpg";
-import data6 from "../assets/install_pictures/data/data6.jpg";
+import Datacarousel from "../components/datacarousel.astro";
 ---
 
 <MainLayout>
@@ -183,66 +178,5 @@ import data6 from "../assets/install_pictures/data/data6.jpg";
       </div>
     </div>
   </div>
-  <div class="container mx-auto px-5 py-2 lg:px-32">
-    <div class="-m-1 flex flex-wrap md:-m-2">
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={data3}
-            widths={[240, 540, 720, data3.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${data3.width}px`}
-            alt="Veritas data cabling installation"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={data2}
-            widths={[240, 540, 720, data2.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${data2.width}px`}
-            alt="Veritas data cabling installation"
-          />
-        </div>
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={data6}
-            widths={[240, 540, 720, data6.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${data6.width}px`}
-            alt="Veritas data cabling installation"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={data4}
-            widths={[240, 540, 720, data4.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${data4.width}px`}
-            alt="Veritas data cabling installation"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={data5}
-            widths={[240, 540, 720, data5.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${data5.width}px`}
-            alt="Veritas data cabling installation"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={data1}
-            widths={[240, 540, 720, data1.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${data1.width}px`}
-            alt="Veritas data cabling installation"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
+  <Datacarousel />
 </MainLayout>

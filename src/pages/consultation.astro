@@ -2,12 +2,7 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import { Image } from "astro:assets";
 import consultationcover from "../assets/featured/consultation.jpg";
-import consultation1 from "../assets/install_pictures/consultation/alvaro-reyes-qWwpHwip31M-unsplash.jpg";
-import consultation2 from "../assets/install_pictures/consultation/charlesdeluvio-Lks7vei-eAg-unsplash.jpg";
-import consultation3 from "../assets/install_pictures/consultation/priscilla-du-preez-nNMBa7Y1Ymk-unsplash.jpg";
-import consultation4 from "../assets/install_pictures/consultation/sean-pollock-PhYq704ffdA-unsplash.jpg";
-import consultation5 from "../assets/install_pictures/consultation/benjamin-child-GWe0dlVD9e0-unsplash.jpg";
-import consultation6 from "../assets/install_pictures/consultation/headway-5QgIuuBxKwM-unsplash.jpg";
+import Consultationcarousel from "../components/consultationcarousel.astro";
 ---
 
 <MainLayout>
@@ -62,66 +57,5 @@ import consultation6 from "../assets/install_pictures/consultation/headway-5QgIu
       </div>
     </section>
   </div>
-  <div class="container mx-auto px-5 py-2 lg:px-32">
-    <div class="-m-1 flex flex-wrap md:-m-2">
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={consultation1}
-            widths={[240, 540, 720, consultation1.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${consultation1.width}px`}
-            alt="Veritas consultation in action"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={consultation2}
-            widths={[240, 540, 720, consultation2.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${consultation2.width}px`}
-            alt="Veritas consultation in action"
-          />
-        </div>
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, consultation3.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${consultation3.width}px`}
-            src={consultation3}
-            alt="Veritas consultation in action"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={consultation4}
-            widths={[240, 540, 720, consultation4.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${consultation4.width}px`}
-            alt="Veritas consultation in action"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={consultation5}
-            widths={[240, 540, 720, consultation5.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${consultation5.width}px`}
-            alt="Veritas consultation in action"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={consultation6}
-            widths={[240, 540, 720, consultation6.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${consultation6.width}px`}
-            alt="Veritas consultation in action"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
+  <Consultationcarousel />
 </MainLayout>

@@ -1,0 +1,106 @@
+---
+import Carousel from "./carousel.astro";
+import Photo from "./photo.astro";
+import type { ComponentProps } from "astro/types";
+import security1 from "../assets/install_pictures/security/1.jpg";
+import security2 from "../assets/install_pictures/security/2.jpg";
+import security3 from "../assets/install_pictures/security/3.jpg";
+import security4 from "../assets/install_pictures/security/4.jpg";
+import security5 from "../assets/install_pictures/security/5.jpg";
+import security6 from "../assets/install_pictures/security/6.jpg";
+import security7 from "../assets/install_pictures/security/7.jpg";
+import security8 from "../assets/install_pictures/security/8.jpg";
+import security9 from "../assets/install_pictures/security/9.jpg";
+
+const securityimages: ComponentProps<typeof Carousel>["images"] = [
+  {
+    src: security1,
+    alt: "Veritas security devices and cabling installation",
+    width: security1.width,
+    height: security1.height,
+    widths: [200, 675, 1350, security1.width],
+  },
+  {
+    src: security2,
+    alt: "Veritas security devices and cabling installation",
+    width: security2.width,
+    height: security2.height,
+    widths: [200, 675, 1350, security2.width],
+  },
+  {
+    src: security3,
+    alt: "Veritas security devices and cabling installation",
+    width: security3.width,
+    height: security3.height,
+    widths: [200, 675, 1350, security3.width],
+  },
+  {
+    src: security4,
+    alt: "Veritas security devices and cabling installation",
+    width: security4.width,
+    height: security4.height,
+    widths: [200, 675, 1350, security4.width],
+  },
+  {
+    src: security5,
+    alt: "Veritas security devices and cabling installation",
+    width: security5.width,
+    height: security5.height,
+    widths: [200, 675, 1350, security5.width],
+  },
+  {
+    src: security6,
+    alt: "Veritas security devices and cabling installation",
+    width: security6.width,
+    height: security6.height,
+    widths: [200, 675, 1350, security6.width],
+  },
+  {
+    src: security7,
+    alt: "Veritas security devices and cabling installation",
+    width: security7.width,
+    height: security7.height,
+    widths: [200, 675, 1350, security7.width],
+  },
+  {
+    src: security8,
+    alt: "Veritas security devices and cabling installation",
+    width: security8.width,
+    height: security8.height,
+    widths: [200, 675, 1350, security8.width],
+  },
+  {
+    src: security9,
+    alt: "Veritas security devices and cabling installation",
+    width: security9.width,
+    height: security9.height,
+    widths: [200, 675, 1350, security9.width],
+  },
+];
+---
+
+<Carousel images={securityimages} />
+<ul
+  class="grid sm:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-2 lg:gap-8 list-none m-3 lg:m-20"
+  id="carouselTargetList"
+>
+  {
+    securityimages.map((img, i) => {
+      return (
+        <li class="cursor-pointer">
+          <a
+            href={`?image=${i}`}
+            data-carousel-index={i}
+            class="block hover:-translate-y-2 transition-all"
+            data-astro-reload
+          >
+            <Photo
+              {...img}
+              class="object-contain object-center w-full min-h-full"
+            />
+          </a>
+        </li>
+      );
+    })
+  }
+</ul>

@@ -2,13 +2,7 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import { Image } from "astro:assets";
 import cctvcoverpicture from "../assets/featured/CCTV.jpg";
-import cctv1 from "../assets/install_pictures/cctv/1.jpg";
-import cctv2 from "../assets/install_pictures/cctv/2.jpg";
-import cctv3 from "../assets/install_pictures/cctv/3.jpg";
-import cctv4 from "../assets/install_pictures/cctv/4.jpg";
-import cctv5 from "../assets/install_pictures/cctv/5.jpg";
-import cctv6 from "../assets/install_pictures/cctv/6.jpg";
-import cctv7 from "../assets/install_pictures/cctv/7.jpg";
+import Cctvcarousel from "../components/cctvcarousel.astro";
 ---
 
 <MainLayout>
@@ -161,75 +155,5 @@ import cctv7 from "../assets/install_pictures/cctv/7.jpg";
       </div>
     </div>
   </div>
-  <div class="container mx-auto px-5 py-2 lg:px-32">
-    <div class="-m-1 flex flex-wrap md:-m-2">
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            src={cctv1}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, cctv1.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${cctv1.width}px`}
-            alt="Veritas cctv installation"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            src={cctv2}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, cctv2.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${cctv2.width}px`}
-            alt="Veritas cctv installation"
-          />
-        </div>
-        <div class="w-full p-1 md:p-2">
-          <Image
-            src={cctv3}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, cctv3.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${cctv3.width}px`}
-            alt="Veritas cctv installation"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            src={cctv4}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, cctv4.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${cctv4.width}px`}
-            alt="Veritas cctv installation"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            src={cctv5}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, cctv5.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${cctv5.width}px`}
-            alt="Veritas cctv installation"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            src={cctv6}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, cctv6.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${cctv6.width}px`}
-            alt="Veritas cctv installation"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            src={cctv7}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, cctv7.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${cctv7.width}px`}
-            alt="Veritas cctv installation"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
+  <Cctvcarousel />
 </MainLayout>

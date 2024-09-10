@@ -1,0 +1,82 @@
+---
+import Carousel from "./carousel.astro";
+import Photo from "./photo.astro";
+import type { ComponentProps } from "astro/types";
+import consultation1 from "../assets/install_pictures/consultation/alvaro-reyes-qWwpHwip31M-unsplash.jpg";
+import consultation2 from "../assets/install_pictures/consultation/charlesdeluvio-Lks7vei-eAg-unsplash.jpg";
+import consultation3 from "../assets/install_pictures/consultation/priscilla-du-preez-nNMBa7Y1Ymk-unsplash.jpg";
+import consultation4 from "../assets/install_pictures/consultation/sean-pollock-PhYq704ffdA-unsplash.jpg";
+import consultation5 from "../assets/install_pictures/consultation/benjamin-child-GWe0dlVD9e0-unsplash.jpg";
+import consultation6 from "../assets/install_pictures/consultation/headway-5QgIuuBxKwM-unsplash.jpg";
+
+const consultationimages: ComponentProps<typeof Carousel>["images"] = [
+  {
+    src: consultation1,
+    alt: "Veritas consultation in action",
+    width: consultation1.width,
+    height: consultation1.height,
+    widths: [200, 675, 1350, consultation1.width],
+  },
+  {
+    src: consultation2,
+    alt: "Veritas consultation in action",
+    width: consultation2.width,
+    height: consultation2.height,
+    widths: [200, 675, 1350, consultation2.width],
+  },
+  {
+    src: consultation3,
+    alt: "Veritas consultation in action",
+    width: consultation3.width,
+    height: consultation3.height,
+    widths: [200, 675, 1350, consultation3.width],
+  },
+  {
+    src: consultation4,
+    alt: "Veritas consultation in action",
+    width: consultation4.width,
+    height: consultation4.height,
+    widths: [200, 675, 1350, consultation4.width],
+  },
+  {
+    src: consultation5,
+    alt: "Veritas consultation in action",
+    width: consultation5.width,
+    height: consultation5.height,
+    widths: [200, 675, 1350, consultation5.width],
+  },
+  {
+    src: consultation6,
+    alt: "Veritas consultation in action",
+    width: consultation6.width,
+    height: consultation6.height,
+    widths: [200, 675, 1350, consultation6.width],
+  },
+];
+---
+
+<Carousel images={consultationimages} />
+<ul
+  class="grid sm:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-2 lg:gap-8 list-none m-3 lg:m-20"
+  id="carouselTargetList"
+>
+  {
+    consultationimages.map((img, i) => {
+      return (
+        <li class="cursor-pointer">
+          <a
+            href={`?image=${i}`}
+            data-carousel-index={i}
+            class="block hover:-translate-y-2 transition-all"
+            data-astro-reload
+          >
+            <Photo
+              {...img}
+              class="object-contain object-center w-full min-h-full"
+            />
+          </a>
+        </li>
+      );
+    })
+  }
+</ul>

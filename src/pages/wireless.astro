@@ -2,15 +2,7 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import { Image } from "astro:assets";
 import wirelesscover from "../assets/featured/Wireless.jpeg";
-import wireless1 from "../assets/install_pictures/wireless/1.png";
-import wireless2 from "../assets/install_pictures/wireless/2.jpg";
-import wireless3 from "../assets/install_pictures/wireless/3.jpg";
-import wireless4 from "../assets/install_pictures/wireless/4.jpg";
-import wireless5 from "../assets/install_pictures/wireless/5.jpg";
-import wireless6 from "../assets/install_pictures/wireless/6.jpg";
-import wireless7 from "../assets/install_pictures/wireless/7.jpg";
-import wireless8 from "../assets/install_pictures/wireless/8.jpg";
-import wireless9 from "../assets/install_pictures/wireless/9.jpg";
+import Wirelesscarousel from "../components/wirelesscarousel.astro";
 ---
 
 <MainLayout>
@@ -203,93 +195,5 @@ import wireless9 from "../assets/install_pictures/wireless/9.jpg";
       </div>
     </div>
   </div>
-  <div class="container mx-auto px-5 py-2 lg:px-32">
-    <div class="-m-1 flex flex-wrap md:-m-2">
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            src={wireless1}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, wireless1.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${wireless1.width}px`}
-            alt="Veritas wireless installation"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            src={wireless2}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, wireless2.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${wireless2.width}px`}
-            alt="Veritas wireless installation"
-          />
-        </div>
-        <div class="w-full p-1 md:p-2">
-          <Image
-            src={wireless3}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, wireless3.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${wireless3.width}px`}
-            alt="Veritas wireless installation"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            src={wireless4}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, wireless4.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${wireless4.width}px`}
-            alt="Veritas wireless installation"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            src={wireless5}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, wireless5.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${wireless5.width}px`}
-            alt="Veritas wireless installation"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            src={wireless6}
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            widths={[240, 540, 720, wireless6.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${wireless6.width}px`}
-            alt="Veritas wireless installation"
-          />
-        </div>
-      </div>
-      <div class="w-full p-1 md:p-2">
-        <Image
-          src={wireless7}
-          class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-          widths={[240, 540, 720, wireless7.width]}
-          sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${wireless7.width}px`}
-          alt="Veritas wireless installation"
-        />
-      </div>
-      <div class="w-1/2 p-1 md:p-2">
-        <Image
-          src={wireless8}
-          class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-          widths={[240, 540, 720, wireless8.width]}
-          sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${wireless8.width}px`}
-          alt="Veritas wireless installation"
-        />
-      </div>
-      <div class="w-1/2 p-1 md:p-2">
-        <Image
-          src={wireless9}
-          class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-          widths={[240, 540, 720, wireless9.width]}
-          sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${wireless9.width}px`}
-          alt="Veritas wireless installation"
-        />
-      </div>
-    </div>
-  </div>
+  <Wirelesscarousel />
 </MainLayout>

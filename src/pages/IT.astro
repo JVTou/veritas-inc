@@ -2,12 +2,7 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import { Image } from "astro:assets";
 import ITcover from "../assets/featured/IT.jpg";
-import IT1 from "../assets/install_pictures/IT/sammyayot254-knUZi7dzb58-unsplash.jpg";
-import IT2 from "../assets/install_pictures/IT/markus-spiske-70Rir5vB96U-unsplash.jpg";
-import IT3 from "../assets/install_pictures/IT/jainath-ponnala-9wWX_jwDHeM-unsplash.jpg";
-import IT4 from "../assets/install_pictures/IT/samuel-ramos-tYvZUVEve6s-unsplash.jpg";
-import IT5 from "../assets/install_pictures/IT/sammyayot254-vIQDv6tUHYk-unsplash.jpg";
-import IT6 from "../assets/install_pictures/IT/ilya-pavlov-OqtafYT5kTw-unsplash.jpg";
+import ITcarousel from "../components/ITcarousel.astro";
 ---
 
 <MainLayout>
@@ -62,66 +57,5 @@ import IT6 from "../assets/install_pictures/IT/ilya-pavlov-OqtafYT5kTw-unsplash.
       </div>
     </section>
   </div>
-  <div class="container mx-auto px-5 py-2 lg:px-32">
-    <div class="-m-1 flex flex-wrap md:-m-2">
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={IT1}
-            widths={[240, 540, 720, IT1.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${IT1.width}px`}
-            alt="Veritas IT project"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={IT2}
-            widths={[240, 540, 720, IT2.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${IT2.width}px`}
-            alt="Veritas IT project"
-          />
-        </div>
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={IT3}
-            widths={[240, 540, 720, IT3.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${IT3.width}px`}
-            alt="Veritas IT project"
-          />
-        </div>
-      </div>
-      <div class="flex w-1/2 flex-wrap">
-        <div class="w-full p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={IT4}
-            widths={[240, 540, 720, IT4.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${IT4.width}px`}
-            alt="Veritas IT project"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={IT5}
-            widths={[240, 540, 720, IT5.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${IT5.width}px`}
-            alt="Veritas IT project"
-          />
-        </div>
-        <div class="w-1/2 p-1 md:p-2">
-          <Image
-            class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-all"
-            src={IT6}
-            widths={[240, 540, 720, IT6.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${IT6.width}px`}
-            alt="Veritas IT project"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
+  <ITcarousel />
 </MainLayout>

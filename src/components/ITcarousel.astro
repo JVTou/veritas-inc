@@ -1,0 +1,82 @@
+---
+import Carousel from "./carousel.astro";
+import Photo from "./photo.astro";
+import type { ComponentProps } from "astro/types";
+import IT1 from "../assets/install_pictures/IT/sammyayot254-knUZi7dzb58-unsplash.jpg";
+import IT2 from "../assets/install_pictures/IT/markus-spiske-70Rir5vB96U-unsplash.jpg";
+import IT3 from "../assets/install_pictures/IT/jainath-ponnala-9wWX_jwDHeM-unsplash.jpg";
+import IT4 from "../assets/install_pictures/IT/samuel-ramos-tYvZUVEve6s-unsplash.jpg";
+import IT5 from "../assets/install_pictures/IT/sammyayot254-vIQDv6tUHYk-unsplash.jpg";
+import IT6 from "../assets/install_pictures/IT/ilya-pavlov-OqtafYT5kTw-unsplash.jpg";
+
+const ITimages: ComponentProps<typeof Carousel>["images"] = [
+  {
+    src: IT1,
+    alt: "Veritas IT cabling installation",
+    width: IT1.width,
+    height: IT1.height,
+    widths: [200, 675, 1350, IT1.width],
+  },
+  {
+    src: IT2,
+    alt: "Veritas IT cabling installation",
+    width: IT2.width,
+    height: IT2.height,
+    widths: [200, 675, 1350, IT2.width],
+  },
+  {
+    src: IT3,
+    alt: "Veritas IT cabling installation",
+    width: IT3.width,
+    height: IT3.height,
+    widths: [200, 675, 1350, IT3.width],
+  },
+  {
+    src: IT4,
+    alt: "Veritas IT cabling installation",
+    width: IT4.width,
+    height: IT4.height,
+    widths: [200, 675, 1350, IT4.width],
+  },
+  {
+    src: IT5,
+    alt: "Veritas IT cabling installation",
+    width: IT5.width,
+    height: IT5.height,
+    widths: [200, 675, 1350, IT5.width],
+  },
+  {
+    src: IT6,
+    alt: "Veritas IT cabling installation",
+    width: IT6.width,
+    height: IT6.height,
+    widths: [200, 675, 1350, IT6.width],
+  },
+];
+---
+
+<Carousel images={ITimages} />
+<ul
+  class="grid sm:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-2 lg:gap-8 list-none m-3 lg:m-20"
+  id="carouselTargetList"
+>
+  {
+    ITimages.map((img, i) => {
+      return (
+        <li class="cursor-pointer">
+          <a
+            href={`?image=${i}`}
+            data-carousel-index={i}
+            class="block hover:-translate-y-2 transition-all"
+            data-astro-reload
+          >
+            <Photo
+              {...img}
+              class="object-contain object-center w-full min-h-full"
+            />
+          </a>
+        </li>
+      );
+    })
+  }
+</ul>

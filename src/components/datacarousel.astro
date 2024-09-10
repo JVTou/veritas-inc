@@ -1,0 +1,74 @@
+---
+import Carousel from "./carousel.astro";
+import Photo from "./photo.astro";
+import type { ComponentProps } from "astro/types";
+import data1 from "../assets/install_pictures/data/data1.jpg";
+import data2 from "../assets/install_pictures/data/data2.jpg";
+import data3 from "../assets/install_pictures/data/data3.jpg";
+import data4 from "../assets/install_pictures/data/data4.jpg";
+import data5 from "../assets/install_pictures/data/data5.jpg";
+
+const dataimages: ComponentProps<typeof Carousel>["images"] = [
+  {
+    src: data1,
+    alt: "Veritas data cabling installation",
+    width: data1.width,
+    height: data1.height,
+    widths: [200, 675, 1350, data1.width],
+  },
+  {
+    src: data2,
+    alt: "Veritas data cabling installation",
+    width: data2.width,
+    height: data2.height,
+    widths: [200, 675, 1350, data2.width],
+  },
+  {
+    src: data3,
+    alt: "Veritas data cabling installation",
+    width: data3.width,
+    height: data3.height,
+    widths: [200, 675, 1350, data3.width],
+  },
+  {
+    src: data4,
+    alt: "Veritas data cabling installation",
+    width: data4.width,
+    height: data4.height,
+    widths: [200, 675, 1350, data4.width],
+  },
+  {
+    src: data5,
+    alt: "Veritas data cabling installation",
+    width: data5.width,
+    height: data5.height,
+    widths: [200, 675, 1350, data5.width],
+  },
+];
+---
+
+<ul
+  class="grid sm:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-2 lg:gap-8 list-none m-3 lg:m-20"
+  id="carouselTargetList"
+>
+  {
+    dataimages.map((img, i) => {
+      return (
+        <li class="cursor-pointer">
+          <a
+            href={`?image=${i}`}
+            data-carousel-index={i}
+            class="block hover:-translate-y-2 transition-all"
+            data-astro-reload
+          >
+            <Photo
+              {...img}
+              class="object-contain object-center w-full min-h-full"
+            />
+          </a>
+        </li>
+      );
+    })
+  }
+</ul>
+<Carousel images={dataimages} />
