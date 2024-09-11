@@ -1,2 +1,2 @@
-/data/*
+/protecteddata/*
   Basic-Auth: jerry:hairy berry:larry
