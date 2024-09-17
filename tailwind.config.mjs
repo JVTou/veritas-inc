@@ -17,7 +17,7 @@ module.exports = {
       "3xl": "1845px",
     },
     backgroundImage: {
-      graphics: "url('../src/assets/background/graphics.svg')",
+      graphics: "url('../graphics.svg')",
     },
   },
   plugins: [require("daisyui")],
@@ -26,7 +26,7 @@ module.exports = {
       {
         light: {
           ...require("daisyui/src/theming/themes")["business"],
-          accent: "#ffe989",
+          accent: "#f3bb1a",
         },
       },
     ],

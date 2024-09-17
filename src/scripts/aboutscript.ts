@@ -55,7 +55,6 @@ function loadMap() {
           window.innerWidth - (e.offsetX + toolTip.offsetWidth + 50)
         }px`;
 	}
-	console.log(window.innerWidth, e.offsetX, toolTip.offsetWidth, target.className);
 
 	// Tooltip data
       toolTip.innerHTML = `
