@@ -27,12 +27,14 @@ const {
         aria-label="Open/Close menu"
       />
       <div class="drawer-content bg-base-100">
-        <Header />
-        <div class="flex flex-col justify-between min-h-[90vh]">
-          <main>
-            <slot />
-          </main>
-          <Footer />
+        <div class="bg-auto bg-graphics lg:bg-cover absolute top-0">
+          <Header />
+          <div class="flex flex-col justify-between min-h-[90vh]">
+            <main>
+              <slot />
+            </main>
+            <Footer />
+          </div>
         </div>
       </div>
       {includeSidebar && <SideBar sideBarActiveItemID={sideBarActiveItemID} />}

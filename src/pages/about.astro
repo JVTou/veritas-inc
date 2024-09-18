@@ -10,21 +10,138 @@ import Contactform from "../components/contactform.astro";
   seoTitle="Veritas | Contact"
   seoDescription="Address, email, phone number and request form for prospective customers"
 >
-  <div class="bg-graphics bg-auto lg:bg-cover absolute top-0 h-full w-full">
+  <div
+    class="scroll-mt-32 max-w-2xl lg:max-w-4xl mx-auto text-center lg:w-5/6 py-16 px-4 sm:px-6 lg:py-12 lg:px-8 relative"
+    id="history"
+  >
+    <h2 class="text-3xl font-extrabold text-base-content">History</h2>
   </div>
+  <section class="sm:mx-16 lg:mx-64">
+    <ul
+      class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical"
+    >
+      <li>
+        <div class="timeline-middle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="h-5 w-5"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </div>
+        <div class="timeline-start mb-10 md:text-end">
+          <time class="font-mono italic">1980s</time>
+          <div class="text-lg font-black">Tom P. Tuttle</div>
+          <strong>Tom Tuttle</strong> began his career in telecommunications at Pac
+          Bell, gaining significant expertise in the field. His time there laid the
+          foundation for his later ventures and established him as a trusted industry
+          professional.
+        </div>
+        <hr />
+      </li>
+      <li>
+        <hr />
+        <div class="timeline-middle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="h-5 w-5"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </div>
+        <div class="timeline-end mb-10">
+          <time class="font-mono italic">1990s</time>
+          <div class="text-lg font-black">Tim C. Bowdish</div>
+          <strong>Tim Bowdish</strong> started at T&R Communications in the early
+          1990s, advancing from technician to Project Manager. His experience managing
+          telecom projects sharpened his leadership and technical skills.
+        </div>
+        <hr />
+      </li>
+      <li>
+        <hr />
+        <div class="timeline-middle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="h-5 w-5"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </div>
+        <div class="timeline-start mb-10 md:text-end">
+          <time class="font-mono italic">Early 2000s</time>
+          <div class="text-lg font-black">Foundation in telecommunications</div>
+          <ul>
+            <li>
+              <strong>Tom Tuttle</strong> founded T&R Communications and later joined
+              Netversant Solutions, contributing to its growth.
+            </li>
+            <br />
+            <li>
+              <strong>Tim Bowdish</strong> also rose through the ranks at Netversant,
+              becoming Director of Northern California and focusing on project success
+              and operational excellence.
+            </li>
+          </ul>
+        </div>
+        <hr />
+      </li>
+      <li>
+        <hr />
+        <div class="timeline-middle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="h-5 w-5"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </div>
+        <div class="timeline-end mb-10">
+          <time class="font-mono italic">2009</time>
+          <div class="text-lg font-black">Veritas Managed Solutions, inc.</div>
+          In 2009, <strong>Tom Tuttle</strong> and <strong>Tim Bowdish</strong> co-founded
+          Veritas Managed Solutions Inc., combining decades of industry experience.
+          <strong>Tom Tuttle</strong> managed the financial aspects, while <strong
+            >Tim Bowdish</strong
+          > focused on operations and growth, creating a company built on trust and
+          integrity.
+        </div>
+        <hr />
+      </li>
+    </ul>
+  </section>
   <section
     class="scroll-mt-16 h-fit my-3 w-full relative z-10"
     id="contactinfo"
   >
     <ContactInfo />
   </section>
-  <section
-    class="h-fit w-full overflow-hidden mx-auto relative z-10"
-    id="locations"
-  >
-    <Locations />
-  </section>
-  <section class="scroll-mt-16 w-full relative z-10" id="contactform">
+  <div id="locations" class="scroll-mt-36">
+    <section class="h-fit w-full overflow-hidden mx-auto relative z-10">
+      <Locations />
+    </section>
+  </div>
+  <section class="scroll-mt-20 w-full relative z-10" id="contactform">
     <Contactform />
   </section>
 </MainLayout>

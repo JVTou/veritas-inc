@@ -41,7 +41,7 @@ function loadMap() {
     var target = e.target;
 
     if (target.parentNode.className.baseVal == "state") {
-      target.style.opacity = 0.6;
+      target.style.filter = `brightness(50%)`;
       var details = e.target.attributes;
 
       // Follow cursor
@@ -71,7 +71,7 @@ function loadMap() {
   function mouseGone(e) {
     var target = e.target;
     if (target.parentNode.className.baseVal == "state") {
-      target.style.opacity = 1;
+      target.style.filter = `brightness(1)`;
       toolTip.innerHTML = "";
     }
   }
@@ -92,14 +92,14 @@ function stateDropdown() {
     const selectedState = map.querySelector("." + selectedStateID);
 
     // Reset style of previous selection
-    map.querySelector("." + previousState).style.opacity = 1;
+    map.querySelector("." + previousState).style.filter = `brightness(1)`;
 
     //Reset tooltip position
     toolTip.style.left = "8px";
     toolTip.style.top = "-64px";
 
     // Choose the element with the dropwdown selection's class and style it
-    selectedState.style.opacity = 0.4;
+    selectedState.style.filter = `brightness(50%)`;
 
     // Add data to toolTip
     const details = selectedState.attributes;

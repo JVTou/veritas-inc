@@ -3,6 +3,7 @@ document.addEventListener("astro:page-load", () => {
   });
   import { CountUp } from "countup.js";
 
+
   function Numbers() {
     const options = {
       suffix: "+",
