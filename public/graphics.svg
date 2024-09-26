@@ -1,1 +1,3725 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="uuid-c8a302f8-3032-45fc-9f3c-2627c4fd6535" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 630.08 1620"><defs><style>.uuid-72381ed5-fc3e-4a5a-bd4d-d75722b1a288{fill:url(#uuid-6302f43e-dcaf-4b0c-915f-3544b55059b5);}.uuid-52ad9140-44ac-42c3-9a71-6c1b12d68263{fill:url(#uuid-618b6f97-fca7-4102-b9d9-acb0cdab7f10);}.uuid-3d4c68d9-8f48-4d79-8b06-245ccd63a1b4{clip-path:url(#uuid-bf0cc441-d153-4f4b-8787-07a84aeb35f5);}.uuid-128d1c58-5b57-4da9-9ad8-9f6e0822147a{fill:url(#uuid-e0ceb36a-c5ea-49a2-90fb-3672c8558943);}.uuid-f207f04d-8ff8-4f6e-8e82-95e5a7f816b5{clip-path:url(#uuid-9cdb9e7d-b505-4f9f-af19-8c36ba0ae8d7);}.uuid-ec2bb287-2b9e-4147-a855-0452674c088f{fill:url(#uuid-551bdb1d-7bea-4507-8cc8-8dce6ab9c0ae);}.uuid-9babc231-97b7-4780-80a3-ee5f781813cb{fill:url(#uuid-1603df2f-65c1-4b06-9741-6101f1bc0920);}.uuid-9820e744-bddc-409f-962e-66371335e646{clip-path:url(#uuid-e376a3b2-2bd1-404d-a864-5fd3cf773434);}.uuid-ee9b6cad-dc0e-4185-a3ad-d499647c174b{clip-path:url(#uuid-418e1c7d-c358-45b7-8352-5c8864daf843);}.uuid-ed7785bb-df39-44d4-aee8-32275d16d489{clip-path:url(#uuid-ebd4b2fe-271e-48a2-babd-ee9a6d43b7e0);}.uuid-b7c4b0a4-c0ee-48c6-897e-a2439425aa84{clip-path:url(#uuid-be97a97e-15a0-4a45-a6ab-a964822fdb37);}.uuid-179828bd-7108-4122-b76e-1754ec45589b{fill:url(#uuid-c004b9a4-0c9a-47ba-a623-17dd8d4c540b);}.uuid-fc49dd15-3315-4f35-b33d-0cdfa1ffcfd2{fill:url(#uuid-9f81c806-fbaa-4052-b5b4-2487a2d79d8c);}.uuid-911cf2f8-28a1-46f1-b978-d1e6ab12238b{fill:url(#uuid-934aefa2-8ea6-4cdb-af70-2282a0821dd2);}.uuid-18ce3a69-0610-4724-a567-d0ac1503ccc8{fill:url(#uuid-95cf5bce-3178-491f-a0f0-d1b85e558a26);}.uuid-bcd7e2b0-4065-4014-81c1-b69938b8ee9d{clip-path:url(#uuid-3d41845b-dce1-46c2-92cb-6daa91215cbc);}.uuid-1f5b3e5d-63ff-4a91-ae76-22eb7b6780c6{clip-path:url(#uuid-1110492a-b07a-4636-992e-3793d30561eb);}.uuid-5192ab16-456f-4bb9-8bb9-2776f6daf12e{clip-path:url(#uuid-07a3bd0c-177c-4f81-807f-8e6bdf16f9f1);}.uuid-bb25c30e-835d-4023-82ea-53fbb5cf5f17{clip-path:url(#uuid-2cec9570-4cc3-49c4-b9c3-e954e2a75b4d);}.uuid-1aa35a48-d32a-499d-89be-97dfa1ba8390{fill:url(#uuid-41277b35-c8c9-421c-9911-3540f118edce);}.uuid-28714f5a-3a36-4d10-bf7a-7487ea74204d{fill:url(#uuid-b40a9b67-9ef8-4e67-b67e-86be5bf0012a);}.uuid-7268faa8-a316-455e-8af1-a98dbd6fbe06{clip-path:url(#uuid-c9d26448-78df-44f7-9fea-b2c811493382);}.uuid-421b67cc-5c8d-4090-a106-45367cb58539{fill:url(#uuid-5bb786e4-3db4-4a20-b283-fa84d82dcc0d);}.uuid-cd178c88-f023-48c1-aeb4-c071a5a571ef{fill:url(#uuid-3a270ada-129c-454d-af34-c0da7ce99f1d);}.uuid-694c7d20-2360-4041-9a13-d5c7fd1be9f9{clip-path:url(#uuid-01989ae1-c9e0-442e-8a74-23818eabab2a);}.uuid-236f3542-428d-40bc-ac89-afa14d4656ce{fill:url(#uuid-d0da8e65-f11e-4a1a-a6a1-abe1d13fb2ea);}.uuid-add357d2-8bde-4ca4-a105-bff76fa7b756{fill:url(#uuid-cb2025a2-bc20-4b5d-9254-d0e85b925254);}.uuid-b9250184-3c88-4b47-a6bc-41ad2dfb2b20{fill:url(#uuid-82a793c2-647f-4bcf-bc3a-eec401166691);}.uuid-a9406388-0cf8-4aea-87b2-a47d1dd5c23b{clip-path:url(#uuid-d35943b3-a293-4d79-af68-b92015a8dd6c);}.uuid-ed714e20-5fda-4b7c-af77-cdf6d5e158e9{fill:url(#uuid-30fd92d0-7cea-451f-8e5b-14a831702959);}.uuid-5df53ea4-8d49-439e-9e2c-009334af58a9{fill:url(#uuid-6c2ba74a-1f9c-40e1-a61d-baa08384bdeb);}.uuid-c2bb0f61-dba9-41cc-9021-85f5fe7962d2{clip-path:url(#uuid-6ff32d6c-2003-4de8-88d0-aad5f52b657a);}.uuid-4ef1bf9a-5eab-4773-bfa8-1999f71dd34e{fill:url(#uuid-59ac151b-8b04-43eb-b55d-b789df717daa);}.uuid-bca590dd-7233-4302-984e-8f24a2ea4a9e{fill:#054366;}.uuid-dbe326fa-b0b1-49dc-8774-6bb87f414428{fill:url(#uuid-e95ecad0-376f-47f1-916a-0d5d54132859);}.uuid-b9de1a94-3b4e-4538-8ac0-6e2a3c717e15{clip-path:url(#uuid-c85f2aa5-a299-4cbc-ab51-58e0ea885fa8);}.uuid-6165da61-607e-4f1f-a6f6-3bd180962dcf{clip-path:url(#uuid-48c02608-a5bc-4f79-89af-19b9082973af);}.uuid-909d5ea2-2a7b-4ce5-8435-ca5843745810{clip-path:url(#uuid-8e5c340f-f41a-4cc5-8acf-59118f44f66d);}.uuid-f0f5abe0-6490-4f17-beed-42777f515747{clip-path:url(#uuid-5c302a0b-84e8-44c7-b167-ebb2f84d1a10);}.uuid-fcd34c53-ba70-4ceb-812e-209d66638a29{clip-path:url(#uuid-57163ed6-4259-4e74-b1d4-b8be6589a0d9);}.uuid-afdc90c1-e6e9-4adb-bba9-e3503c4e60fa{clip-path:url(#uuid-ba853a14-eb38-4879-a5de-2025998a1101);}.uuid-a75c614d-9f6a-4e39-ada2-8787c3594d42{clip-path:url(#uuid-85db221e-20d4-46d4-94d2-290fa604216c);}.uuid-ca3174a1-008e-46c1-ae8c-662c7cb9bf0a{fill:url(#uuid-062e3139-718a-4045-8224-ef8c7b00ecf2);}.uuid-fdf9e25e-b300-4bc9-a055-e1e0635d8987{fill:#05515f;}.uuid-d19bd900-ba1c-4d88-82cb-f707a2e6d337{fill:#091314;}.uuid-c9f83a66-d9b5-4fa0-8ee0-7e924a369c82{clip-path:url(#uuid-c0ded8df-95c8-4c13-9f77-6827b465d140);}.uuid-dd0749bb-b3f8-4da4-9434-95d6449a98a7{fill:url(#uuid-c364935b-7410-4017-8d7c-4646f8561a4e);}.uuid-eb60e427-58a0-4614-8d6b-0fa57fd18b23{fill:url(#uuid-7cc35cb3-f99e-4763-87b0-71adb043cc41);}.uuid-688b793a-1c2f-45ee-8b86-f6257077bfc0{fill:url(#uuid-5758c2a9-3b13-4a07-843c-d1ef5d6b788b);}.uuid-c7c64d67-a3b8-4356-ab40-581e665691fe{fill:url(#uuid-fbf5f503-cb43-4509-827d-d9a876f4617d);}.uuid-44276549-c4ce-4dbd-8eac-679f0ffbd59c{fill:url(#uuid-9775cf21-13b9-422d-9be2-f5e5595dc86e);}.uuid-f90b1515-3560-4b7b-b66d-e816f4fae782{clip-path:url(#uuid-2dfe6e37-b68f-4ad7-a818-c4e9f9b2f02f);}.uuid-e22a5884-f7d8-4618-9cf9-539acb95b343{fill:url(#uuid-a8d570fd-f66a-4bc6-9920-86e4ea076553);}.uuid-202f5a60-8d9f-4713-a39d-d5dccbc26bcb{fill:url(#uuid-ec5e4394-dd8b-4df5-949a-d68a6304d423);}.uuid-18877b20-567c-4b2f-aacc-14e748b27dd2{clip-path:url(#uuid-601b2e66-c0e5-4a94-ad59-9621d11dd218);}.uuid-32f48d24-044e-4d74-a7e1-72eed01e2828{fill:url(#uuid-3c559afe-cb37-4135-866d-f387373bc259);}.uuid-0af6b6e5-d0b3-4d51-82bc-1b5e75e593cb{fill:url(#uuid-116ee871-76cb-496d-bd6e-642b0dc455fa);}.uuid-3b2a0b35-ce7a-426d-abc8-d00e82e8e525{clip-path:url(#uuid-6ce8a1bf-7d57-4d70-a3b4-7672d7ecaacc);}.uuid-55b8657d-828e-492f-91de-6f6d793ec8d5{clip-path:url(#uuid-2cc38b3c-4352-4bc6-b222-7d23077e221f);}.uuid-3cc5f035-6e20-4d45-805e-3dcb90c23969{fill:url(#uuid-5fe492df-1096-43ad-a76a-e1a534bdb105);}.uuid-005cc575-d544-4798-975e-2b005b425307{clip-path:url(#uuid-fce8e978-5666-454e-b617-bc945ca300f2);}.uuid-84d6b7ee-0976-4c69-a472-068ae043509c{fill:url(#uuid-679e4d2c-e07b-49a3-ac78-bf0178df739f);}.uuid-490692c6-3411-490a-b145-e62175d8b6c7{clip-path:url(#uuid-05b3a3f0-d338-4a14-ba10-8f1c143626ee);}.uuid-758fd8fa-649e-4308-a780-0497fed4c952{clip-path:url(#uuid-17828daa-4e79-4603-b0e4-502f2661a0cf);}.uuid-7783dd30-8116-46ba-88dc-f9fe6e33d62c{fill:url(#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7);}.uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89{fill:none;}.uuid-b63e36e7-69bf-473a-bea4-25aba58c118a{fill:url(#uuid-a8ffd42d-30ff-4b35-8744-8a45c3b19900);}.uuid-127a7851-93b3-495b-a55b-ebc4ce58cbdc{fill:url(#uuid-8712d226-c57e-4696-92cd-f8073ccad70e);}.uuid-249b832e-b5af-4791-9795-0cd24541618d{clip-path:url(#uuid-81e4c4cb-7df7-42a0-b4ad-65071ff57f2d);}.uuid-27f9ba4e-bf16-4c4d-8954-549c97cb49bd{clip-path:url(#uuid-18afbc47-dd27-401c-9119-521eccc894c0);}.uuid-b7a34444-ef47-402d-bdc6-dcbf5317e2b5{clip-path:url(#uuid-a7887f92-5c80-42cd-96b6-b71387984502);}.uuid-bee39a7d-0087-44a8-b17a-70f3230915a4{fill:url(#uuid-bd77e303-96e5-49c6-8034-8e4e57e03102);}.uuid-1796201b-fec1-4a04-8f70-43d5a72f7e5d{fill:url(#uuid-7270dfaa-de13-4bc1-a76a-1b0dc973ed5f);}.uuid-4dc194bf-1cec-4a13-b66f-08113ca202e1{clip-path:url(#uuid-e15198fc-a5b8-4c0b-9823-4bddba9a456b);}.uuid-cb878e04-d6d2-4b39-966d-832a5dc36492{fill:url(#uuid-fca56076-3e3e-4141-8a07-6710207e9dbb);}.uuid-1cfc9c49-83c2-48a7-8139-86ed8f0fd07f{fill:url(#uuid-b17e47a2-6dad-4bd9-9a7d-61ff5bf5b8c4);}.uuid-bf362891-f24c-419f-9931-ea6100c759a3{fill:url(#uuid-94840a17-3b74-4e3c-a4b0-a8cdca6268e8);}.uuid-7b3fe886-8999-4d9c-aa05-8f27b0d9bbc3{clip-path:url(#uuid-025d00de-bc6a-4dc3-bc24-3a8438cd3f78);}.uuid-9c4cc964-5c60-4a98-a470-615598eff047{clip-path:url(#uuid-b4797832-b908-4d4f-b692-a89307620894);}.uuid-e45008f3-f5e6-4443-8de5-5f56286679be{clip-path:url(#uuid-677c7e09-f188-4b3f-8d7d-1287b535d3ec);}.uuid-3c8fbacb-ab33-4014-9443-f96a6098eded{clip-path:url(#uuid-b579fa1f-3a94-4d22-b3b5-2d9483ca5dbc);}.uuid-ee747e57-9009-4afe-836e-fbe1f3f02e07{clip-path:url(#uuid-5afe2a7d-6466-4103-a32c-5794094fe8ac);}.uuid-c6552992-630d-4d2d-a881-269edcf5d257{clip-path:url(#uuid-0116d980-67ad-4b20-ac2f-3cc656bc1f66);}.uuid-17470826-8191-44ed-8fd8-9efb3da3743a{fill:url(#uuid-460d0ee0-cf09-45cf-8ccb-88ceeddc1846);}.uuid-26301201-d776-441e-9fac-9b0080013b6b{fill:url(#uuid-fabb60d9-1267-4dc3-82a5-000fa1477cef);}.uuid-c0230d0d-ee9d-4807-84e2-f856a1b950d2{clip-path:url(#uuid-98b3929d-eacf-409e-9292-9f5bd337bc12);}.uuid-be67fb0c-c628-498e-b93f-1c3b650163b6{fill:url(#uuid-3235a2fc-73bc-4f99-ae9f-b657fd4b0568);}.uuid-35a4a185-7224-4a2a-bb71-f731e4601e4f{clip-path:url(#uuid-7845c629-48f2-4daf-adab-89daa37dc065);}.uuid-cd6d087c-d007-4353-aa97-d54ffbe04d91{fill:url(#uuid-a4fccd87-0897-41df-a758-ee864264e194);}.uuid-b4d2eec2-5504-4737-aed9-7427d7bcb6a7{fill:url(#uuid-b2a6e23b-6024-482b-ae43-cd8f677adfa6);}.uuid-e9203f02-fa07-41cb-bf24-2c3e243c7f1e{fill:url(#uuid-b6b2d9a8-e0d8-4099-85a0-862e53e9fbbb);}.uuid-667a7471-33fb-4c65-846b-1001665d0106{clip-path:url(#uuid-42b15227-55c7-4918-8c3c-0ca105f16187);}.uuid-f11035c3-32f3-4f17-bd88-9458a532a0f5{fill:url(#uuid-2c4e8e13-1b30-40d6-82d0-01a9dd497e3c);}.uuid-0e3d8cce-def1-48a0-997a-f751981f15ed{clip-path:url(#uuid-0e14e2df-339a-48cf-9432-5594065e3a28);}.uuid-fee5a7c0-3a57-4123-81ba-7a7983573431{clip-path:url(#uuid-061ec783-9044-44ac-9917-138f9eb5b652);}.uuid-a6bb0cd4-96b1-4768-ae43-89d3e2f373e4{fill:url(#uuid-ec9fd3c5-cf0a-43b1-9a65-a080cd7739a4);}.uuid-bf7450fa-13d7-40f0-a002-d65eab1c799d{fill:url(#uuid-c0380920-64d6-41c3-b3e0-702453ec4cd9);}.uuid-5ec21bfe-0fda-4e47-a663-18c63d98481a{fill:url(#uuid-87e5eca6-2dcc-4b8a-9efd-92af28b8ad06);}.uuid-5cf87d5e-058b-47f5-b64b-6f4862e5b0a4{fill:url(#uuid-3dd931b8-e6d5-4055-8146-5cac557d4aa6);}.uuid-151a18b4-b73a-41e1-bf8a-ef1b255ad3e9{fill:url(#uuid-49bf0df1-8e2f-45b7-a0de-321acd974969);}.uuid-c6121d86-30d0-4b78-8c4d-fb8a4e83d118{clip-path:url(#uuid-2f9e750b-181c-42e8-973d-32681da98c2e);}.uuid-f737f78f-d46e-4b3b-8b7a-15e213a59f44{clip-path:url(#uuid-1752aacd-fcde-48bf-94bc-09794cfb0c46);}.uuid-a7d1bbef-a3c7-444f-912f-85c2f090565e{fill:url(#uuid-2c29410c-0a70-4c2d-a540-6729c3d448c8);}.uuid-f8b12503-ba5f-4f71-8e2a-3cc606d27f47{clip-path:url(#uuid-2268494e-785a-4d02-ab26-74a23590f78e);}.uuid-91d12695-989e-47e4-a20d-29eabecf7473{clip-path:url(#uuid-72fa94df-91e0-4e25-b65f-0b1153c82433);}.uuid-523c103b-1e43-4fdc-92a8-3c90322ddcef{fill:url(#uuid-27b19119-578a-497c-836d-01512673dede);}.uuid-dd250fa9-dff3-427f-83d4-f6bf31cb0187{clip-path:url(#uuid-5eac84a1-2167-4c8d-b33e-e08c64ea3399);}.uuid-c75af1f7-7553-492c-8d09-2b57f8cb3f60{fill:#0f4b66;}.uuid-5cd13b75-1805-41a8-ad86-5d36ae8f5ad9{fill:url(#uuid-5d6200ac-fc58-4853-ba7b-345a298354a8);}.uuid-d45607c3-30b7-452c-8c1e-dd012ed71a4f{clip-path:url(#uuid-6c6f4619-c089-4fda-861c-c60842b0f748);}.uuid-dc4aa14b-89fd-4973-b26e-d631b98bad79{clip-path:url(#uuid-342ebdca-f9b6-4a3a-a10b-00da6e16c231);}.uuid-cbb0d263-1319-4c06-873c-f495d526441e{fill:url(#uuid-a6d3478b-a148-45de-8fff-0903984dd134);}.uuid-c102de5c-bcab-4b9d-807d-d6b4a2d83d30{clip-path:url(#uuid-331ba350-37dc-4d2a-9316-3bdd0f51f120);}.uuid-6748f9ad-0ca4-4aff-9b88-3c253c1cef96{clip-path:url(#uuid-0b66ee92-4dc5-48ad-abd8-35fc27f5b4ba);}.uuid-f3a13a6f-5bc6-487a-8bef-5fccf1bf36e8{fill:url(#uuid-b586b1fb-f271-4c1d-9f04-f63ad8911a25);}.uuid-091a38ee-a43b-42c3-96a4-7c67f7bd9013{fill:url(#uuid-236074e4-a86c-46fa-bbed-784c04effd21);}.uuid-23b1afc5-96fd-486e-a1aa-cd8219bf915a{clip-path:url(#uuid-9afe9c8d-1b47-4b51-a215-5af761109d50);}.uuid-8c698266-4fe3-444e-b28c-48d425291570{clip-path:url(#uuid-76335120-3f79-4537-ac00-e80c148ae65a);}.uuid-ba546151-1346-42e0-a9d5-49b376011fb1{fill:url(#uuid-79fdf138-e463-4ed2-adea-01854680cb17);}.uuid-cb0cc96c-6d1d-4522-a780-e9103bea0326{fill:url(#uuid-174e8912-0f36-4f23-b339-ea59863c28ab);}.uuid-8dfa6d3a-1b72-44da-9058-c4c25ecf48f4{fill:url(#uuid-30706de0-e6f4-45ad-a001-ea53531491ef);}.uuid-7c7fb076-b440-4d6c-86b6-4b0711a78bb1{clip-path:url(#uuid-71b0833c-3c71-4692-a215-03959ea0b00c);}.uuid-3f6bceca-797a-49e1-b220-df47dfabff69{clip-path:url(#uuid-332fa964-76c2-4c3d-b262-e4af25a7743b);}.uuid-c1916588-636a-4cec-b8c7-320fce597188{fill:url(#uuid-a20b5d0d-b373-4302-8325-68633308347c);}.uuid-95b889d1-a8ce-45df-93f1-b39235a51c8a{fill:url(#uuid-09fa9000-919d-4d1d-ab73-e3b354147235);}.uuid-e3247b41-5440-45db-85fa-0832cd47a90c{fill:url(#uuid-133c1b4e-38a7-4c2a-9189-71845eba8935);}.uuid-67afe27c-6499-4113-9811-53a4f211b781{clip-path:url(#uuid-915fb508-3ec7-4d8e-9617-da8544c745c1);}.uuid-5056d3f1-6294-4164-a01c-7a4a105c781d{clip-path:url(#uuid-c3f968cb-906c-403b-9528-fc59b4329a31);}.uuid-ec07a8e5-a389-4e86-b2e1-770d08ba0f84{clip-path:url(#uuid-98e2bd1d-d128-459d-bb67-344be514d2c1);}.uuid-4dff02a4-74f9-460a-ab60-479a4d841b31{fill:url(#uuid-29e5e009-ef5e-42cf-9e9f-1fe098889c68);}.uuid-27212a5d-b792-4542-99b5-c76768cd2bc0{clip-path:url(#uuid-273a1b74-b20d-40b9-8264-47e33be720d0);}.uuid-02ab046d-4fab-4952-babc-7e15a46cc905{clip-path:url(#uuid-f61abc0e-c6f9-407e-b8fd-a64808fe8fb2);}.uuid-725dd896-44a7-4ffe-a325-e4581e7449e9{clip-path:url(#uuid-c1688415-2af6-40fc-a672-bd5837b85aa0);}.uuid-fb43f18d-1432-4a7a-a4e9-a788158c4d41{fill:url(#uuid-05f234dc-6b6c-4e92-9222-de94658c1d98);}.uuid-6746bbcb-037e-427c-b739-e9c41444d35b{clip-path:url(#uuid-122c79f9-bae8-4d03-bc30-183274ce90de);}.uuid-ce1ce4dc-fd8f-4618-a82a-235c5fca6daa{clip-path:url(#uuid-83c6ba18-782d-4e66-8392-06c2225ea6bb);}.uuid-0a12a244-94b1-41b1-a8ad-665cce5e7a9a{fill:url(#uuid-78142305-e93f-4625-a4f6-fabdf930b6d6);}.uuid-e4ca3975-94b0-469a-942e-578016229662{clip-path:url(#uuid-54b0d234-e7a0-444a-8eb8-50eb9597cbb5);}.uuid-ea5c2dff-176e-4444-9595-00191bc87578{fill:url(#uuid-ad20a2cd-13e2-494f-a5b8-dd1f0f5d24dc);}.uuid-28c593ce-4769-45d8-96a8-90e845d1d240{fill:#081111;}.uuid-40da8506-3e73-4214-a736-dacf19b5ace3{fill:url(#uuid-68a58596-5a30-46fd-ba97-67b60b8ce7dd);}.uuid-7181f6d6-3da3-4445-a7c6-298208b88964{fill:url(#uuid-c2ea9add-83bb-4181-bb1f-039568f0f9b3);}.uuid-018b6432-06d7-4455-9eaf-2d2aecd21e1d{clip-path:url(#uuid-6e2e6654-fae5-4f9c-9d93-4d4cc8cabe4c);}.uuid-fdd01790-ea03-488a-9a05-519182c6fbd6{clip-path:url(#uuid-f873bde5-224b-46eb-817a-d72d90cef10b);}.uuid-5bf2d7fa-def0-46f1-b49b-07cbb3a51267{fill:url(#uuid-31586c8f-8d47-4bde-95a2-1ab5f2c5c478);}.uuid-e829f643-ad9b-4e7d-b91c-d29258f027ca{fill:url(#uuid-1f0fc3e2-e8fa-40f4-9e90-1f7d9d06713d);}.uuid-166d26ae-8863-424b-85db-f9bc6c104856{clip-path:url(#uuid-30ccd3b3-f533-4156-8285-e0c45adf6984);}.uuid-c7d75433-f958-48e2-90b4-e56e6b4169e1{clip-path:url(#uuid-432d4239-92a1-41b5-87ea-9892e1b7e8ba);}.uuid-dd28594f-37b6-48ea-a62a-754e567d58cc{clip-path:url(#uuid-12cbf2b1-8ab6-4ff5-ad85-26326fec0431);}.uuid-25b0b1f5-729e-4b40-aa23-803ba1a772e0{fill:url(#uuid-48810896-0d8a-4f7e-b4a3-dd5ee5e62730);}.uuid-fa09e0b7-ad9d-44fe-a03c-b57039b41ca7{fill:url(#uuid-ede28d64-0667-4f82-a3cf-3cb4c0b2e718);}.uuid-698e89fa-e541-4b6d-90d6-4fbb9c4c0efe{clip-path:url(#uuid-7545b679-fd78-4b35-9666-a04ed76d89de);}.uuid-9841df0d-2e3d-435b-bfa0-431d38bf284d{clip-path:url(#uuid-e3c27e9a-a093-47b7-a335-14dbfc8fe166);}.uuid-234351c5-7371-4b23-9b6a-801542a0fcda{fill:url(#uuid-13a1770f-4777-4599-abdd-bfdc6734d5dc);}.uuid-e6e0cd7c-40be-4494-b59a-f1501b63ed55{clip-path:url(#uuid-91a9329f-9c52-4c18-9c21-b0538ed548f5);}.uuid-241f3177-7d9c-4aa7-a2d7-e6d222ded5ff{fill:url(#uuid-3a9213da-5e09-49e8-94ac-80ee8821b011);}.uuid-0ee91b7a-1005-42fd-91b1-8cf9497806d3{fill:url(#uuid-1422fd96-8ea8-4982-b3dd-e0a37c1acb8c);}.uuid-2131494c-359e-4d1a-ba16-8c6d23e61a53{fill:url(#uuid-34bae970-0d00-4fdd-8dac-b8772f65bf84);}.uuid-195cbefe-b7ea-4684-b709-04fcb4a28359{clip-path:url(#uuid-3b8c95a1-c3d3-4144-b253-37f5c447d91a);}.uuid-06438fcb-8c8b-4998-8451-cc95076636cf{clip-path:url(#uuid-88554282-bc26-4a9d-9be2-729627859ae9);}.uuid-1327cf03-fc2d-4976-ba37-9868f750f519{clip-path:url(#uuid-897261c9-2d53-41cc-96a1-e37bcc5eae63);}.uuid-260591c0-8065-46d9-8fb8-5670241a34b7{fill:url(#uuid-274a5c07-7fe8-4a58-963f-c9904c81aed6);}.uuid-79bd1d4a-5d47-4c30-a4ff-a4f7a63d04e0{fill:url(#uuid-492a1fe1-971f-490f-ae39-57db57e5279b);}.uuid-2333cf0d-458a-4d55-b184-f3c03e23b3ea{fill:url(#uuid-e94fbd00-91ea-482e-b69c-e559a21392c7);}.uuid-0e6ae5be-5c5e-4d57-8c4e-fc758c65de5b{clip-path:url(#uuid-204f4d2b-70da-4c3f-a748-dad6dff83ed9);}.uuid-2ce89f85-02e6-40c0-ab62-d2df10d5d9e3{clip-path:url(#uuid-0b4fc1eb-38a3-451a-8f41-a8626c9d8277);}.uuid-ecde9fcf-3ff2-4fed-b09a-0cf86fc2700a{fill:url(#uuid-72abd76d-0770-47ae-b73e-d4aad6b1c854);}.uuid-49e41b3d-50b3-443c-b4a1-86f966acf99f{clip-path:url(#uuid-01cd961d-0ab6-4e55-b914-86623c55e163);}.uuid-95d47711-0efd-48e3-bd64-025f4f01a7ff{fill:url(#uuid-cea63684-e6b6-44ff-9c83-290e0b3d0d9d);}.uuid-8cb988ea-ac03-416b-980e-d9c8abcfa4f1{clip-path:url(#uuid-739f3294-01bf-4dd7-bfdc-b7c4a40bb843);}.uuid-84726499-4b9d-4575-8410-a84151a119e2{clip-path:url(#uuid-3df5da7e-7472-4263-9a29-2e9ffc3ea1f4);}.uuid-ec0d7a08-5a5f-4dd0-909c-e29f626e0bf5{clip-path:url(#uuid-1618eacc-6cdf-46e2-994a-f8b2143cd12f);}.uuid-6f99327d-6c5a-43ab-a15e-f05faae9d353{fill:url(#uuid-d28c6999-78fb-4635-bdbf-648a64c5faa8);}.uuid-85ff55dc-0801-4bb1-adb0-4768141cc50c{clip-path:url(#uuid-557cb560-13a8-471a-b0c0-66d49171b57d);}.uuid-f3d7f193-6495-4269-bd80-f4c0974d2983{clip-path:url(#uuid-e088ec11-02a5-4515-b3e2-8e9380a7bf40);}.uuid-70fac08a-e4ae-465f-92fd-0331e9b8c4bc{clip-path:url(#uuid-f1f8de4f-9c96-4632-9eba-9e7908a1d2e1);}.uuid-a7a78d34-0d09-4429-8b15-afc4f5f7b2c4{fill:url(#uuid-b82405b3-8de3-4c7a-8964-711aa2fedfed);}.uuid-b3267fab-3f23-45e0-9e32-049914eb7354{fill:url(#uuid-7c916715-b981-4ca4-8a2e-e60c415dacb8);}.uuid-3ccefc87-9583-47d9-aa08-66a3903d61ab{clip-path:url(#uuid-9e12502a-e997-4604-9950-7a3306a184e8);}.uuid-1caebb0e-d66c-4235-83e1-c9a0800d1767{fill:url(#uuid-6f6c48e1-75cd-40d5-b2be-4b1bb3a62f23);}.uuid-dea96ec0-ad5b-40ad-9966-cb13094820b8{fill:url(#uuid-178e7ed3-9bc4-457d-9db3-bdb8729c3a3e);}.uuid-dc816ad8-f0c7-4ef1-8325-968357fb898b{fill:url(#uuid-b6683b95-8e4f-4df4-bf79-f37cf70ca1b9);}.uuid-0bb69554-6dac-43a9-80bc-4a5a07b841bc{fill:url(#uuid-f7f00c3a-5097-4dc6-9551-bdb2bbf27778);}.uuid-2b3edd67-c4a3-41c5-9503-45c019bbbf13{fill:url(#uuid-fc739d8e-72c9-418f-a777-2add62845d16);}.uuid-ca726686-4149-4939-97c4-3c0044c028cf{fill:url(#uuid-a8a4dd53-6783-49c9-8f5e-2e17a0507c8e);}.uuid-d867f08d-9d1e-42f3-8b28-a26d4a21cd35{clip-path:url(#uuid-0bcba5d7-f71b-48d0-943a-ffaf48c420b2);}.uuid-64022857-3e4f-4ed5-9ee7-021ec326aaa3{fill:url(#uuid-6062b422-5745-46cf-ba0c-b03bce4f6cec);}.uuid-8649382f-8e97-4975-8c85-76941e14a6b9{clip-path:url(#uuid-3ad9b26b-f759-4cdf-882b-37dd2fe0f03b);}.uuid-efce005f-9291-407a-9392-3f6b8bd00a65{fill:url(#uuid-a51096ef-a5cd-4ca4-a389-0d10edcc5695);}.uuid-1c89bec0-5d31-4796-b214-6d0d9229750b{clip-path:url(#uuid-d5e9334b-a9b5-40de-aed0-2e921bc7b3b2);}.uuid-cfdffe0c-9784-40b3-8823-0e504b7ff0ae{clip-path:url(#uuid-1b455197-9e0d-4f78-b950-479cfa374af2);}.uuid-676dffd6-f02a-40dc-9197-7c6e4909ec0c{fill:url(#uuid-dbe4c18f-c1c5-432d-a818-a20146c01400);}.uuid-49e65661-5842-4016-92d1-7a9d01b3d9f3{clip-path:url(#uuid-3f758fdf-ed3c-4f32-811f-074635cf55b4);}.uuid-421ebb13-a99d-478d-9645-d2f1d82916a8{fill:url(#uuid-b1287f93-c3b8-4c11-b6b7-a56b930eb8e4);}.uuid-a716a52e-7abb-48d8-9bea-c1920349cbfd{clip-path:url(#uuid-41ff25a1-77dd-4335-80e1-8d58223afa4d);}.uuid-b55f471f-c71b-482c-b001-288fc675e4c6{clip-path:url(#uuid-c37d4170-b009-4e53-b4df-ac31865e665b);}.uuid-1bf76ae4-12dc-4d87-b754-c7e25cf023f3{clip-path:url(#uuid-11f37ed7-2357-41e6-8b69-a2e4c7fc83d2);}.uuid-373e8db7-2cf8-4401-9e81-c97a71aa7f35{clip-path:url(#uuid-6ce0a061-a766-4737-a376-ead828a620dd);}.uuid-b4db3e50-b3cb-4291-b932-d0b806a2fa05{fill:url(#uuid-9da87620-db0e-42cc-93e2-bfb805f2f4dd);}.uuid-d6dfa873-f641-4322-9eb6-bd64b2373792{fill:url(#uuid-400596a8-ea54-4b25-850b-611eec026d48);}.uuid-b81e6907-7c3f-457b-9ab3-4d45ce6de926{fill:url(#uuid-375bcd26-71d6-4e38-a8af-9a984d587700);}.uuid-f3f3c793-b38b-4cb9-9dfa-71c3bc2f2b0f{fill:url(#uuid-17c0099f-ca00-4ff2-877b-f1c2fcbdee21);}.uuid-45eae716-ff0f-4000-a44e-8709d427b71a{clip-path:url(#uuid-75a3e0c7-6623-4e0a-820d-b81e9ff2c4d9);}.uuid-061b976e-bb41-4187-a108-87516d7f0b9c{fill:url(#uuid-a6cfac6f-8840-480f-8d11-d48f288e5495);}.uuid-5565c331-2b97-4859-a705-97eceeab20fd{clip-path:url(#uuid-fd1a15f0-5442-430f-b061-312e03611b02);}.uuid-c66e2edd-e9f6-40ba-93b6-cbb4a3d89521{clip-path:url(#uuid-9005529d-4e02-4970-9c60-3ca0118c9882);}.uuid-184bad06-5592-4633-a35f-ba0d1bc28d57{clip-path:url(#uuid-13a2afc7-5b0c-416a-8e80-0c5d544f1fc9);}.uuid-c17a6929-da18-4d43-9cc8-1cabd61876b0{fill:url(#uuid-a89f503d-7c18-42ea-8e38-37e1c442689a);}.uuid-36d71879-2825-4f4c-a8b2-2d02fdb563e0{clip-path:url(#uuid-4c381f07-2741-4a05-a0e1-e3f7a7ad1771);}.uuid-f4e0c94c-f990-4977-ab9f-ec96d84b198b{clip-path:url(#uuid-29759e2e-fd5b-4b41-97d6-93fb5405f7fb);}.uuid-1e1ecbdf-c83f-4969-96e7-29ee4e926527{clip-path:url(#uuid-60d26c56-4046-43b6-b701-8a8a8ed4f897);}.uuid-0ef70aee-21ba-4fcf-a40d-6fa097cbe529{clip-path:url(#uuid-e5b9b4fb-dc70-409b-bcdd-efab2f043390);}.uuid-73959b48-d20d-46fc-8987-386b0bb3dfc3{clip-path:url(#uuid-f3eab8ce-f32b-441f-8af9-93341a4e6006);}.uuid-23d06b01-39a5-4c29-ad32-e6afb94c8a8c{clip-path:url(#uuid-23cd9f73-0926-4fc7-923a-b4d3780514a1);}.uuid-28b4f034-6105-4cd6-991c-acc2842febc6{fill:url(#uuid-a5fa7791-fde3-4475-8d43-ac57d3eaaa35);}.uuid-b6b030a9-e3c3-43ed-84ca-68d00aba50fc{fill:url(#uuid-b4aed0f8-3857-4487-9149-d983bb50e09a);}.uuid-2380af4c-b2af-4a45-afb5-b74090fff365{fill:url(#uuid-056d5a49-5429-40b5-adb9-35c20381ad34);}.uuid-061313ca-4ee9-4b5e-bfa9-577a7e7b4743{fill:url(#uuid-a0013a37-5bc8-45f8-9c51-a125ceffcc1f);}.uuid-e9fbe35f-6549-41e8-b121-cece264a83e7{clip-path:url(#uuid-6f4e0fa6-934f-4795-ac02-5b92f0c47b89);}.uuid-4da08b40-db8c-42b2-a3f2-bc3c3e30deeb{clip-path:url(#uuid-93e4cf13-9d82-4b00-9c76-02aaa9db6f0b);}.uuid-df4c6b55-f576-4950-954a-fb7103d8142b{fill:url(#uuid-1022bc88-5986-4e98-925b-2936cff46f4b);}.uuid-912c411a-142d-4b5e-989c-04e5f6c55210{clip-path:url(#uuid-c40181b3-10cc-4ac8-9411-42f5573d3505);}.uuid-c3b17006-796c-4633-9414-bc953d6dcc0d{clip-path:url(#uuid-674e1f06-d5f7-41ee-8c76-009ac322bceb);}.uuid-7b51e9a1-c883-42d0-9249-4b2a043f3706{fill:url(#uuid-7199130a-c2f9-498e-a4c8-e4201f37a98e);}.uuid-15996d96-1c5e-4fc8-8561-da625692e4e7{fill:#01465d;}.uuid-d238a321-f0da-4389-bb67-6435add0e135{clip-path:url(#uuid-153c380d-7e8f-47d0-a14c-cbcf95e556bb);}</style><clipPath id="uuid-b579fa1f-3a94-4d22-b3b5-2d9483ca5dbc"><rect class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" x="0" y="16.63" width="630.08" height="1586.66"/></clipPath><clipPath id="uuid-72fa94df-91e0-4e25-b65f-0b1153c82433"><rect class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" y="0" width="630.08" height="810"/></clipPath><clipPath id="uuid-e3c27e9a-a093-47b7-a335-14dbfc8fe166"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="568.3 140.58 630.08 190.06 630.08 105.98 568.3 140.58"/></clipPath><linearGradient id="uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7" x1="5.67" y1="-55.52" x2="6.67" y2="-55.52" gradientTransform="translate(-5631.29 832.63) rotate(-90) scale(112.22 -112.22)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#061d26"/><stop offset=".16" stop-color="#061d26"/><stop offset=".38" stop-color="#05212c"/><stop offset=".66" stop-color="#042e3d"/><stop offset=".99" stop-color="#024359"/><stop offset="1" stop-color="#02445a"/></linearGradient><clipPath id="uuid-57163ed6-4259-4e74-b1d4-b8be6589a0d9"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.49 445.35 346.33 517.5 403.42 362.16 251.49 445.35"/></clipPath><linearGradient id="uuid-a8a4dd53-6783-49c9-8f5e-2e17a0507c8e" x1="13.3" y1="-61.51" x2="14.3" y2="-61.51" gradientTransform="translate(-1768.56 -8905.68) scale(151.94 -151.94)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#015d72"/><stop offset=".27" stop-color="#015d72"/><stop offset=".84" stop-color="#044d67"/><stop offset="1" stop-color="#044d67"/></linearGradient><clipPath id="uuid-c40181b3-10cc-4ac8-9411-42f5573d3505"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="457.98 319.58 630.08 440.77 630.08 411.17 568.3 140.58 457.98 319.58"/></clipPath><linearGradient id="uuid-49bf0df1-8e2f-45b7-a0de-321acd974969" x1="13.31" y1="-60.6" x2="14.31" y2="-60.6" gradientTransform="translate(-1939.74 -10626.95) scale(180.16 -180.16)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#044d67"/><stop offset=".26" stop-color="#044d67"/><stop offset=".75" stop-color="#043a4c"/><stop offset="1" stop-color="#043a4c"/></linearGradient><clipPath id="uuid-4c381f07-2741-4a05-a0e1-e3f7a7ad1771"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="403.42 512.42 457.98 319.58 575.97 532.72 403.42 512.42"/></clipPath><linearGradient id="uuid-27b19119-578a-497c-836d-01512673dede" x1="13.31" y1="-60.83" x2="14.31" y2="-60.83" gradientTransform="translate(-1892.42 -10069.47) scale(172.55 -172.55)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#02586f"/><stop offset=".06" stop-color="#02586f"/><stop offset=".36" stop-color="#035369"/><stop offset=".76" stop-color="#084558"/><stop offset=".77" stop-color="#094558"/><stop offset="1" stop-color="#094558"/></linearGradient><clipPath id="uuid-11f37ed7-2357-41e6-8b69-a2e4c7fc83d2"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="575.97 532.72 630.08 469.77 630.08 440.77 457.98 319.58 575.97 532.72"/></clipPath><linearGradient id="uuid-1422fd96-8ea8-4982-b3dd-e0a37c1acb8c" x1="16.43" y1="-57.73" x2="17.43" y2="-57.73" gradientTransform="translate(14605.87 -3712.25) rotate(90) scale(243.58 -243.58)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#186c8d"/><stop offset=".25" stop-color="#186c8d"/><stop offset=".94" stop-color="#043a4c"/><stop offset="1" stop-color="#043a4c"/></linearGradient><clipPath id="uuid-273a1b74-b20d-40b9-8264-47e33be720d0"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="630.08 411.17 630.08 190.06 568.3 140.58 630.08 411.17"/></clipPath><linearGradient id="uuid-7270dfaa-de13-4bc1-a76a-1b0dc973ed5f" x1="16.15" y1="-57.52" x2="17.15" y2="-57.52" gradientTransform="translate(16042.27 -4192.75) rotate(90) scale(268.46 -268.46)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0e1012"/><stop offset=".16" stop-color="#0e1012"/><stop offset="1" stop-color="#043a4c"/><stop offset="1" stop-color="#043a4c"/></linearGradient><clipPath id="uuid-3d41845b-dce1-46c2-92cb-6daa91215cbc"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="457.98 319.58 403.42 362.16 403.42 512.42 457.98 319.58"/></clipPath><linearGradient id="uuid-174e8912-0f36-4f23-b339-ea59863c28ab" x1="13.14" y1="-71.68" x2="14.14" y2="-71.68" gradientTransform="translate(-313.32 -3494.53) scale(54.55 -54.55)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#043d50"/><stop offset=".37" stop-color="#043d50"/><stop offset="1" stop-color="#0c2c40"/><stop offset="1" stop-color="#0c2c40"/></linearGradient><clipPath id="uuid-9e12502a-e997-4604-9950-7a3306a184e8"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.49 445.35 359.79 341.16 403.42 362.16 251.49 445.35"/></clipPath><linearGradient id="uuid-9da87620-db0e-42cc-93e2-bfb805f2f4dd" x1="13.3" y1="-61.51" x2="14.3" y2="-61.51" gradientTransform="translate(-1768.56 -8952.25) scale(151.94 -151.94)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#094558"/><stop offset=".16" stop-color="#094558"/><stop offset="1" stop-color="#043a4c"/><stop offset="1" stop-color="#043a4c"/></linearGradient><clipPath id="uuid-b4797832-b908-4d4f-b692-a89307620894"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 344.61 101.44 629.14 101.51 493.67 0 317.41 0 344.61"/></clipPath><linearGradient id="uuid-cea63684-e6b6-44ff-9c83-290e0b3d0d9d" x1="13.28" y1="-62.8" x2="14.28" y2="-62.8" gradientTransform="translate(-1711.25 -7500.45) scale(126.96 -126.96)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1585bf"/><stop offset=".09" stop-color="#1585bf"/><stop offset=".25" stop-color="#137db3"/><stop offset=".54" stop-color="#106a94"/><stop offset=".93" stop-color="#0a4b62"/><stop offset="1" stop-color="#094558"/></linearGradient><clipPath id="uuid-e088ec11-02a5-4515-b3e2-8e9380a7bf40"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.55 445.35 346.4 517.5 403.49 362.16 251.55 445.35"/></clipPath><linearGradient id="uuid-8712d226-c57e-4696-92cd-f8073ccad70e" x1="13.3" x2="14.3" gradientTransform="translate(-1768.5 -8905.68) scale(151.94 -151.94)" xlink:href="#uuid-a8a4dd53-6783-49c9-8f5e-2e17a0507c8e"/><clipPath id="uuid-0b66ee92-4dc5-48ad-abd8-35fc27f5b4ba"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="458.05 319.58 630.08 440.73 630.08 410.88 568.37 140.58 458.05 319.58"/></clipPath><linearGradient id="uuid-492a1fe1-971f-490f-ae39-57db57e5279b" x1="13.31" y1="-60.6" x2="14.31" y2="-60.6" gradientTransform="translate(-1939.68 -10626.95) scale(180.16 -180.16)" xlink:href="#uuid-49bf0df1-8e2f-45b7-a0de-321acd974969"/><clipPath id="uuid-0116d980-67ad-4b20-ac2f-3cc656bc1f66"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="403.49 512.42 458.05 319.58 576.04 532.72 403.49 512.42"/></clipPath><linearGradient id="uuid-b586b1fb-f271-4c1d-9f04-f63ad8911a25" x1="13.31" x2="14.31" gradientTransform="translate(-1892.36 -10069.47) scale(172.55 -172.55)" xlink:href="#uuid-27b19119-578a-497c-836d-01512673dede"/><clipPath id="uuid-c1688415-2af6-40fc-a672-bd5837b85aa0"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="576.04 532.72 576.04 681.16 630.08 489.24 630.08 469.85 576.04 532.72"/></clipPath><linearGradient id="uuid-c364935b-7410-4017-8d7c-4646f8561a4e" x1="8.74" y1="-53" x2="9.74" y2="-53" gradientTransform="translate(-7881.64 2053.01) rotate(-90) scale(160.1 -160.1)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#02435f"/><stop offset=".64" stop-color="#11607f"/><stop offset="1" stop-color="#186c8d"/></linearGradient><clipPath id="uuid-42b15227-55c7-4918-8c3c-0ca105f16187"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="576.04 532.72 403.49 640.56 576.04 681.16 576.04 532.72"/></clipPath><linearGradient id="uuid-400596a8-ea54-4b25-850b-611eec026d48" x1="7.55" y1="-55.72" x2="8.55" y2="-55.72" gradientTransform="translate(-7781.32 1801.97) rotate(-90) scale(148.44 -148.44)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-3f758fdf-ed3c-4f32-811f-074635cf55b4"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="576.04 532.72 403.49 512.42 403.49 640.56 576.04 532.72"/></clipPath><linearGradient id="uuid-1f0fc3e2-e8fa-40f4-9e90-1f7d9d06713d" x1="20.08" y1="-59.77" x2="21.08" y2="-59.77" gradientTransform="translate(7122.61 -1750.44) rotate(90) scale(110.97 -110.97)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#03384a"/><stop offset=".19" stop-color="#03384a"/><stop offset=".87" stop-color="#094558"/><stop offset="1" stop-color="#094558"/></linearGradient><clipPath id="uuid-05b3a3f0-d338-4a14-ba10-8f1c143626ee"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="576.04 532.72 630.08 469.85 630.08 440.73 458.05 319.58 576.04 532.72"/></clipPath><linearGradient id="uuid-5bb786e4-3db4-4a20-b283-fa84d82dcc0d" x1="16.43" y1="-57.73" x2="17.43" y2="-57.73" gradientTransform="translate(14605.93 -3712.24) rotate(90) scale(243.58 -243.58)" xlink:href="#uuid-1422fd96-8ea8-4982-b3dd-e0a37c1acb8c"/><clipPath id="uuid-342ebdca-f9b6-4a3a-a10b-00da6e16c231"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="630.08 410.88 630.08 190.01 568.37 140.58 630.08 410.88"/></clipPath><linearGradient id="uuid-236074e4-a86c-46fa-bbed-784c04effd21" x1="16.15" y1="-57.52" x2="17.15" y2="-57.52" gradientTransform="translate(16042.26 -4192.75) rotate(90) scale(268.46 -268.46)" xlink:href="#uuid-7270dfaa-de13-4bc1-a76a-1b0dc973ed5f"/><clipPath id="uuid-e15198fc-a5b8-4c0b-9823-4bddba9a456b"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="568.37 140.58 458.05 319.58 469.98 185.05 568.37 140.58"/></clipPath><linearGradient id="uuid-cb2025a2-bc20-4b5d-9254-d0e85b925254" x1="9.78" y1="-57.95" x2="10.78" y2="-57.95" gradientTransform="translate(-1648.25 -11949.76) scale(210.18 -210.18)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1585bf"/><stop offset=".46" stop-color="#1585bf"/><stop offset=".55" stop-color="#11709d"/><stop offset=".71" stop-color="#0b516b"/><stop offset=".79" stop-color="#094558"/><stop offset="1" stop-color="#094558"/></linearGradient><clipPath id="uuid-061ec783-9044-44ac-9917-138f9eb5b652"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="469.98 185.05 422.2 281.18 458.05 319.58 469.98 185.05"/></clipPath><linearGradient id="uuid-87e5eca6-2dcc-4b8a-9efd-92af28b8ad06" x1="13.1" y1="-73.93" x2="14.1" y2="-73.93" gradientTransform="translate(-203.83 -3279.97) scale(47.78 -47.78)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#086181"/><stop offset=".75" stop-color="#086181"/><stop offset=".84" stop-color="#0d6484"/><stop offset=".93" stop-color="#186c8d"/><stop offset="1" stop-color="#186c8d"/></linearGradient><clipPath id="uuid-c3f968cb-906c-403b-9528-fc59b4329a31"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="458.05 319.58 403.49 362.16 403.49 512.42 458.05 319.58"/></clipPath><linearGradient id="uuid-375bcd26-71d6-4e38-a8af-9a984d587700" x1="13.14" x2="14.14" gradientTransform="translate(-313.25 -3494.53) scale(54.55 -54.55)" xlink:href="#uuid-174e8912-0f36-4f23-b339-ea59863c28ab"/><clipPath id="uuid-1618eacc-6cdf-46e2-994a-f8b2143cd12f"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="576.04 681.16 630.08 793.33 630.08 489.24 576.04 681.16"/></clipPath><linearGradient id="uuid-056d5a49-5429-40b5-adb9-35c20381ad34" x1="10.94" y1="-57.07" x2="11.94" y2="-57.07" gradientTransform="translate(-2917.92 -17021.31) scale(309.51 -309.51)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#022640"/><stop offset=".15" stop-color="#022640"/><stop offset=".68" stop-color="#04455c"/><stop offset="1" stop-color="#055369"/></linearGradient><clipPath id="uuid-122c79f9-bae8-4d03-bc30-183274ce90de"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="346.4 517.5 403.49 640.56 403.49 512.42 346.4 517.5"/></clipPath><linearGradient id="uuid-b40a9b67-9ef8-4e67-b67e-86be5bf0012a" x1="18.88" y1="-59.28" x2="19.88" y2="-59.28" gradientTransform="translate(8385.47 -2040.4) rotate(90) scale(135.12 -135.12)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1585bf"/><stop offset=".46" stop-color="#1585bf"/><stop offset=".56" stop-color="#137db3"/><stop offset=".73" stop-color="#106a94"/><stop offset=".96" stop-color="#0a4b62"/><stop offset="1" stop-color="#094558"/></linearGradient><clipPath id="uuid-5afe2a7d-6466-4103-a32c-5794094fe8ac"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.55 445.35 359.86 341.16 403.49 362.16 251.55 445.35"/></clipPath><linearGradient id="uuid-f7f00c3a-5097-4dc6-9551-bdb2bbf27778" x1="13.3" x2="14.3" gradientTransform="translate(-1768.5 -8952.25) scale(151.94 -151.94)" xlink:href="#uuid-9da87620-db0e-42cc-93e2-bfb805f2f4dd"/><clipPath id="uuid-41ff25a1-77dd-4335-80e1-8d58223afa4d"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.55 445.35 205.57 693.85 188.74 505.77 251.55 445.35"/></clipPath><linearGradient id="uuid-e94fbd00-91ea-482e-b69c-e559a21392c7" x1="13.17" y1="-69.59" x2="14.17" y2="-69.59" gradientTransform="translate(-638.54 -3801.9) scale(62.81 -62.81)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#06384a"/><stop offset=".44" stop-color="#06384a"/><stop offset="1" stop-color="#044d67"/></linearGradient><clipPath id="uuid-c37d4170-b009-4e53-b4df-ac31865e665b"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="245.1 810 456.29 810 403.49 640.56 245.1 810"/></clipPath><linearGradient id="uuid-9f81c806-fbaa-4052-b5b4-2487a2d79d8c" x1="8.44" y1="-55.74" x2="9.44" y2="-55.74" gradientTransform="translate(-9409.11 2293.02) rotate(-90) scale(175.08 -175.08)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#055369"/><stop offset=".37" stop-color="#055369"/><stop offset=".51" stop-color="#07566d"/><stop offset=".67" stop-color="#0e5f7b"/><stop offset=".8" stop-color="#186c8d"/><stop offset="1" stop-color="#186c8d"/></linearGradient><clipPath id="uuid-23cd9f73-0926-4fc7-923a-b4d3780514a1"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="456.29 810 463 810 576.04 681.16 403.49 640.56 456.29 810"/></clipPath><linearGradient id="uuid-a5fa7791-fde3-4475-8d43-ac57d3eaaa35" x1="9.23" y1="-53.26" x2="10.23" y2="-53.26" gradientTransform="translate(-9038.34 2438.88) rotate(-90) scale(178.9 -178.9)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#052335"/><stop offset=".09" stop-color="#052335"/><stop offset=".91" stop-color="#055369"/><stop offset="1" stop-color="#055369"/></linearGradient><clipPath id="uuid-c85f2aa5-a299-4cbc-ab51-58e0ea885fa8"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="403.49 640.56 346.4 517.5 274.75 778.29 403.49 640.56"/></clipPath><linearGradient id="uuid-1603df2f-65c1-4b06-9741-6101f1bc0920" x1="13.28" y1="-62.54" x2="14.28" y2="-62.54" gradientTransform="translate(-1434.89 -7403.15) scale(128.74 -128.74)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#055369"/><stop offset=".37" stop-color="#055369"/><stop offset=".84" stop-color="#02445a"/><stop offset="1" stop-color="#02445a"/></linearGradient><clipPath id="uuid-677c7e09-f188-4b3f-8d7d-1287b535d3ec"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.55 445.35 205.57 693.85 346.4 517.5 251.55 445.35"/></clipPath><linearGradient id="uuid-6c2ba74a-1f9c-40e1-a61d-baa08384bdeb" x1="16.87" y1="-55.86" x2="17.87" y2="-55.86" gradientTransform="translate(14158.14 -3746.2) rotate(90) scale(248.5 -248.5)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#156888"/><stop offset=".24" stop-color="#156888"/><stop offset=".56" stop-color="#136585"/><stop offset=".75" stop-color="#0d5d7d"/><stop offset=".91" stop-color="#024e70"/><stop offset=".94" stop-color="#004b6d"/><stop offset="1" stop-color="#004b6d"/></linearGradient><clipPath id="uuid-2cc38b3c-4352-4bc6-b222-7d23077e221f"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="346.4 517.5 205.57 693.85 257.05 797.22 274.75 778.29 346.4 517.5"/></clipPath><linearGradient id="uuid-ec9fd3c5-cf0a-43b1-9a65-a080cd7739a4" x1="16.48" y1="-55.86" x2="17.48" y2="-55.86" gradientTransform="translate(15900.63 -4091.9) rotate(90) scale(279.72 -279.72)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#156888"/><stop offset=".43" stop-color="#156888"/><stop offset=".65" stop-color="#0f6081"/><stop offset=".98" stop-color="#004c6e"/><stop offset="1" stop-color="#004b6d"/></linearGradient><clipPath id="uuid-6ce0a061-a766-4737-a376-ead828a620dd"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="188.74 505.77 101.51 589.69 101.51 629.14 205.57 693.85 188.74 505.77"/></clipPath><linearGradient id="uuid-5758c2a9-3b13-4a07-843c-d1ef5d6b788b" x1="8.78" y1="-55.74" x2="9.78" y2="-55.74" gradientTransform="translate(-10329.45 2345.07) rotate(-90) scale(188.07 -188.07)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#044d67"/><stop offset=".28" stop-color="#044d67"/><stop offset=".72" stop-color="#025c7a"/><stop offset="1" stop-color="#025c7a"/></linearGradient><clipPath id="uuid-48c02608-a5bc-4f79-89af-19b9082973af"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points=".9 686.47 .9 805.85 101.51 629.14 90.99 599.81 .9 686.47"/></clipPath><linearGradient id="uuid-7199130a-c2f9-498e-a4c8-e4201f37a98e" x1="6.33" y1="-43.18" x2="7.33" y2="-43.18" gradientTransform="translate(-2526.28 1088.32) rotate(-90) scale(59.69 -59.69)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#111920"/><stop offset=".42" stop-color="#0f1f2a"/><stop offset="1" stop-color="#0c2c40"/></linearGradient><clipPath id="uuid-0bcba5d7-f71b-48d0-943a-ffaf48c420b2"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points=".9 805.85 205.57 693.85 101.51 629.14 .9 805.85"/></clipPath><linearGradient id="uuid-a89f503d-7c18-42ea-8e38-37e1c442689a" x1="13.32" y1="-60.04" x2="14.32" y2="-60.04" gradientTransform="translate(-2724.85 -11570.89) scale(204.67 -204.67)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#111920"/><stop offset=".28" stop-color="#0f212a"/><stop offset=".76" stop-color="#0b3747"/><stop offset="1" stop-color="#094558"/></linearGradient><clipPath id="uuid-0b4fc1eb-38a3-451a-8f41-a8626c9d8277"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points=".9 805.85 0 806.38 0 810 245.1 810 257.05 797.22 205.57 693.85 .9 805.85"/></clipPath><linearGradient id="uuid-178e7ed3-9bc4-457d-9db3-bdb8729c3a3e" x1="6.27" y1="-55.75" x2="7.27" y2="-55.75" gradientTransform="translate(-6662.08 1579.88) rotate(-90) scale(121.8 -121.8)" xlink:href="#uuid-7199130a-c2f9-498e-a4c8-e4201f37a98e"/><clipPath id="uuid-01989ae1-c9e0-442e-8a74-23818eabab2a"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="568.3 140.58 630.08 105.98 630.08 2.01 568.3 140.58"/></clipPath><linearGradient id="uuid-b17e47a2-6dad-4bd9-9a7d-61ff5bf5b8c4" x1="7.22" y1="-55.58" x2="8.22" y2="-55.58" gradientTransform="translate(-7213.72 1156.16) rotate(-90) scale(140.58 -140.58)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-9005529d-4e02-4970-9c60-3ca0118c9882"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="190.93 319.58 359.79 341.16 251.49 445.35 190.93 319.58"/></clipPath><linearGradient id="uuid-a8ffd42d-30ff-4b35-8744-8a45c3b19900" x1="13.3" y1="-60.94" x2="14.3" y2="-60.94" gradientTransform="translate(-2055.55 -9907.3) scale(168.86 -168.86)" xlink:href="#uuid-9f81c806-fbaa-4052-b5b4-2487a2d79d8c"/><clipPath id="uuid-60d26c56-4046-43b6-b701-8a8a8ed4f897"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="277.12 202.18 190.93 319.58 359.79 341.16 277.12 202.18"/></clipPath><linearGradient id="uuid-59ac151b-8b04-43eb-b55d-b789df717daa" x1="13.3" y1="-60.94" x2="14.3" y2="-60.94" gradientTransform="translate(-2055.55 -10018.09) scale(168.86 -168.86)" xlink:href="#uuid-cea63684-e6b6-44ff-9c83-290e0b3d0d9d"/><clipPath id="uuid-1b455197-9e0d-4f78-b950-479cfa374af2"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 317.41 101.51 493.67 190.93 319.58 0 278.67 0 317.41"/></clipPath><linearGradient id="uuid-29e5e009-ef5e-42cf-9e9f-1fe098889c68" x1="13.32" y1="-59.82" x2="14.32" y2="-59.82" gradientTransform="translate(-2908.06 -12559.05) scale(216.39 -216.39)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-6ff32d6c-2003-4de8-88d0-aad5f52b657a"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 278.67 190.93 319.58 0 171.77 0 278.67"/></clipPath><linearGradient id="uuid-fabb60d9-1267-4dc3-82a5-000fa1477cef" x1="13.44" y1="-52" x2="14.44" y2="-52" gradientTransform="translate(3298.98 12269.42) rotate(-180) scale(231.23 -231.23)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#02586f"/><stop offset=".06" stop-color="#02586f"/><stop offset=".33" stop-color="#035369"/><stop offset=".68" stop-color="#084558"/><stop offset=".69" stop-color="#094558"/><stop offset="1" stop-color="#094558"/></linearGradient><clipPath id="uuid-897261c9-2d53-41cc-96a1-e37bcc5eae63"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="510.9 0 469.98 185.05 630.08 1.03 630.08 0 510.9 0"/></clipPath><linearGradient id="uuid-13a1770f-4777-4599-abdd-bfdc6734d5dc" x1="13.3" y1="-61.19" x2="14.3" y2="-61.19" gradientTransform="translate(-1671.27 -9758.42) scale(160.99 -160.99)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-0e14e2df-339a-48cf-9432-5594065e3a28"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="359.79 341.16 422.2 281.18 277.12 202.18 359.79 341.16"/></clipPath><linearGradient id="uuid-5fe492df-1096-43ad-a76a-e1a534bdb105" x1="13.29" y1="-61.78" x2="14.29" y2="-61.78" gradientTransform="translate(-1651.16 -8691.17) scale(145.08 -145.08)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#111920"/><stop offset=".24" stop-color="#0f212a"/><stop offset=".64" stop-color="#0b3747"/><stop offset=".85" stop-color="#094558"/><stop offset="1" stop-color="#094558"/></linearGradient><clipPath id="uuid-17828daa-4e79-4603-b0e4-502f2661a0cf"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="403.42 .11 469.98 185.05 510.9 0 403.42 .11"/></clipPath><linearGradient id="uuid-94840a17-3b74-4e3c-a4b0-a8cdca6268e8" x1="13.26" y1="-63.87" x2="14.26" y2="-63.87" gradientTransform="translate(-1021.53 -6771.35) scale(107.47 -107.47)" xlink:href="#uuid-174e8912-0f36-4f23-b339-ea59863c28ab"/><clipPath id="uuid-3df5da7e-7472-4263-9a29-2e9ffc3ea1f4"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="315.98 68.96 469.98 185.05 277.12 202.18 315.98 68.96"/></clipPath><linearGradient id="uuid-a6cfac6f-8840-480f-8d11-d48f288e5495" x1="11.18" y1="-52.06" x2="12.18" y2="-52.06" gradientTransform="translate(-9591.42 2384.29) rotate(-90) scale(191.42 -191.42)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0e1012"/><stop offset=".16" stop-color="#0e1012"/><stop offset=".79" stop-color="#043a4c"/><stop offset="1" stop-color="#043a4c"/></linearGradient><clipPath id="uuid-98e2bd1d-d128-459d-bb67-344be514d2c1"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="277.12 202.18 145.06 16.89 134.55 153.17 277.12 202.18"/></clipPath><linearGradient id="uuid-ede28d64-0667-4f82-a3cf-3cb4c0b2e718" x1="7.25" y1="-59.19" x2="8.25" y2="-59.19" gradientTransform="translate(-760.99 -7187.51) scale(123.28 -123.28)" xlink:href="#uuid-a89f503d-7c18-42ea-8e38-37e1c442689a"/><clipPath id="uuid-d35943b3-a293-4d79-af68-b92015a8dd6c"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 171.77 190.93 319.58 134.55 153.17 0 143.48 0 171.77"/></clipPath><linearGradient id="uuid-ec5e4394-dd8b-4df5-949a-d68a6304d423" x1="13.33" y1="-59.56" x2="14.33" y2="-59.56" gradientTransform="translate(-3121.57 -13540.88) scale(231.23 -231.23)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#156888"/><stop offset=".24" stop-color="#156888"/><stop offset=".57" stop-color="#0e5e7f"/><stop offset="1" stop-color="#004b6d"/></linearGradient><clipPath id="uuid-13a2afc7-5b0c-416a-8e80-0c5d544f1fc9"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 0 0 143.48 134.55 153.17 9.71 0 0 0"/></clipPath><linearGradient id="uuid-fca56076-3e3e-4141-8a07-6710207e9dbb" x1="13.31" y1="-60.81" x2="14.31" y2="-60.81" gradientTransform="translate(-2366.92 -10555.73) scale(174.85 -174.85)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-f873bde5-224b-46eb-817a-d72d90cef10b"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 673.33 .84 686.47 90.99 599.81 0 344.61 0 673.33"/></clipPath><linearGradient id="uuid-7c916715-b981-4ca4-8a2e-e60c415dacb8" x1="11.19" y1="-57.18" x2="12.19" y2="-57.18" gradientTransform="translate(-3982.18 -19196.57) scale(344.74 -344.74)" xlink:href="#uuid-a89f503d-7c18-42ea-8e38-37e1c442689a"/><clipPath id="uuid-75a3e0c7-6623-4e0a-820d-b81e9ff2c4d9"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="190.93 319.58 101.51 493.67 188.67 505.77 190.93 319.58"/></clipPath><linearGradient id="uuid-30fd92d0-7cea-451f-8e5b-14a831702959" x1="13.23" y1="-65.49" x2="14.23" y2="-65.49" gradientTransform="translate(-1081.92 -5443.99) scale(89.43 -89.43)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1585bf"/><stop offset=".09" stop-color="#1585bf"/><stop offset=".1" stop-color="#1483bc"/><stop offset=".38" stop-color="#0f6891"/><stop offset=".64" stop-color="#0c5571"/><stop offset=".85" stop-color="#09495e"/><stop offset="1" stop-color="#094558"/></linearGradient><clipPath id="uuid-be97a97e-15a0-4a45-a6ab-a964822fdb37"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="145.06 16.89 315.98 68.96 277.12 202.18 145.06 16.89"/></clipPath><linearGradient id="uuid-a0013a37-5bc8-45f8-9c51-a125ceffcc1f" x1="13.3" y1="-60.88" x2="14.3" y2="-60.88" gradientTransform="translate(-2129 -10295.24) scale(170.92 -170.92)" xlink:href="#uuid-ec5e4394-dd8b-4df5-949a-d68a6304d423"/><clipPath id="uuid-98b3929d-eacf-409e-9292-9f5bd337bc12"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="145.06 16.89 315.98 68.96 403.42 .11 145.06 16.89"/></clipPath><linearGradient id="uuid-09fa9000-919d-4d1d-ab73-e3b354147235" x1="13.44" y1="-52.46" x2="14.44" y2="-52.46" gradientTransform="translate(3874.6 13588.2) rotate(-180) scale(258.37 -258.37)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-025d00de-bc6a-4dc3-bc24-3a8438cd3f78"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="9.71 0 134.55 153.17 145.06 16.89 139.77 0 9.71 0"/></clipPath><linearGradient id="uuid-c2ea9add-83bb-4181-bb1f-039568f0f9b3" x1="13.47" y1="-49.94" x2="14.47" y2="-49.94" gradientTransform="translate(2151.79 7515) rotate(-180) scale(148.94 -148.94)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#061d26"/><stop offset=".16" stop-color="#061d26"/><stop offset=".41" stop-color="#042835"/><stop offset=".86" stop-color="#02445a"/><stop offset="1" stop-color="#02445a"/></linearGradient><clipPath id="uuid-91a9329f-9c52-4c18-9c21-b0538ed548f5"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="134.55 153.17 190.93 319.58 277.12 202.18 134.55 153.17"/></clipPath><linearGradient id="uuid-a20b5d0d-b373-4302-8325-68633308347c" x1="9.06" y1="-60.21" x2="10.06" y2="-60.21" gradientTransform="translate(-1168.42 -8430.94) scale(143.95 -143.95)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#111920"/><stop offset=".22" stop-color="#0d2a36"/><stop offset=".51" stop-color="#0a3d4e"/><stop offset=".69" stop-color="#094558"/><stop offset="1" stop-color="#094558"/></linearGradient><clipPath id="uuid-5c302a0b-84e8-44c7-b167-ebb2f84d1a10"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="188.67 505.77 101.51 493.67 101.51 589.69 188.67 505.77"/></clipPath><linearGradient id="uuid-17c0099f-ca00-4ff2-877b-f1c2fcbdee21" x1="13.23" y1="-65.74" x2="14.23" y2="-65.74" gradientTransform="translate(-1051.63 -5188.69) scale(87.16 -87.16)" xlink:href="#uuid-cea63684-e6b6-44ff-9c83-290e0b3d0d9d"/><clipPath id="uuid-5eac84a1-2167-4c8d-b33e-e08c64ea3399"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="277.12 202.18 469.98 185.05 422.2 281.18 277.12 202.18"/></clipPath><linearGradient id="uuid-b1287f93-c3b8-4c11-b6b7-a56b930eb8e4" x1="13.31" y1="-60.3" x2="14.31" y2="-60.3" gradientTransform="translate(-2290.58 -11396.19) scale(192.86 -192.86)" xlink:href="#uuid-cea63684-e6b6-44ff-9c83-290e0b3d0d9d"/><clipPath id="uuid-83c6ba18-782d-4e66-8392-06c2225ea6bb"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="188.67 505.77 190.93 319.58 251.49 445.35 188.67 505.77"/></clipPath><linearGradient id="uuid-6f6c48e1-75cd-40d5-b2be-4b1bb3a62f23" x1="13.17" y1="-69.59" x2="14.17" y2="-69.59" gradientTransform="translate(-638.61 -3958.82) scale(62.81 -62.81)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#086181"/><stop offset=".09" stop-color="#086181"/><stop offset=".52" stop-color="#0d6484"/><stop offset=".93" stop-color="#186c8d"/><stop offset="1" stop-color="#186c8d"/></linearGradient><clipPath id="uuid-9afe9c8d-1b47-4b51-a215-5af761109d50"><rect class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" y="810" width="630.08" height="810"/></clipPath><clipPath id="uuid-2268494e-785a-4d02-ab26-74a23590f78e"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="568.3 1479.42 630.08 1429.94 630.08 1514.02 568.3 1479.42"/></clipPath><linearGradient id="uuid-133c1b4e-38a7-4c2a-9189-71845eba8935" x1="13.38" y1="-55.64" x2="14.38" y2="-55.64" gradientTransform="translate(-5644.67 -78.44) rotate(90) scale(112.22)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-93e4cf13-9d82-4b00-9c76-02aaa9db6f0b"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.49 1174.65 346.33 1102.5 403.42 1257.84 251.49 1174.65"/></clipPath><linearGradient id="uuid-a6d3478b-a148-45de-8fff-0903984dd134" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1781.95 9659.87) scale(151.94)" xlink:href="#uuid-a8a4dd53-6783-49c9-8f5e-2e17a0507c8e"/><clipPath id="uuid-739f3294-01bf-4dd7-bfdc-b7c4a40bb843"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="457.98 1300.42 630.08 1179.23 630.08 1208.83 568.3 1479.42 457.98 1300.42"/></clipPath><linearGradient id="uuid-31586c8f-8d47-4bde-95a2-1ab5f2c5c478" x1="13.38" y1="-55.79" x2="14.38" y2="-55.79" gradientTransform="translate(-1953.13 11381.14) scale(180.16)" xlink:href="#uuid-49bf0df1-8e2f-45b7-a0de-321acd974969"/><clipPath id="uuid-432d4239-92a1-41b5-87ea-9892e1b7e8ba"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="403.42 1107.58 457.98 1300.42 575.97 1087.28 403.42 1107.58"/></clipPath><linearGradient id="uuid-b6b2d9a8-e0d8-4099-85a0-862e53e9fbbb" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1905.8 10823.66) scale(172.55)" xlink:href="#uuid-27b19119-578a-497c-836d-01512673dede"/><clipPath id="uuid-ebd4b2fe-271e-48a2-babd-ee9a6d43b7e0"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="575.97 1087.28 630.08 1150.23 630.08 1179.23 457.98 1300.42 575.97 1087.28"/></clipPath><linearGradient id="uuid-79fdf138-e463-4ed2-adea-01854680cb17" x1="13.38" y1="-55.9" x2="14.38" y2="-55.9" gradientTransform="translate(-2851.25 14811.19) scale(243.58)" xlink:href="#uuid-1422fd96-8ea8-4982-b3dd-e0a37c1acb8c"/><clipPath id="uuid-332fa964-76c2-4c3d-b262-e4af25a7743b"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="630.08 1208.83 630.08 1429.94 568.3 1479.42 630.08 1208.83"/></clipPath><linearGradient id="uuid-b6683b95-8e4f-4df4-bf79-f37cf70ca1b9" x1="13.38" y1="-55.87" x2="14.38" y2="-55.87" gradientTransform="translate(-3126.3 16342.71) scale(268.46)" xlink:href="#uuid-7270dfaa-de13-4bc1-a76a-1b0dc973ed5f"/><clipPath id="uuid-8e5c340f-f41a-4cc5-8acf-59118f44f66d"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="457.98 1300.42 403.42 1257.84 403.42 1107.58 457.98 1300.42"/></clipPath><linearGradient id="uuid-7cc35cb3-f99e-4763-87b0-71adb043cc41" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-326.7 4248.72) scale(54.55)" xlink:href="#uuid-174e8912-0f36-4f23-b339-ea59863c28ab"/><clipPath id="uuid-71b0833c-3c71-4692-a215-03959ea0b00c"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.49 1174.65 359.79 1278.84 403.42 1257.84 251.49 1174.65"/></clipPath><linearGradient id="uuid-fc739d8e-72c9-418f-a777-2add62845d16" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1781.95 9706.44) scale(151.94)" xlink:href="#uuid-9da87620-db0e-42cc-93e2-bfb805f2f4dd"/><clipPath id="uuid-1752aacd-fcde-48bf-94bc-09794cfb0c46"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 1275.39 101.44 990.86 101.51 1126.33 0 1302.59 0 1275.39"/></clipPath><linearGradient id="uuid-274a5c07-7fe8-4a58-963f-c9904c81aed6" x1="13.38" y1="-55.98" x2="14.38" y2="-55.98" gradientTransform="translate(-1724.63 8254.64) scale(126.96)" xlink:href="#uuid-cea63684-e6b6-44ff-9c83-290e0b3d0d9d"/><clipPath id="uuid-7845c629-48f2-4daf-adab-89daa37dc065"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.55 1174.65 346.4 1102.5 403.49 1257.84 251.55 1174.65"/></clipPath><linearGradient id="uuid-2c29410c-0a70-4c2d-a540-6729c3d448c8" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1781.88 9659.87) scale(151.94)" xlink:href="#uuid-a8a4dd53-6783-49c9-8f5e-2e17a0507c8e"/><clipPath id="uuid-12cbf2b1-8ab6-4ff5-ad85-26326fec0431"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="458.05 1300.42 630.08 1179.27 630.08 1209.12 568.37 1479.42 458.05 1300.42"/></clipPath><linearGradient id="uuid-a8d570fd-f66a-4bc6-9920-86e4ea076553" x1="13.38" y1="-55.79" x2="14.38" y2="-55.79" gradientTransform="translate(-1953.06 11381.14) scale(180.16)" xlink:href="#uuid-49bf0df1-8e2f-45b7-a0de-321acd974969"/><clipPath id="uuid-81e4c4cb-7df7-42a0-b4ad-65071ff57f2d"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="403.49 1107.58 458.05 1300.42 576.04 1087.28 403.49 1107.58"/></clipPath><linearGradient id="uuid-95cf5bce-3178-491f-a0f0-d1b85e558a26" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1905.74 10823.66) scale(172.55)" xlink:href="#uuid-27b19119-578a-497c-836d-01512673dede"/><clipPath id="uuid-a7887f92-5c80-42cd-96b6-b71387984502"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="576.04 1087.28 576.04 938.84 630.08 1130.76 630.08 1150.15 576.04 1087.28"/></clipPath><linearGradient id="uuid-a51096ef-a5cd-4ca4-a389-0d10edcc5695" x1="13.38" y1="-55.77" x2="14.38" y2="-55.77" gradientTransform="translate(2823.68 -7884.7) rotate(-180) scale(160.1)" xlink:href="#uuid-c364935b-7410-4017-8d7c-4646f8561a4e"/><clipPath id="uuid-2f9e750b-181c-42e8-973d-32681da98c2e"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="576.04 1087.28 403.49 979.44 576.04 938.84 576.04 1087.28"/></clipPath><linearGradient id="uuid-b82405b3-8de3-4c7a-8964-711aa2fedfed" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-7794.71 -1047.78) rotate(90) scale(148.44)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-c9d26448-78df-44f7-9fea-b2c811493382"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="576.04 1087.28 403.49 1107.58 403.49 979.44 576.04 1087.28"/></clipPath><linearGradient id="uuid-48810896-0d8a-4f7e-b4a3-dd5ee5e62730" x1="13.38" y1="-55.76" x2="14.38" y2="-55.76" gradientTransform="translate(-1094.04 7231.86) scale(110.97)" xlink:href="#uuid-1f0fc3e2-e8fa-40f4-9e90-1f7d9d06713d"/><clipPath id="uuid-54b0d234-e7a0-444a-8eb8-50eb9597cbb5"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="576.04 1087.28 630.08 1150.15 630.08 1179.27 458.05 1300.42 576.04 1087.28"/></clipPath><linearGradient id="uuid-3a270ada-129c-454d-af34-c0da7ce99f1d" x1="13.38" y1="-55.9" x2="14.38" y2="-55.9" gradientTransform="translate(-2851.2 14811.22) scale(243.58)" xlink:href="#uuid-1422fd96-8ea8-4982-b3dd-e0a37c1acb8c"/><clipPath id="uuid-85db221e-20d4-46d4-94d2-290fa604216c"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="630.08 1209.12 630.08 1429.99 568.37 1479.42 630.08 1209.12"/></clipPath><linearGradient id="uuid-34bae970-0d00-4fdd-8dac-b8772f65bf84" x1="13.38" y1="-55.87" x2="14.38" y2="-55.87" gradientTransform="translate(-3126.13 16342.81) scale(268.46)" xlink:href="#uuid-7270dfaa-de13-4bc1-a76a-1b0dc973ed5f"/><clipPath id="uuid-88554282-bc26-4a9d-9be2-729627859ae9"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="568.37 1479.42 458.05 1300.42 469.98 1434.95 568.37 1479.42"/></clipPath><linearGradient id="uuid-78142305-e93f-4625-a4f6-fabdf930b6d6" x1="13.38" y1="-55.95" x2="14.38" y2="-55.95" gradientTransform="translate(-11245.32 -1528.04) rotate(90) scale(210.18)" xlink:href="#uuid-cb2025a2-bc20-4b5d-9254-d0e85b925254"/><clipPath id="uuid-674e1f06-d5f7-41ee-8c76-009ac322bceb"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="469.98 1434.95 422.2 1338.82 458.05 1300.42 469.98 1434.95"/></clipPath><linearGradient id="uuid-d0da8e65-f11e-4a1a-a6a1-abe1d13fb2ea" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-217.22 4034.16) scale(47.78)" xlink:href="#uuid-87e5eca6-2dcc-4b8a-9efd-92af28b8ad06"/><clipPath id="uuid-153c380d-7e8f-47d0-a14c-cbcf95e556bb"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="458.05 1300.42 403.49 1257.84 403.49 1107.58 458.05 1300.42"/></clipPath><linearGradient id="uuid-d28c6999-78fb-4635-bdbf-648a64c5faa8" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-326.63 4248.72) scale(54.55)" xlink:href="#uuid-174e8912-0f36-4f23-b339-ea59863c28ab"/><clipPath id="uuid-bf0cc441-d153-4f4b-8787-07a84aeb35f5"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="576.04 938.84 630.08 826.67 630.08 1130.76 576.04 938.84"/></clipPath><linearGradient id="uuid-c0380920-64d6-41c3-b3e0-702453ec4cd9" x1="13.38" y1="-55.71" x2="14.38" y2="-55.71" gradientTransform="translate(-16638.23 -3298.77) rotate(90) scale(309.51)" xlink:href="#uuid-056d5a49-5429-40b5-adb9-35c20381ad34"/><clipPath id="uuid-6ce8a1bf-7d57-4d70-a3b4-7672d7ecaacc"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="346.4 1102.5 403.49 979.44 403.49 1107.58 346.4 1102.5"/></clipPath><linearGradient id="uuid-3c559afe-cb37-4135-866d-f387373bc259" x1="13.38" y1="-55.99" x2="14.38" y2="-55.99" gradientTransform="translate(-1498.83 8609.54) scale(135.12)" xlink:href="#uuid-b40a9b67-9ef8-4e67-b67e-86be5bf0012a"/><clipPath id="uuid-76335120-3f79-4537-ac00-e80c148ae65a"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.55 1174.65 359.86 1278.84 403.49 1257.84 251.55 1174.65"/></clipPath><linearGradient id="uuid-68a58596-5a30-46fd-ba97-67b60b8ce7dd" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1781.88 9706.44) scale(151.94)" xlink:href="#uuid-9da87620-db0e-42cc-93e2-bfb805f2f4dd"/><clipPath id="uuid-2dfe6e37-b68f-4ad7-a818-c4e9f9b2f02f"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.55 1174.65 205.57 926.15 188.74 1114.23 251.55 1174.65"/></clipPath><linearGradient id="uuid-30706de0-e6f4-45ad-a001-ea53531491ef" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-651.93 4556.09) scale(62.81)" xlink:href="#uuid-e94fbd00-91ea-482e-b69c-e559a21392c7"/><clipPath id="uuid-01cd961d-0ab6-4e55-b914-86623c55e163"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="245.1 810 456.29 810 403.49 979.44 245.1 810"/></clipPath><linearGradient id="uuid-e95ecad0-376f-47f1-916a-0d5d54132859" x1="13.38" y1="-55.82" x2="14.38" y2="-55.82" gradientTransform="translate(-9422.49 -1538.83) rotate(90) scale(175.08)" xlink:href="#uuid-9f81c806-fbaa-4052-b5b4-2487a2d79d8c"/><clipPath id="uuid-6e2e6654-fae5-4f9c-9d93-4d4cc8cabe4c"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="456.29 810 463 810 576.04 938.84 403.49 979.44 456.29 810"/></clipPath><linearGradient id="uuid-062e3139-718a-4045-8224-ef8c7b00ecf2" x1="13.38" y1="-55.74" x2="14.38" y2="-55.74" gradientTransform="translate(2946.49 -9077.88) rotate(-180) scale(178.9)" xlink:href="#uuid-a5fa7791-fde3-4475-8d43-ac57d3eaaa35"/><clipPath id="uuid-418e1c7d-c358-45b7-8352-5c8864daf843"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="403.49 979.44 346.4 1102.5 274.75 841.71 403.49 979.44"/></clipPath><linearGradient id="uuid-b2a6e23b-6024-482b-ae43-cd8f677adfa6" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1448.27 8157.34) scale(128.74)" xlink:href="#uuid-1603df2f-65c1-4b06-9741-6101f1bc0920"/><clipPath id="uuid-331ba350-37dc-4d2a-9316-3bdd0f51f120"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="251.55 1174.65 205.57 926.15 346.4 1102.5 251.55 1174.65"/></clipPath><linearGradient id="uuid-6062b422-5745-46cf-ba0c-b03bce4f6cec" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(14144.76 4500.39) rotate(-90) scale(248.5)" xlink:href="#uuid-6c2ba74a-1f9c-40e1-a61d-baa08384bdeb"/><clipPath id="uuid-f61abc0e-c6f9-407e-b8fd-a64808fe8fb2"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="346.4 1102.5 205.57 926.15 257.05 822.78 274.75 841.71 346.4 1102.5"/></clipPath><linearGradient id="uuid-2c4e8e13-1b30-40d6-82d0-01a9dd497e3c" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(15887.24 4846.09) rotate(-90) scale(279.72)" xlink:href="#uuid-ec9fd3c5-cf0a-43b1-9a65-a080cd7739a4"/><clipPath id="uuid-18afbc47-dd27-401c-9119-521eccc894c0"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="188.74 1114.23 101.51 1030.31 101.51 990.86 205.57 926.15 188.74 1114.23"/></clipPath><linearGradient id="uuid-3a9213da-5e09-49e8-94ac-80ee8821b011" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-10342.84 -1590.88) rotate(90) scale(188.07)" xlink:href="#uuid-5758c2a9-3b13-4a07-843c-d1ef5d6b788b"/><clipPath id="uuid-c0ded8df-95c8-4c13-9f77-6827b465d140"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points=".9 933.53 .9 814.15 101.51 990.86 90.99 1020.19 .9 933.53"/></clipPath><linearGradient id="uuid-3235a2fc-73bc-4f99-ae9f-b657fd4b0568" x1="13.38" y1="-55.85" x2="14.38" y2="-55.85" gradientTransform="translate(858.01 -2416.82) rotate(-180) scale(59.69)" xlink:href="#uuid-7199130a-c2f9-498e-a4c8-e4201f37a98e"/><clipPath id="uuid-f3eab8ce-f32b-441f-8af9-93341a4e6006"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points=".9 814.15 205.57 926.15 101.51 990.86 .9 814.15"/></clipPath><linearGradient id="uuid-9775cf21-13b9-422d-9be2-f5e5595dc86e" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-2738.23 12325.08) scale(204.67)" xlink:href="#uuid-a89f503d-7c18-42ea-8e38-37e1c442689a"/><clipPath id="uuid-6f4e0fa6-934f-4795-ac02-5b92f0c47b89"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points=".9 814.15 0 813.62 0 810 245.1 810 257.05 822.78 205.57 926.15 .9 814.15"/></clipPath><linearGradient id="uuid-82a793c2-647f-4bcf-bc3a-eec401166691" x1="13.38" y1="-55.86" x2="14.38" y2="-55.86" gradientTransform="translate(-6675.47 -825.69) rotate(90) scale(121.8)" xlink:href="#uuid-7199130a-c2f9-498e-a4c8-e4201f37a98e"/><clipPath id="uuid-29759e2e-fd5b-4b41-97d6-93fb5405f7fb"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="568.3 1479.42 630.08 1514.02 630.08 1617.99 568.3 1479.42"/></clipPath><linearGradient id="uuid-05f234dc-6b6c-4e92-9222-de94658c1d98" x1="13.38" y1="-55.67" x2="14.38" y2="-55.67" gradientTransform="translate(-7227.1 -401.97) rotate(90) scale(140.58)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-e5b9b4fb-dc70-409b-bcdd-efab2f043390"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="190.93 1300.42 359.79 1278.84 251.49 1174.65 190.93 1300.42"/></clipPath><linearGradient id="uuid-116ee871-76cb-496d-bd6e-642b0dc455fa" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-2068.93 10661.49) scale(168.86)" xlink:href="#uuid-9f81c806-fbaa-4052-b5b4-2487a2d79d8c"/><clipPath id="uuid-fd1a15f0-5442-430f-b061-312e03611b02"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="277.12 1417.82 190.93 1300.42 359.79 1278.84 277.12 1417.82"/></clipPath><linearGradient id="uuid-c004b9a4-0c9a-47ba-a623-17dd8d4c540b" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-2068.93 10772.28) scale(168.86)" xlink:href="#uuid-cea63684-e6b6-44ff-9c83-290e0b3d0d9d"/><clipPath id="uuid-ba853a14-eb38-4879-a5de-2025998a1101"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 1302.59 101.51 1126.33 190.93 1300.42 0 1341.33 0 1302.59"/></clipPath><linearGradient id="uuid-a4fccd87-0897-41df-a758-ee864264e194" x1="13.38" y1="-55.82" x2="14.38" y2="-55.82" gradientTransform="translate(-2921.44 13313.24) scale(216.39)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-9cdb9e7d-b505-4f9f-af19-8c36ba0ae8d7"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 1341.33 190.93 1300.42 0 1448.23 0 1341.33"/></clipPath><linearGradient id="uuid-679e4d2c-e07b-49a3-ac78-bf0178df739f" x1="13.38" y1="-55.74" x2="14.38" y2="-55.74" gradientTransform="translate(3285.59 -11515.23) rotate(-180) scale(231.23)" xlink:href="#uuid-fabb60d9-1267-4dc3-82a5-000fa1477cef"/><clipPath id="uuid-915fb508-3ec7-4d8e-9617-da8544c745c1"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="510.9 1620 469.98 1434.95 630.08 1618.97 630.08 1620 510.9 1620"/></clipPath><linearGradient id="uuid-618b6f97-fca7-4102-b9d9-acb0cdab7f10" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1684.66 10512.61) scale(160.99)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-e376a3b2-2bd1-404d-a864-5fd3cf773434"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="359.79 1278.84 422.2 1338.82 277.12 1417.82 359.79 1278.84"/></clipPath><linearGradient id="uuid-dbe4c18f-c1c5-432d-a818-a20146c01400" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1664.55 9445.36) scale(145.08)" xlink:href="#uuid-5fe492df-1096-43ad-a76a-e1a534bdb105"/><clipPath id="uuid-2cec9570-4cc3-49c4-b9c3-e954e2a75b4d"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="403.42 1619.89 469.98 1434.95 510.9 1620 403.42 1619.89"/></clipPath><linearGradient id="uuid-bd77e303-96e5-49c6-8034-8e4e57e03102" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1034.91 7525.54) scale(107.47)" xlink:href="#uuid-174e8912-0f36-4f23-b339-ea59863c28ab"/><clipPath id="uuid-1110492a-b07a-4636-992e-3793d30561eb"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="315.98 1551.04 469.98 1434.95 277.12 1417.82 315.98 1551.04"/></clipPath><linearGradient id="uuid-551bdb1d-7bea-4507-8cc8-8dce6ab9c0ae" x1="13.38" y1="-56.01" x2="14.38" y2="-56.01" gradientTransform="translate(3043.58 -9237.04) rotate(-180) scale(191.42)" xlink:href="#uuid-a6cfac6f-8840-480f-8d11-d48f288e5495"/><clipPath id="uuid-d5e9334b-a9b5-40de-aed0-2e921bc7b3b2"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="277.12 1417.82 145.06 1603.11 134.55 1466.83 277.12 1417.82"/></clipPath><linearGradient id="uuid-6302f43e-dcaf-4b0c-915f-3544b55059b5" x1="13.38" y1="-55.77" x2="14.38" y2="-55.77" gradientTransform="translate(-6669.9 -212.86) rotate(90) scale(123.28)" xlink:href="#uuid-a89f503d-7c18-42ea-8e38-37e1c442689a"/><clipPath id="uuid-7545b679-fd78-4b35-9666-a04ed76d89de"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 1448.23 190.93 1300.42 134.55 1466.83 0 1476.52 0 1448.23"/></clipPath><linearGradient id="uuid-b4aed0f8-3857-4487-9149-d983bb50e09a" x1="13.38" y1="-55.82" x2="14.38" y2="-55.82" gradientTransform="translate(-3134.96 14295.07) scale(231.23)" xlink:href="#uuid-ec5e4394-dd8b-4df5-949a-d68a6304d423"/><clipPath id="uuid-6c6f4619-c089-4fda-861c-c60842b0f748"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 1620 0 1476.52 134.55 1466.83 9.71 1620 0 1620"/></clipPath><linearGradient id="uuid-72abd76d-0770-47ae-b73e-d4aad6b1c854" x1="13.38" y1="-55.86" x2="14.38" y2="-55.86" gradientTransform="translate(-2380.31 11309.92) scale(174.85)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-204f4d2b-70da-4c3f-a748-dad6dff83ed9"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="0 946.67 .84 933.53 90.99 1020.19 0 1275.39 0 946.67"/></clipPath><linearGradient id="uuid-3dd931b8-e6d5-4055-8146-5cac557d4aa6" x1="13.38" y1="-55.96" x2="14.38" y2="-55.96" gradientTransform="translate(-19245.3 -3679.72) rotate(90) scale(344.74)" xlink:href="#uuid-a89f503d-7c18-42ea-8e38-37e1c442689a"/><clipPath id="uuid-601b2e66-c0e5-4a94-ad59-9621d11dd218"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="190.93 1300.42 101.51 1126.33 188.67 1114.23 190.93 1300.42"/></clipPath><linearGradient id="uuid-934aefa2-8ea6-4cdb-af70-2282a0821dd2" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1095.3 6198.18) scale(89.43)" xlink:href="#uuid-30fd92d0-7cea-451f-8e5b-14a831702959"/><clipPath id="uuid-557cb560-13a8-471a-b0c0-66d49171b57d"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="145.06 1603.11 315.98 1551.04 277.12 1417.82 145.06 1603.11"/></clipPath><linearGradient id="uuid-5d6200ac-fc58-4853-ba7b-345a298354a8" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-2142.39 11049.43) scale(170.92)" xlink:href="#uuid-ec5e4394-dd8b-4df5-949a-d68a6304d423"/><clipPath id="uuid-3b8c95a1-c3d3-4144-b253-37f5c447d91a"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="145.06 1603.11 315.98 1551.04 403.42 1619.89 145.06 1603.11"/></clipPath><linearGradient id="uuid-ad20a2cd-13e2-494f-a5b8-dd1f0f5d24dc" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(3861.22 -12834.01) rotate(-180) scale(258.37)" xlink:href="#uuid-0a38bdbc-cc03-4369-9195-778b0c2e36c7"/><clipPath id="uuid-f1f8de4f-9c96-4632-9eba-9e7908a1d2e1"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="9.71 1620 134.55 1466.83 145.06 1603.11 139.77 1620 9.71 1620"/></clipPath><linearGradient id="uuid-e0ceb36a-c5ea-49a2-90fb-3672c8558943" x1="13.38" y1="-55.75" x2="14.38" y2="-55.75" gradientTransform="translate(2138.41 -6760.81) rotate(-180) scale(148.94)" xlink:href="#uuid-c2ea9add-83bb-4181-bb1f-039568f0f9b3"/><clipPath id="uuid-30ccd3b3-f533-4156-8285-e0c45adf6984"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="134.55 1466.83 190.93 1300.42 277.12 1417.82 134.55 1466.83"/></clipPath><linearGradient id="uuid-1022bc88-5986-4e98-925b-2936cff46f4b" x1="13.38" y1="-56.02" x2="14.38" y2="-56.02" gradientTransform="translate(-7858.73 -612.32) rotate(90) scale(143.95)" xlink:href="#uuid-a20b5d0d-b373-4302-8325-68633308347c"/><clipPath id="uuid-07a3bd0c-177c-4f81-807f-8e6bdf16f9f1"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="188.67 1114.23 101.51 1126.33 101.51 1030.31 188.67 1114.23"/></clipPath><linearGradient id="uuid-460d0ee0-cf09-45cf-8ccb-88ceeddc1846" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-1065.01 5942.88) scale(87.16)" xlink:href="#uuid-cea63684-e6b6-44ff-9c83-290e0b3d0d9d"/><clipPath id="uuid-3ad9b26b-f759-4cdf-882b-37dd2fe0f03b"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="277.12 1417.82 469.98 1434.95 422.2 1338.82 277.12 1417.82"/></clipPath><linearGradient id="uuid-41277b35-c8c9-421c-9911-3540f118edce" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-2303.97 12150.38) scale(192.86)" xlink:href="#uuid-cea63684-e6b6-44ff-9c83-290e0b3d0d9d"/><clipPath id="uuid-fce8e978-5666-454e-b617-bc945ca300f2"><polygon class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" points="188.67 1114.23 190.93 1300.42 251.49 1174.65 188.67 1114.23"/></clipPath><linearGradient id="uuid-fbf5f503-cb43-4509-827d-d9a876f4617d" x1="13.38" y1="-55.81" x2="14.38" y2="-55.81" gradientTransform="translate(-651.99 4713.01) scale(62.81)" xlink:href="#uuid-6f6c48e1-75cd-40d5-b2be-4b1bb3a62f23"/></defs><rect class="uuid-a1b54215-cf67-48a3-bbcf-ca1b87681c89" width="630.08" height="1620"/><g class="uuid-3c8fbacb-ab33-4014-9443-f96a6098eded"><g id="uuid-e8872c9b-97b1-4941-b774-1c8cde72e8ef"><g class="uuid-91d12695-989e-47e4-a20d-29eabecf7473"><g class="uuid-9841df0d-2e3d-435b-bfa0-431d38bf284d"><rect class="uuid-7783dd30-8116-46ba-88dc-f9fe6e33d62c" x="568.3" y="105.98" width="61.78" height="84.07"/></g><g class="uuid-fcd34c53-ba70-4ceb-812e-209d66638a29"><rect class="uuid-ca726686-4149-4939-97c4-3c0044c028cf" x="251.49" y="362.16" width="151.94" height="155.33"/></g><g class="uuid-912c411a-142d-4b5e-989c-04e5f6c55210"><rect class="uuid-151a18b4-b73a-41e1-bf8a-ef1b255ad3e9" x="457.98" y="140.58" width="172.1" height="300.2"/></g><polygon class="uuid-fdf9e25e-b300-4bc9-a055-e1e0635d8987" points="403.42 512.42 403.42 362.16 346.33 517.5 403.42 512.42"/><g class="uuid-36d71879-2825-4f4c-a8b2-2d02fdb563e0"><rect class="uuid-523c103b-1e43-4fdc-92a8-3c90322ddcef" x="403.42" y="319.58" width="172.55" height="213.15"/></g><g class="uuid-1bf76ae4-12dc-4d87-b754-c7e25cf023f3"><rect class="uuid-0ee91b7a-1005-42fd-91b1-8cf9497806d3" x="416.22" y="290.83" width="255.62" height="270.64" transform="translate(-140.19 329.11) rotate(-30)"/></g><g class="uuid-27212a5d-b792-4542-99b5-c76768cd2bc0"><rect class="uuid-1796201b-fec1-4a04-8f70-43d5a72f7e5d" x="504.79" y="143.26" width="188.8" height="265.23" transform="translate(-57.66 336.56) rotate(-30)"/></g><polygon class="uuid-15996d96-1c5e-4fc8-8561-da625692e4e7" points="457.98 319.58 422.2 281.18 359.79 341.16 403.42 362.16 457.98 319.58"/><g class="uuid-bcd7e2b0-4065-4014-81c1-b69938b8ee9d"><rect class="uuid-cb0cc96c-6d1d-4522-a780-e9103bea0326" x="403.42" y="319.58" width="54.55" height="192.85"/></g><g class="uuid-3ccefc87-9583-47d9-aa08-66a3903d61ab"><rect class="uuid-b4db3e50-b3cb-4291-b932-d0b806a2fa05" x="251.49" y="341.16" width="151.94" height="104.19"/></g><g class="uuid-9c4cc964-5c60-4a98-a470-615598eff047"><rect class="uuid-95d47711-0efd-48e3-bd64-025f4f01a7ff" y="317.41" width="101.51" height="311.73"/></g><polygon class="uuid-d19bd900-ba1c-4d88-82cb-f707a2e6d337" points="568.37 140.58 630.08 190.01 630.08 81.21 568.37 140.58"/><g class="uuid-f3d7f193-6495-4269-bd80-f4c0974d2983"><rect class="uuid-127a7851-93b3-495b-a55b-ebc4ce58cbdc" x="251.55" y="362.16" width="151.94" height="155.33"/></g><g class="uuid-6748f9ad-0ca4-4aff-9b88-3c253c1cef96"><rect class="uuid-79bd1d4a-5d47-4c30-a4ff-a4f7a63d04e0" x="458.04" y="140.58" width="172.04" height="300.15"/></g><polygon class="uuid-c75af1f7-7553-492c-8d09-2b57f8cb3f60" points="403.49 512.42 403.49 362.16 346.4 517.5 403.49 512.42"/><g class="uuid-c6552992-630d-4d2d-a881-269edcf5d257"><rect class="uuid-f3a13a6f-5bc6-487a-8bef-5fccf1bf36e8" x="403.49" y="319.58" width="172.55" height="213.15"/></g><g class="uuid-725dd896-44a7-4ffe-a325-e4581e7449e9"><rect class="uuid-dd0749bb-b3f8-4da4-9434-95d6449a98a7" x="526.83" y="470.49" width="152.46" height="210.02" transform="translate(-206.96 378.63) rotate(-30)"/></g><g class="uuid-667a7471-33fb-4c65-846b-1001665d0106"><rect class="uuid-d6dfa873-f641-4322-9eb6-bd64b2373792" x="403.49" y="532.72" width="172.55" height="148.44"/></g><g class="uuid-49e65661-5842-4016-92d1-7a9d01b3d9f3"><rect class="uuid-e829f643-ad9b-4e7d-b91c-d29258f027ca" x="383.01" y="477.87" width="213.5" height="197.25" transform="translate(-222.63 322.12) rotate(-30)"/></g><g class="uuid-490692c6-3411-490a-b145-e62175d8b6c7"><rect class="uuid-421b67cc-5c8d-4090-a106-45367cb58539" x="416.28" y="290.84" width="255.56" height="270.61" transform="translate(-140.18 329.12) rotate(-30)"/></g><g class="uuid-dc4aa14b-89fd-4973-b26e-d631b98bad79"><rect class="uuid-091a38ee-a43b-42c3-96a4-7c67f7bd9013" x="504.93" y="143.26" width="188.6" height="264.95" transform="translate(-57.58 336.55) rotate(-30)"/></g><g class="uuid-4dc194bf-1cec-4a13-b66f-08113ca202e1"><rect class="uuid-add357d2-8bde-4ca4-a105-bff76fa7b756" x="408.12" y="137.56" width="210.18" height="185.04" transform="translate(57.35 559.49) rotate(-60)"/></g><g class="uuid-fee5a7c0-3a57-4123-81ba-7a7983573431"><rect class="uuid-5ec21bfe-0fda-4e47-a663-18c63d98481a" x="422.2" y="185.05" width="47.78" height="134.53"/></g><polygon class="uuid-15996d96-1c5e-4fc8-8561-da625692e4e7" points="458.05 319.58 422.2 281.18 359.86 341.16 403.49 362.16 458.05 319.58"/><g class="uuid-5056d3f1-6294-4164-a01c-7a4a105c781d"><rect class="uuid-b81e6907-7c3f-457b-9ab3-4d45ce6de926" x="403.49" y="319.58" width="54.55" height="192.85"/></g><g class="uuid-ec0d7a08-5a5f-4dd0-909c-e29f626e0bf5"><rect class="uuid-2380af4c-b2af-4a45-afb5-b74090fff365" x="457.87" y="541.86" width="290.38" height="198.85" transform="translate(-253.84 842.91) rotate(-60)"/></g><g class="uuid-6746bbcb-037e-427c-b739-e9c41444d35b"><rect class="uuid-28714f5a-3a36-4d10-bf7a-7487ea74204d" x="318.19" y="506.73" width="113.51" height="139.52" transform="translate(-238.01 264.71) rotate(-30)"/></g><g class="uuid-ee747e57-9009-4afe-836e-fbe1f3f02e07"><rect class="uuid-0bb69554-6dac-43a9-80bc-4a5a07b841bc" x="251.55" y="341.16" width="151.94" height="104.19"/></g><g class="uuid-a716a52e-7abb-48d8-9bea-c1920349cbfd"><rect class="uuid-2333cf0d-458a-4d55-b184-f3c03e23b3ea" x="188.74" y="445.35" width="62.82" height="248.5"/></g><g class="uuid-b55f471f-c71b-482c-b001-288fc675e4c6"><rect class="uuid-fc49dd15-3315-4f35-b33d-0cdfa1ffcfd2" x="245.1" y="640.56" width="211.18" height="169.44"/></g><g class="uuid-23d06b01-39a5-4c29-ad32-e6afb94c8a8c"><rect class="uuid-28b4f034-6105-4cd6-991c-acc2842febc6" x="372.69" y="608.77" width="234.15" height="233.01" transform="translate(-297.02 342.05) rotate(-30)"/></g><polygon class="uuid-28c593ce-4769-45d8-96a8-90e845d1d240" points="463 810 630.08 810 630.08 793.33 576.04 681.16 463 810"/><g class="uuid-b9de1a94-3b4e-4538-8ac0-6e2a3c717e15"><rect class="uuid-9babc231-97b7-4780-80a3-ee5f781813cb" x="274.75" y="517.5" width="128.74" height="260.79"/></g><g class="uuid-e45008f3-f5e6-4443-8de5-5f56286679be"><rect class="uuid-5df53ea4-8d49-439e-9e2c-009334af58a9" x="205.57" y="445.35" width="140.83" height="248.5"/></g><g class="uuid-55b8657d-828e-492f-91de-6f6d793ec8d5"><rect class="uuid-a6bb0cd4-96b1-4768-ae43-89d3e2f373e4" x="205.57" y="517.5" width="140.83" height="279.72"/></g><g class="uuid-373e8db7-2cf8-4401-9e81-c97a71aa7f35"><rect class="uuid-688b793a-1c2f-45ee-8b86-f6257077bfc0" x="101.51" y="505.77" width="104.06" height="188.07"/></g><g class="uuid-6165da61-607e-4f1f-a6f6-3bd180962dcf"><rect class="uuid-7b51e9a1-c883-42d0-9249-4b2a043f3706" x="-63.17" y="607.76" width="228.74" height="190.15" transform="translate(-583.07 395.76) rotate(-60)"/></g><g class="uuid-d867f08d-9d1e-42f3-8b28-a26d4a21cd35"><rect class="uuid-c17a6929-da18-4d43-9cc8-1cabd61876b0" x=".9" y="629.14" width="204.67" height="176.71"/></g><g class="uuid-2ce89f85-02e6-40c0-ab62-d2df10d5d9e3"><rect class="uuid-dea96ec0-ad5b-40ad-9966-cb13094820b8" y="693.85" width="257.05" height="116.15"/></g><polygon class="uuid-d19bd900-ba1c-4d88-82cb-f707a2e6d337" points="469.98 185.05 568.3 140.58 630.08 2 630.08 1.03 469.98 185.05"/><g class="uuid-694c7d20-2360-4041-9a13-d5c7fd1be9f9"><rect class="uuid-1cfc9c49-83c2-48a7-8139-86ed8f0fd07f" x="568.3" y="2.01" width="61.78" height="138.57"/></g><g class="uuid-c66e2edd-e9f6-40ba-93b6-cbb4a3d89521"><rect class="uuid-b63e36e7-69bf-473a-bea4-25aba58c118a" x="190.93" y="319.58" width="168.86" height="125.77"/></g><g class="uuid-1e1ecbdf-c83f-4969-96e7-29ee4e926527"><rect class="uuid-4ef1bf9a-5eab-4773-bfa8-1999f71dd34e" x="190.93" y="202.18" width="168.86" height="138.98"/></g><g class="uuid-cfdffe0c-9784-40b3-8823-0e504b7ff0ae"><rect class="uuid-4dff02a4-74f9-460a-ab60-479a4d841b31" x="0" y="278.67" width="190.93" height="215"/></g><g class="uuid-c2bb0f61-dba9-41cc-9021-85f5fe7962d2"><rect class="uuid-26301201-d776-441e-9fac-9b0080013b6b" y="171.77" width="190.93" height="147.8"/></g><polygon class="uuid-c75af1f7-7553-492c-8d09-2b57f8cb3f60" points="315.98 68.96 469.98 185.05 403.42 .11 315.98 68.96"/><g class="uuid-1327cf03-fc2d-4976-ba37-9868f750f519"><rect class="uuid-234351c5-7371-4b23-9b6a-801542a0fcda" x="469.98" y="0" width="160.1" height="185.05"/></g><g class="uuid-0e3d8cce-def1-48a0-997a-f751981f15ed"><rect class="uuid-3cc5f035-6e20-4d45-805e-3dcb90c23969" x="277.12" y="202.18" width="145.08" height="138.98"/></g><g class="uuid-758fd8fa-649e-4308-a780-0497fed4c952"><rect class="uuid-bf362891-f24c-419f-9931-ea6100c759a3" x="403.42" y="0" width="107.47" height="185.05"/></g><g class="uuid-84726499-4b9d-4575-8410-a84151a119e2"><rect class="uuid-061b976e-bb41-4187-a108-87516d7f0b9c" x="267.65" y="18.76" width="211.8" height="233.63" transform="translate(69.37 391.29) rotate(-60)"/></g><g class="uuid-ec07a8e5-a389-4e86-b2e1-770d08ba0f84"><rect class="uuid-fa09e0b7-ad9d-44fe-a03c-b57039b41ca7" x="89.96" y="1.48" width="231.75" height="216.12" transform="translate(8.06 233.03) rotate(-60)"/></g><g class="uuid-a9406388-0cf8-4aea-87b2-a47d1dd5c23b"><rect class="uuid-202f5a60-8d9f-4713-a39d-d5dccbc26bcb" x="0" y="143.48" width="190.93" height="176.09"/></g><g class="uuid-184bad06-5592-4633-a35f-ba0d1bc28d57"><rect class="uuid-cb878e04-d6d2-4b39-966d-832a5dc36492" x="0" y="0" width="134.55" height="153.17"/></g><g class="uuid-fdd01790-ea03-488a-9a05-519182c6fbd6"><rect class="uuid-b3267fab-3f23-45e0-9e32-049914eb7354" x="-125.28" y="390.68" width="341.55" height="249.73" transform="translate(-423.72 297.17) rotate(-60)"/></g><g class="uuid-45eae716-ff0f-4000-a44e-8709d427b71a"><rect class="uuid-ed714e20-5fda-4b7c-af77-cdf6d5e158e9" x="101.51" y="319.58" width="89.43" height="186.2"/></g><g class="uuid-b7c4b0a4-c0ee-48c6-897e-a2439425aa84"><rect class="uuid-061313ca-4ee9-4b5e-bfa9-577a7e7b4743" x="145.06" y="16.89" width="170.92" height="185.29"/></g><g class="uuid-c0230d0d-ee9d-4807-84e2-f856a1b950d2"><rect class="uuid-95b889d1-a8ce-45df-93f1-b39235a51c8a" x="145.06" y=".11" width="258.37" height="68.86"/></g><g class="uuid-7b3fe886-8999-4d9c-aa05-8f27b0d9bbc3"><rect class="uuid-7181f6d6-3da3-4445-a7c6-298208b88964" x="9.71" y="0" width="135.35" height="153.17"/></g><polygon class="uuid-bca590dd-7233-4302-984e-8f24a2ea4a9e" points="139.77 0 145.06 16.89 403.42 .11 401.71 0 139.77 0"/><g class="uuid-e6e0cd7c-40be-4494-b59a-f1501b63ed55"><rect class="uuid-c1916588-636a-4cec-b8c7-320fce597188" x="96.6" y="127.13" width="218.48" height="218.48" transform="translate(-106.85 214.78) rotate(-45)"/></g><g class="uuid-f0f5abe0-6490-4f17-beed-42777f515747"><rect class="uuid-f3f3c793-b38b-4cb9-9dfa-71c3bc2f2b0f" x="101.51" y="493.67" width="87.16" height="96.02"/></g><g class="uuid-dd250fa9-dff3-427f-83d4-f6bf31cb0187"><rect class="uuid-421ebb13-a99d-478d-9645-d2f1d82916a8" x="277.12" y="185.05" width="192.86" height="96.14"/></g><g class="uuid-ce1ce4dc-fd8f-4618-a82a-235c5fca6daa"><rect class="uuid-1caebb0e-d66c-4235-83e1-c9a0800d1767" x="188.67" y="319.58" width="62.82" height="186.2"/></g></g></g></g><g id="uuid-d0a27cdf-c7a5-4093-bd28-9ec008008496"><g class="uuid-23b1afc5-96fd-486e-a1aa-cd8219bf915a"><g class="uuid-f8b12503-ba5f-4f71-8e2a-3cc606d27f47"><rect class="uuid-e3247b41-5440-45db-85fa-0832cd47a90c" x="568.3" y="1429.94" width="61.78" height="84.07"/></g><g class="uuid-4da08b40-db8c-42b2-a3f2-bc3c3e30deeb"><rect class="uuid-cbb0d263-1319-4c06-873c-f495d526441e" x="251.49" y="1102.5" width="151.94" height="155.33"/></g><g class="uuid-8cb988ea-ac03-416b-980e-d9c8abcfa4f1"><rect class="uuid-5bf2d7fa-def0-46f1-b49b-07cbb3a51267" x="457.98" y="1179.22" width="172.1" height="300.2"/></g><polygon class="uuid-fdf9e25e-b300-4bc9-a055-e1e0635d8987" points="403.42 1107.58 403.42 1257.84 346.33 1102.5 403.42 1107.58"/><g class="uuid-c7d75433-f958-48e2-90b4-e56e6b4169e1"><rect class="uuid-e9203f02-fa07-41cb-bf24-2c3e243c7f1e" x="403.42" y="1087.28" width="172.55" height="213.15"/></g><g class="uuid-ed7785bb-df39-44d4-aee8-32275d16d489"><rect class="uuid-ba546151-1346-42e0-a9d5-49b376011fb1" x="408.71" y="1066.04" width="270.64" height="255.62" transform="translate(-761.89 1068.07) rotate(-60)"/></g><g class="uuid-3f6bceca-797a-49e1-b220-df47dfabff69"><rect class="uuid-dc816ad8-f0c7-4ef1-8325-968357fb898b" x="466.58" y="1249.73" width="265.23" height="188.8" transform="translate(-864.45 1190.98) rotate(-60)"/></g><polygon class="uuid-15996d96-1c5e-4fc8-8561-da625692e4e7" points="457.98 1300.42 422.2 1338.82 359.79 1278.84 403.42 1257.84 457.98 1300.42"/><g class="uuid-909d5ea2-2a7b-4ce5-8435-ca5843745810"><rect class="uuid-eb60e427-58a0-4614-8d6b-0fa57fd18b23" x="403.42" y="1107.58" width="54.55" height="192.85"/></g><g class="uuid-7c7fb076-b440-4d6c-86b6-4b0711a78bb1"><rect class="uuid-2b3edd67-c4a3-41c5-9503-45c019bbbf13" x="251.49" y="1174.65" width="151.94" height="104.19"/></g><g class="uuid-f737f78f-d46e-4b3b-8b7a-15e213a59f44"><rect class="uuid-260591c0-8065-46d9-8fb8-5670241a34b7" y="990.86" width="101.51" height="311.73"/></g><polygon class="uuid-d19bd900-ba1c-4d88-82cb-f707a2e6d337" points="568.37 1479.42 630.08 1429.99 630.08 1538.79 568.37 1479.42"/><g class="uuid-35a4a185-7224-4a2a-bb71-f731e4601e4f"><rect class="uuid-a7d1bbef-a3c7-444f-912f-85c2f090565e" x="251.55" y="1102.5" width="151.94" height="155.33"/></g><g class="uuid-dd28594f-37b6-48ea-a62a-754e567d58cc"><rect class="uuid-e22a5884-f7d8-4618-9cf9-539acb95b343" x="458.04" y="1179.27" width="172.04" height="300.15"/></g><polygon class="uuid-c75af1f7-7553-492c-8d09-2b57f8cb3f60" points="403.49 1107.58 403.49 1257.84 346.4 1102.5 403.49 1107.58"/><g class="uuid-249b832e-b5af-4791-9795-0cd24541618d"><rect class="uuid-18ce3a69-0610-4724-a567-d0ac1503ccc8" x="403.49" y="1087.28" width="172.55" height="213.15"/></g><g class="uuid-b7a34444-ef47-402d-bdc6-dcbf5317e2b5"><rect class="uuid-efce005f-9291-407a-9392-3f6b8bd00a65" x="498.05" y="968.26" width="210.02" height="152.46" transform="translate(-603.03 1044.51) rotate(-60)"/></g><g class="uuid-c6121d86-30d0-4b78-8c4d-fb8a4e83d118"><rect class="uuid-a7a78d34-0d09-4429-8b15-afc4f5f7b2c4" x="403.49" y="938.84" width="172.55" height="148.44"/></g><g class="uuid-7268faa8-a316-455e-8af1-a98dbd6fbe06"><rect class="uuid-25b0b1f5-729e-4b40-aa23-803ba1a772e0" x="391.14" y="936.76" width="197.25" height="213.5" transform="translate(-658.82 945.9) rotate(-60)"/></g><g class="uuid-e4ca3975-94b0-469a-942e-578016229662"><rect class="uuid-cd178c88-f023-48c1-aeb4-c071a5a571ef" x="408.76" y="1066.07" width="270.61" height="255.56" transform="translate(-761.87 1068.1) rotate(-60)"/></g><g class="uuid-a75c614d-9f6a-4e39-ada2-8787c3594d42"><rect class="uuid-2131494c-359e-4d1a-ba16-8c6d23e61a53" x="466.75" y="1249.97" width="264.95" height="188.6" transform="translate(-864.56 1191.08) rotate(-60)"/></g><g class="uuid-06438fcb-8c8b-4998-8451-cc95076636cf"><rect class="uuid-0a12a244-94b1-41b1-a8ad-665cce5e7a9a" x="420.69" y="1284.83" width="185.04" height="210.18" transform="translate(-626.2 442.82) rotate(-30)"/></g><g class="uuid-c3b17006-796c-4633-9414-bc953d6dcc0d"><rect class="uuid-236f3542-428d-40bc-ac89-afa14d4656ce" x="422.2" y="1300.42" width="47.78" height="134.53"/></g><polygon class="uuid-15996d96-1c5e-4fc8-8561-da625692e4e7" points="458.05 1300.42 422.2 1338.82 359.86 1278.84 403.49 1257.84 458.05 1300.42"/><g class="uuid-d238a321-f0da-4389-bb67-6435add0e135"><rect class="uuid-6f99327d-6c5a-43ab-a15e-f05faae9d353" x="403.49" y="1107.58" width="54.55" height="192.85"/></g><g class="uuid-3d4c68d9-8f48-4d79-8b06-245ccd63a1b4"><rect class="uuid-bf7450fa-13d7-40f0-a002-d65eab1c799d" x="503.63" y="833.52" width="198.85" height="290.38" transform="translate(-408.56 432.65) rotate(-30)"/></g><g class="uuid-3b2a0b35-ce7a-426d-abc8-d00e82e8e525"><rect class="uuid-32f48d24-044e-4d74-a7e1-72eed01e2828" x="305.18" y="986.75" width="139.52" height="113.51" transform="translate(-716.23 846.47) rotate(-60)"/></g><g class="uuid-8c698266-4fe3-444e-b28c-48d425291570"><rect class="uuid-40da8506-3e73-4214-a736-dacf19b5ace3" x="251.55" y="1174.65" width="151.94" height="104.19"/></g><g class="uuid-f90b1515-3560-4b7b-b66d-e816f4fae782"><rect class="uuid-8dfa6d3a-1b72-44da-9058-c4c25ecf48f4" x="188.74" y="926.15" width="62.82" height="248.5"/></g><g class="uuid-49e41b3d-50b3-443c-b4a1-86f966acf99f"><rect class="uuid-dbe326fa-b0b1-49dc-8774-6bb87f414428" x="245.1" y="810" width="211.18" height="169.44"/></g><g class="uuid-018b6432-06d7-4455-9eaf-2d2aecd21e1d"><rect class="uuid-ca3174a1-008e-46c1-ae8c-662c7cb9bf0a" x="373.26" y="777.65" width="233.01" height="234.15" transform="translate(-529.97 871.51) rotate(-60)"/></g><polygon class="uuid-28c593ce-4769-45d8-96a8-90e845d1d240" points="463 810 630.08 810 630.08 826.67 576.04 938.84 463 810"/><g class="uuid-ee9b6cad-dc0e-4185-a3ad-d499647c174b"><rect class="uuid-b4d2eec2-5504-4737-aed9-7427d7bcb6a7" x="274.75" y="841.71" width="128.74" height="260.79"/></g><g class="uuid-c102de5c-bcab-4b9d-807d-d6b4a2d83d30"><rect class="uuid-64022857-3e4f-4ed5-9ee7-021ec326aaa3" x="205.57" y="926.15" width="140.83" height="248.5"/></g><g class="uuid-02ab046d-4fab-4952-babc-7e15a46cc905"><rect class="uuid-f11035c3-32f3-4f17-bd88-9458a532a0f5" x="205.57" y="822.78" width="140.83" height="279.72"/></g><g class="uuid-27f9ba4e-bf16-4c4d-8954-549c97cb49bd"><rect class="uuid-241f3177-7d9c-4aa7-a2d7-e6d222ded5ff" x="101.51" y="926.15" width="104.06" height="188.07"/></g><g class="uuid-c9f83a66-d9b5-4fa0-8ee0-7e924a369c82"><rect class="uuid-be67fb0c-c628-498e-b93f-1c3b650163b6" x="-43.87" y="802.8" width="190.15" height="228.74" transform="translate(-451.72 148.48) rotate(-30)"/></g><g class="uuid-73959b48-d20d-46fc-8987-386b0bb3dfc3"><rect class="uuid-44276549-c4ce-4dbd-8eac-679f0ffbd59c" x=".9" y="814.15" width="204.67" height="176.71"/></g><g class="uuid-e9fbe35f-6549-41e8-b121-cece264a83e7"><rect class="uuid-b9250184-3c88-4b47-a6bc-41ad2dfb2b20" y="810" width="257.05" height="116.15"/></g><polygon class="uuid-d19bd900-ba1c-4d88-82cb-f707a2e6d337" points="469.98 1434.95 568.3 1479.42 630.08 1618 630.08 1618.97 469.98 1434.95"/><g class="uuid-f4e0c94c-f990-4977-ab9f-ec96d84b198b"><rect class="uuid-fb43f18d-1432-4a7a-a4e9-a788158c4d41" x="568.3" y="1479.42" width="61.78" height="138.57"/></g><g class="uuid-0ef70aee-21ba-4fcf-a40d-6fa097cbe529"><rect class="uuid-0af6b6e5-d0b3-4d51-82bc-1b5e75e593cb" x="190.93" y="1174.65" width="168.86" height="125.77"/></g><g class="uuid-5565c331-2b97-4859-a705-97eceeab20fd"><rect class="uuid-179828bd-7108-4122-b76e-1754ec45589b" x="190.93" y="1278.84" width="168.86" height="138.98"/></g><g class="uuid-afdc90c1-e6e9-4adb-bba9-e3503c4e60fa"><rect class="uuid-cd6d087c-d007-4353-aa97-d54ffbe04d91" x="0" y="1126.33" width="190.93" height="215"/></g><g class="uuid-f207f04d-8ff8-4f6e-8e82-95e5a7f816b5"><rect class="uuid-84d6b7ee-0976-4c69-a472-068ae043509c" y="1300.42" width="190.93" height="147.8"/></g><polygon class="uuid-c75af1f7-7553-492c-8d09-2b57f8cb3f60" points="315.98 1551.04 469.98 1434.95 403.42 1619.89 315.98 1551.04"/><g class="uuid-67afe27c-6499-4113-9811-53a4f211b781"><rect class="uuid-52ad9140-44ac-42c3-9a71-6c1b12d68263" x="469.98" y="1434.95" width="160.1" height="185.05"/></g><g class="uuid-9820e744-bddc-409f-962e-66371335e646"><rect class="uuid-676dffd6-f02a-40dc-9197-7c6e4909ec0c" x="277.12" y="1278.84" width="145.08" height="138.98"/></g><g class="uuid-bb25c30e-835d-4023-82ea-53fbb5cf5f17"><rect class="uuid-bee39a7d-0087-44a8-b17a-70f3230915a4" x="403.42" y="1434.95" width="107.47" height="185.05"/></g><g class="uuid-1f5b3e5d-63ff-4a91-ae76-22eb7b6780c6"><rect class="uuid-ec2bb287-2b9e-4147-a855-0452674c088f" x="256.74" y="1378.53" width="233.63" height="211.8" transform="translate(-692.17 385.65) rotate(-30)"/></g><g class="uuid-1c89bec0-5d31-4796-b214-6d0d9229750b"><rect class="uuid-72381ed5-fc3e-4a5a-bd4d-d75722b1a288" x="97.78" y="1394.59" width="216.12" height="231.75" transform="translate(-727.66 305.28) rotate(-30)"/></g><g class="uuid-698e89fa-e541-4b6d-90d6-4fbb9c4c0efe"><rect class="uuid-b6b030a9-e3c3-43ed-84ca-68d00aba50fc" x="0" y="1300.42" width="190.93" height="176.09"/></g><g class="uuid-d45607c3-30b7-452c-8c1e-dd012ed71a4f"><rect class="uuid-ecde9fcf-3ff2-4fed-b09a-0cf86fc2700a" x="0" y="1466.83" width="134.55" height="153.17"/></g><g class="uuid-0e6ae5be-5c5e-4d57-8c4e-fc758c65de5b"><rect class="uuid-5cf87d5e-058b-47f5-b64b-6f4862e5b0a4" x="-79.37" y="933.68" width="249.73" height="341.55" transform="translate(-546.14 170.72) rotate(-30)"/></g><g class="uuid-18877b20-567c-4b2f-aacc-14e748b27dd2"><rect class="uuid-911cf2f8-28a1-46f1-b978-d1e6ab12238b" x="101.51" y="1114.23" width="89.43" height="186.2"/></g><g class="uuid-85ff55dc-0801-4bb1-adb0-4768141cc50c"><rect class="uuid-5cd13b75-1805-41a8-ad86-5d36ae8f5ad9" x="145.06" y="1417.82" width="170.92" height="185.29"/></g><g class="uuid-195cbefe-b7ea-4684-b709-04fcb4a28359"><rect class="uuid-ea5c2dff-176e-4444-9595-00191bc87578" x="145.06" y="1551.04" width="258.37" height="68.86"/></g><g class="uuid-70fac08a-e4ae-465f-92fd-0331e9b8c4bc"><rect class="uuid-128d1c58-5b57-4da9-9ad8-9f6e0822147a" x="9.71" y="1466.83" width="135.35" height="153.17"/></g><polygon class="uuid-bca590dd-7233-4302-984e-8f24a2ea4a9e" points="139.77 1620 145.06 1603.11 403.42 1619.89 401.71 1620 139.77 1620"/><g class="uuid-166d26ae-8863-424b-85db-f9bc6c104856"><rect class="uuid-df4c6b55-f576-4950-954a-fb7103d8142b" x="96.6" y="1274.39" width="218.48" height="218.48" transform="translate(-918.08 550.8) rotate(-45)"/></g><g class="uuid-5192ab16-456f-4bb9-8bb9-2776f6daf12e"><rect class="uuid-17470826-8191-44ed-8fd8-9efb3da3743a" x="101.51" y="1030.31" width="87.16" height="96.02"/></g><g class="uuid-8649382f-8e97-4975-8c85-76941e14a6b9"><rect class="uuid-1aa35a48-d32a-499d-89be-97dfa1ba8390" x="277.12" y="1338.82" width="192.86" height="96.14"/></g><g class="uuid-005cc575-d544-4798-975e-2b005b425307"><rect class="uuid-c7c64d67-a3b8-4356-ab40-581e665691fe" x="188.67" y="1114.23" width="62.82" height="186.2"/></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 630.1 1585.7"
+>
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-76);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-51);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-34);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-61);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-15);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-13);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-107);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-107);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-28);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-65);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-38);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-21);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-69);
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-53);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath-17);
+      }
+
+      .cls-18 {
+        fill: url(#linear-gradient-42);
+      }
+
+      .cls-19 {
+        clip-path: url(#clippath-80);
+      }
+
+      .cls-20 {
+        clip-path: url(#clippath-31);
+      }
+
+      .cls-21 {
+        fill: url(#linear-gradient-46);
+      }
+
+      .cls-22 {
+        clip-path: url(#clippath-79);
+      }
+
+      .cls-23 {
+        clip-path: url(#clippath-75);
+      }
+
+      .cls-24 {
+        clip-path: url(#clippath-15);
+      }
+
+      .cls-25 {
+        clip-path: url(#clippath-33);
+      }
+
+      .cls-26 {
+        clip-path: url(#clippath-61);
+      }
+
+      .cls-27 {
+        fill: url(#linear-gradient-70);
+      }
+
+      .cls-28 {
+        fill: url(#linear-gradient-60);
+      }
+
+      .cls-29 {
+        clip-path: url(#clippath-100);
+      }
+
+      .cls-30 {
+        clip-path: url(#clippath-18);
+      }
+
+      .cls-31 {
+        clip-path: url(#clippath-47);
+      }
+
+      .cls-32 {
+        fill: url(#linear-gradient-93);
+      }
+
+      .cls-33 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-34 {
+        fill: url(#linear-gradient-95);
+      }
+
+      .cls-35 {
+        clip-path: url(#clippath-71);
+      }
+
+      .cls-36 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-37 {
+        fill: url(#linear-gradient-100);
+      }
+
+      .cls-38 {
+        fill: url(#linear-gradient-87);
+      }
+
+      .cls-39 {
+        clip-path: url(#clippath-22);
+      }
+
+      .cls-40 {
+        fill: url(#linear-gradient-64);
+      }
+
+      .cls-41 {
+        clip-path: url(#clippath-103);
+      }
+
+      .cls-42 {
+        clip-path: url(#clippath-23);
+      }
+
+      .cls-43 {
+        fill: url(#linear-gradient-56);
+      }
+
+      .cls-44 {
+        fill: url(#linear-gradient-43);
+      }
+
+      .cls-45 {
+        fill: url(#linear-gradient-25);
+      }
+
+      .cls-46 {
+        fill: url(#linear-gradient-82);
+      }
+
+      .cls-47 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-48 {
+        fill: url(#linear-gradient-12);
+      }
+
+      .cls-49 {
+        fill: url(#linear-gradient-40);
+      }
+
+      .cls-50 {
+        fill: url(#linear-gradient-27);
+      }
+
+      .cls-51 {
+        fill: url(#linear-gradient-68);
+      }
+
+      .cls-52 {
+        clip-path: url(#clippath-82);
+      }
+
+      .cls-53 {
+        fill: #01465d;
+      }
+
+      .cls-54 {
+        clip-path: url(#clippath-54);
+      }
+
+      .cls-55 {
+        clip-path: url(#clippath-66);
+      }
+
+      .cls-56 {
+        fill: url(#linear-gradient-37);
+      }
+
+      .cls-57 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-58 {
+        clip-path: url(#clippath-102);
+      }
+
+      .cls-59 {
+        clip-path: url(#clippath-70);
+      }
+
+      .cls-60 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-61 {
+        clip-path: url(#clippath-42);
+      }
+
+      .cls-62 {
+        fill: url(#linear-gradient-75);
+      }
+
+      .cls-63 {
+        fill: url(#linear-gradient-55);
+      }
+
+      .cls-64 {
+        clip-path: url(#clippath-59);
+      }
+
+      .cls-65 {
+        fill: url(#linear-gradient-39);
+      }
+
+      .cls-66 {
+        clip-path: url(#clippath-43);
+      }
+
+      .cls-67 {
+        clip-path: url(#clippath-64);
+      }
+
+      .cls-68 {
+        clip-path: url(#clippath-101);
+      }
+
+      .cls-69 {
+        fill: url(#linear-gradient-89);
+      }
+
+      .cls-70 {
+        clip-path: url(#clippath-25);
+      }
+
+      .cls-71 {
+        clip-path: url(#clippath-27);
+      }
+
+      .cls-72 {
+        fill: url(#linear-gradient-52);
+      }
+
+      .cls-73 {
+        clip-path: url(#clippath-109);
+      }
+
+      .cls-74 {
+        fill: url(#linear-gradient-58);
+      }
+
+      .cls-75 {
+        clip-path: url(#clippath-60);
+      }
+
+      .cls-76 {
+        fill: url(#linear-gradient-47);
+      }
+
+      .cls-77 {
+        fill: url(#linear-gradient-26);
+      }
+
+      .cls-78 {
+        fill: url(#linear-gradient-74);
+      }
+
+      .cls-79 {
+        clip-path: url(#clippath-93);
+      }
+
+      .cls-80 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-81 {
+        clip-path: url(#clippath-57);
+      }
+
+      .cls-82 {
+        fill: url(#linear-gradient-97);
+      }
+
+      .cls-83 {
+        clip-path: url(#clippath-88);
+      }
+
+      .cls-84 {
+        fill: url(#linear-gradient-72);
+      }
+
+      .cls-85 {
+        fill: none;
+      }
+
+      .cls-86 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-87 {
+        fill: #0f4b66;
+      }
+
+      .cls-88 {
+        clip-path: url(#clippath-85);
+      }
+
+      .cls-89 {
+        fill: url(#linear-gradient-35);
+      }
+
+      .cls-90 {
+        fill: url(#linear-gradient-30);
+      }
+
+      .cls-91 {
+        clip-path: url(#clippath-105);
+      }
+
+      .cls-92 {
+        clip-path: url(#clippath-36);
+      }
+
+      .cls-93 {
+        clip-path: url(#clippath-92);
+      }
+
+      .cls-94 {
+        fill: url(#linear-gradient-76);
+      }
+
+      .cls-95 {
+        clip-path: url(#clippath-35);
+      }
+
+      .cls-96 {
+        clip-path: url(#clippath-98);
+      }
+
+      .cls-97 {
+        clip-path: url(#clippath-48);
+      }
+
+      .cls-98 {
+        clip-path: url(#clippath-104);
+      }
+
+      .cls-99 {
+        clip-path: url(#clippath-28);
+      }
+
+      .cls-100 {
+        fill: url(#linear-gradient-73);
+      }
+
+      .cls-101 {
+        fill: url(#linear-gradient-71);
+      }
+
+      .cls-102 {
+        fill: url(#linear-gradient-44);
+      }
+
+      .cls-103 {
+        fill: url(#linear-gradient-96);
+      }
+
+      .cls-104 {
+        fill: url(#linear-gradient-49);
+      }
+
+      .cls-105 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-106 {
+        fill: url(#linear-gradient-34);
+      }
+
+      .cls-107 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-108 {
+        clip-path: url(#clippath-56);
+      }
+
+      .cls-109 {
+        clip-path: url(#clippath-108);
+      }
+
+      .cls-110 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-111 {
+        fill: url(#linear-gradient-38);
+      }
+
+      .cls-112 {
+        fill: url(#linear-gradient-91);
+      }
+
+      .cls-113 {
+        fill: url(#linear-gradient-22);
+      }
+
+      .cls-114 {
+        fill: url(#linear-gradient-24);
+      }
+
+      .cls-115 {
+        fill: url(#linear-gradient-94);
+      }
+
+      .cls-116 {
+        fill: url(#linear-gradient-54);
+      }
+
+      .cls-117 {
+        clip-path: url(#clippath-90);
+      }
+
+      .cls-118 {
+        clip-path: url(#clippath-45);
+      }
+
+      .cls-119 {
+        clip-path: url(#clippath-110);
+      }
+
+      .cls-120 {
+        clip-path: url(#clippath-99);
+      }
+
+      .cls-121 {
+        clip-path: url(#clippath-89);
+      }
+
+      .cls-122 {
+        clip-path: url(#clippath-46);
+      }
+
+      .cls-123 {
+        clip-path: url(#clippath-40);
+      }
+
+      .cls-124 {
+        clip-path: url(#clippath-96);
+      }
+
+      .cls-125 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-126 {
+        clip-path: url(#clippath-20);
+      }
+
+      .cls-127 {
+        fill: url(#linear-gradient-92);
+      }
+
+      .cls-128 {
+        fill: url(#linear-gradient-90);
+      }
+
+      .cls-129 {
+        clip-path: url(#clippath-95);
+      }
+
+      .cls-130 {
+        fill: url(#linear-gradient-33);
+      }
+
+      .cls-131 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-132 {
+        fill: url(#linear-gradient-79);
+      }
+
+      .cls-133 {
+        fill: url(#linear-gradient-78);
+      }
+
+      .cls-134 {
+        fill: url(#linear-gradient-51);
+      }
+
+      .cls-135 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-136 {
+        clip-path: url(#clippath-52);
+      }
+
+      .cls-137 {
+        fill: url(#linear-gradient-66);
+      }
+
+      .cls-138 {
+        clip-path: url(#clippath-41);
+      }
+
+      .cls-139 {
+        fill: url(#linear-gradient-57);
+      }
+
+      .cls-140 {
+        fill: url(#linear-gradient-77);
+      }
+
+      .cls-141 {
+        clip-path: url(#clippath-67);
+      }
+
+      .cls-142 {
+        fill: url(#linear-gradient-103);
+      }
+
+      .cls-143 {
+        clip-path: url(#clippath-74);
+      }
+
+      .cls-144 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-145 {
+        clip-path: url(#clippath-26);
+      }
+
+      .cls-146 {
+        fill: url(#linear-gradient-88);
+      }
+
+      .cls-147 {
+        clip-path: url(#clippath-91);
+      }
+
+      .cls-148 {
+        fill: #091314;
+      }
+
+      .cls-149 {
+        fill: #054366;
+      }
+
+      .cls-150 {
+        clip-path: url(#clippath-12);
+      }
+
+      .cls-151 {
+        clip-path: url(#clippath-50);
+      }
+
+      .cls-152 {
+        fill: url(#linear-gradient-14);
+      }
+
+      .cls-153 {
+        fill: url(#linear-gradient-62);
+      }
+
+      .cls-154 {
+        fill: #081111;
+      }
+
+      .cls-155 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-156 {
+        fill: url(#linear-gradient-29);
+      }
+
+      .cls-157 {
+        fill: url(#linear-gradient-20);
+      }
+
+      .cls-158 {
+        fill: url(#linear-gradient-106);
+      }
+
+      .cls-159 {
+        fill: url(#linear-gradient-67);
+      }
+
+      .cls-160 {
+        fill: url(#linear-gradient-17);
+      }
+
+      .cls-161 {
+        clip-path: url(#clippath-97);
+      }
+
+      .cls-162 {
+        fill: url(#linear-gradient-50);
+      }
+
+      .cls-163 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-164 {
+        clip-path: url(#clippath-30);
+      }
+
+      .cls-165 {
+        clip-path: url(#clippath-77);
+      }
+
+      .cls-166 {
+        clip-path: url(#clippath-19);
+      }
+
+      .cls-167 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-168 {
+        clip-path: url(#clippath-78);
+      }
+
+      .cls-169 {
+        fill: url(#linear-gradient-104);
+      }
+
+      .cls-170 {
+        fill: url(#linear-gradient-59);
+      }
+
+      .cls-171 {
+        fill: url(#linear-gradient-11);
+      }
+
+      .cls-172 {
+        clip-path: url(#clippath-72);
+      }
+
+      .cls-173 {
+        clip-path: url(#clippath-84);
+      }
+
+      .cls-174 {
+        clip-path: url(#clippath-32);
+      }
+
+      .cls-175 {
+        fill: url(#linear-gradient-108);
+      }
+
+      .cls-176 {
+        fill: url(#linear-gradient-19);
+      }
+
+      .cls-177 {
+        fill: url(#linear-gradient-101);
+      }
+
+      .cls-178 {
+        fill: url(#linear-gradient-80);
+      }
+
+      .cls-179 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-180 {
+        fill: #05515f;
+      }
+
+      .cls-181 {
+        clip-path: url(#clippath-55);
+      }
+
+      .cls-182 {
+        fill: url(#linear-gradient-83);
+      }
+
+      .cls-183 {
+        clip-path: url(#clippath-73);
+      }
+
+      .cls-184 {
+        fill: url(#linear-gradient-105);
+      }
+
+      .cls-185 {
+        clip-path: url(#clippath-53);
+      }
+
+      .cls-186 {
+        clip-path: url(#clippath-39);
+      }
+
+      .cls-187 {
+        fill: url(#linear-gradient-36);
+      }
+
+      .cls-188 {
+        fill: url(#linear-gradient-21);
+      }
+
+      .cls-189 {
+        fill: url(#linear-gradient-45);
+      }
+
+      .cls-190 {
+        clip-path: url(#clippath-81);
+      }
+
+      .cls-191 {
+        fill: url(#linear-gradient-85);
+      }
+
+      .cls-192 {
+        fill: url(#linear-gradient-98);
+      }
+
+      .cls-193 {
+        clip-path: url(#clippath-106);
+      }
+
+      .cls-194 {
+        fill: url(#linear-gradient-81);
+      }
+
+      .cls-195 {
+        clip-path: url(#clippath-16);
+      }
+
+      .cls-196 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-197 {
+        fill: url(#linear-gradient-84);
+      }
+
+      .cls-198 {
+        clip-path: url(#clippath-29);
+      }
+
+      .cls-199 {
+        fill: url(#linear-gradient-48);
+      }
+
+      .cls-200 {
+        fill: url(#linear-gradient-102);
+      }
+
+      .cls-201 {
+        clip-path: url(#clippath-49);
+      }
+
+      .cls-202 {
+        fill: url(#linear-gradient-32);
+      }
+
+      .cls-203 {
+        fill: url(#linear-gradient-86);
+      }
+
+      .cls-204 {
+        clip-path: url(#clippath-37);
+      }
+
+      .cls-205 {
+        fill: url(#linear-gradient-41);
+      }
+
+      .cls-206 {
+        clip-path: url(#clippath-58);
+      }
+
+      .cls-207 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-208 {
+        fill: url(#linear-gradient-16);
+      }
+
+      .cls-209 {
+        clip-path: url(#clippath-86);
+      }
+
+      .cls-210 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-211 {
+        clip-path: url(#clippath-63);
+      }
+
+      .cls-212 {
+        clip-path: url(#clippath-24);
+      }
+
+      .cls-213 {
+        fill: url(#linear-gradient-23);
+      }
+
+      .cls-214 {
+        fill: url(#linear-gradient-31);
+      }
+
+      .cls-215 {
+        clip-path: url(#clippath-94);
+      }
+
+      .cls-216 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-217 {
+        fill: url(#linear-gradient-63);
+      }
+
+      .cls-218 {
+        clip-path: url(#clippath-87);
+      }
+
+      .cls-219 {
+        clip-path: url(#clippath-68);
+      }
+
+      .cls-220 {
+        clip-path: url(#clippath-83);
+      }
+
+      .cls-221 {
+        clip-path: url(#clippath-65);
+      }
+
+      .cls-222 {
+        clip-path: url(#clippath-44);
+      }
+
+      .cls-223 {
+        fill: url(#linear-gradient-99);
+      }
+
+      .cls-224 {
+        fill: url(#linear-gradient-18);
+      }
+
+      .cls-225 {
+        clip-path: url(#clippath-62);
+      }
+
+      .cls-226 {
+        clip-path: url(#clippath-69);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-85" width="630.1" height="1585.7" />
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-85" y="-17.3" width="630.1" height="810" />
+    </clipPath>
+    <clipPath id="clippath-2">
+      <polygon
+        class="cls-85"
+        points="568.3 123.2 630.1 172.7 630.1 88.6 568.3 123.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient"
+      x1="7.1"
+      y1="1585.8"
+      x2="8.1"
+      y2="1585.8"
+      gradientTransform="translate(178569 972.2) rotate(-90) scale(112.2 -112.2)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#061d26" />
+      <stop offset=".2" stop-color="#061d26" />
+      <stop offset=".4" stop-color="#05212c" />
+      <stop offset=".7" stop-color="#042e3d" />
+      <stop offset="1" stop-color="#024359" />
+      <stop offset="1" stop-color="#02445a" />
+    </linearGradient>
+    <clipPath id="clippath-3">
+      <polygon
+        class="cls-85"
+        points="251.5 428 346.3 500.2 403.4 344.8 251.5 428"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-2"
+      x1="0"
+      y1="1590.9"
+      x2="1"
+      y2="1590.9"
+      gradientTransform="translate(251.5 242139.6) scale(151.9 -151.9)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#015d72" />
+      <stop offset=".3" stop-color="#015d72" />
+      <stop offset=".8" stop-color="#044d67" />
+      <stop offset="1" stop-color="#044d67" />
+    </linearGradient>
+    <clipPath id="clippath-4">
+      <polygon
+        class="cls-85"
+        points="458 302.2 630.1 423.4 630.1 393.8 568.3 123.2 458 302.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-3"
+      x1="0"
+      y1="1590.1"
+      x2="1"
+      y2="1590.1"
+      gradientTransform="translate(458 286740.8) scale(180.2 -180.2)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#044d67" />
+      <stop offset=".3" stop-color="#044d67" />
+      <stop offset=".8" stop-color="#043a4c" />
+      <stop offset="1" stop-color="#043a4c" />
+    </linearGradient>
+    <clipPath id="clippath-5">
+      <polygon
+        class="cls-85"
+        points="403.4 495.1 458 302.2 576 515.4 403.4 495.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-4"
+      x1="0"
+      y1="1590.3"
+      x2="1"
+      y2="1590.3"
+      gradientTransform="translate(403.4 274802.8) scale(172.5 -172.5)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#02586f" />
+      <stop offset="0" stop-color="#02586f" />
+      <stop offset=".4" stop-color="#035369" />
+      <stop offset=".8" stop-color="#084558" />
+      <stop offset=".8" stop-color="#094558" />
+      <stop offset="1" stop-color="#094558" />
+    </linearGradient>
+    <clipPath id="clippath-6">
+      <polygon
+        class="cls-85"
+        points="576 515.4 630.1 452.4 630.1 423.4 458 302.2 576 515.4"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-5"
+      x1="-2.8"
+      y1="1587.2"
+      x2="-1.8"
+      y2="1587.2"
+      gradientTransform="translate(-386074.2 960.3) rotate(90) scale(243.6 -243.6)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#186c8d" />
+      <stop offset=".2" stop-color="#186c8d" />
+      <stop offset=".9" stop-color="#043a4c" />
+      <stop offset="1" stop-color="#043a4c" />
+    </linearGradient>
+    <clipPath id="clippath-7">
+      <polygon
+        class="cls-85"
+        points="630.1 393.8 630.1 172.7 568.3 123.2 630.1 393.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-6"
+      x1="-2.6"
+      y1="1587.1"
+      x2="-1.6"
+      y2="1587.1"
+      gradientTransform="translate(-425471.6 812.7) rotate(90) scale(268.5 -268.5)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#0e1012" />
+      <stop offset=".2" stop-color="#0e1012" />
+      <stop offset="1" stop-color="#043a4c" />
+      <stop offset="1" stop-color="#043a4c" />
+    </linearGradient>
+    <clipPath id="clippath-8">
+      <polygon
+        class="cls-85"
+        points="458 302.2 403.4 344.8 403.4 495.1 458 302.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-7"
+      x1="0"
+      y1="1600.2"
+      x2="1"
+      y2="1600.2"
+      gradientTransform="translate(403.4 87697.8) scale(54.6 -54.6)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#043d50" />
+      <stop offset=".4" stop-color="#043d50" />
+      <stop offset="1" stop-color="#0c2c40" />
+      <stop offset="1" stop-color="#0c2c40" />
+    </linearGradient>
+    <clipPath id="clippath-9">
+      <polygon
+        class="cls-85"
+        points="251.5 428 359.8 323.8 403.4 344.8 251.5 428"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-8"
+      x1="0"
+      y1="1590.9"
+      x2="1"
+      y2="1590.9"
+      gradientTransform="translate(251.5 242093) scale(151.9 -151.9)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#094558" />
+      <stop offset=".2" stop-color="#094558" />
+      <stop offset="1" stop-color="#043a4c" />
+      <stop offset="1" stop-color="#043a4c" />
+    </linearGradient>
+    <clipPath id="clippath-10">
+      <polygon
+        class="cls-85"
+        points="0 327.3 101.4 611.8 101.5 476.3 0 300.1 0 327.3"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-9"
+      x1="0"
+      y1="1591.7"
+      x2="1"
+      y2="1591.7"
+      gradientTransform="translate(-25.5 202548.4) scale(127 -127)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#1585bf" />
+      <stop offset="0" stop-color="#1585bf" />
+      <stop offset=".2" stop-color="#137db3" />
+      <stop offset=".5" stop-color="#106a94" />
+      <stop offset=".9" stop-color="#0a4b62" />
+      <stop offset="1" stop-color="#094558" />
+    </linearGradient>
+    <clipPath id="clippath-11">
+      <polygon
+        class="cls-85"
+        points="251.6 428 346.4 500.2 403.5 344.8 251.6 428"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-10"
+      x1="0"
+      x2="1"
+      gradientTransform="translate(251.6 242139.6) scale(151.9 -151.9)"
+      xlink:href="#linear-gradient-2"
+    />
+    <clipPath id="clippath-12">
+      <polygon
+        class="cls-85"
+        points="458 302.2 630.1 423.4 630.1 393.5 568.4 123.2 458 302.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-11"
+      x1="0"
+      y1="1590.1"
+      x2="1"
+      y2="1590.1"
+      gradientTransform="translate(458 286740.8) scale(180.2 -180.2)"
+      xlink:href="#linear-gradient-3"
+    />
+    <clipPath id="clippath-13">
+      <polygon
+        class="cls-85"
+        points="403.5 495.1 458 302.2 576 515.4 403.5 495.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-12"
+      x1="0"
+      x2="1"
+      gradientTransform="translate(403.5 274802.8) scale(172.5 -172.5)"
+      xlink:href="#linear-gradient-4"
+    />
+    <clipPath id="clippath-14">
+      <polygon
+        class="cls-85"
+        points="576 515.4 576 663.8 630.1 471.9 630.1 452.5 576 515.4"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-13"
+      x1="4.3"
+      y1="1583.2"
+      x2="5.3"
+      y2="1583.2"
+      gradientTransform="translate(254074.7 1322.9) rotate(-90) scale(160.1 -160.1)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#02435f" />
+      <stop offset=".6" stop-color="#11607f" />
+      <stop offset="1" stop-color="#186c8d" />
+    </linearGradient>
+    <clipPath id="clippath-15">
+      <polygon
+        class="cls-85"
+        points="576 515.4 403.5 623.2 576 663.8 576 515.4"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-14"
+      x1="5.3"
+      y1="1585.7"
+      x2="6.3"
+      y2="1585.7"
+      gradientTransform="translate(235867 1456.8) rotate(-90) scale(148.4 -148.4)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-16">
+      <polygon
+        class="cls-85"
+        points="576 515.4 403.5 495.1 403.5 623.2 576 515.4"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-15"
+      x1="-6.2"
+      y1="1589.3"
+      x2="-5.2"
+      y2="1589.3"
+      gradientTransform="translate(-175878.6 1147.3) rotate(90) scale(111 -111)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#03384a" />
+      <stop offset=".2" stop-color="#03384a" />
+      <stop offset=".9" stop-color="#094558" />
+      <stop offset="1" stop-color="#094558" />
+    </linearGradient>
+    <clipPath id="clippath-17">
+      <polygon
+        class="cls-85"
+        points="576 515.4 630.1 452.5 630.1 423.4 458 302.2 576 515.4"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-16"
+      x1="-2.8"
+      y1="1587.2"
+      x2="-1.8"
+      y2="1587.2"
+      gradientTransform="translate(-386074.1 960.3) rotate(90) scale(243.6 -243.6)"
+      xlink:href="#linear-gradient-5"
+    />
+    <clipPath id="clippath-18">
+      <polygon
+        class="cls-85"
+        points="630.1 393.5 630.1 172.7 568.4 123.2 630.1 393.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-17"
+      x1="-2.6"
+      y1="1587.1"
+      x2="-1.6"
+      y2="1587.1"
+      gradientTransform="translate(-425471.6 812.7) rotate(90) scale(268.5 -268.5)"
+      xlink:href="#linear-gradient-6"
+    />
+    <clipPath id="clippath-19">
+      <polygon
+        class="cls-85"
+        points="568.4 123.2 458 302.2 470 167.7 568.4 123.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-18"
+      x1="3.3"
+      y1="1587.4"
+      x2="4.3"
+      y2="1587.4"
+      gradientTransform="translate(-278.6 333853.8) scale(210.2 -210.2)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#1585bf" />
+      <stop offset=".5" stop-color="#1585bf" />
+      <stop offset=".6" stop-color="#11709d" />
+      <stop offset=".7" stop-color="#0b516b" />
+      <stop offset=".8" stop-color="#094558" />
+      <stop offset="1" stop-color="#094558" />
+    </linearGradient>
+    <clipPath id="clippath-20">
+      <polygon
+        class="cls-85"
+        points="470 167.7 422.2 263.8 458 302.2 470 167.7"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-19"
+      x1="0"
+      y1="1602.3"
+      x2="1"
+      y2="1602.3"
+      gradientTransform="translate(422.2 76787.5) scale(47.8 -47.8)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#086181" />
+      <stop offset=".8" stop-color="#086181" />
+      <stop offset=".8" stop-color="#0d6484" />
+      <stop offset=".9" stop-color="#186c8d" />
+      <stop offset="1" stop-color="#186c8d" />
+    </linearGradient>
+    <clipPath id="clippath-21">
+      <polygon
+        class="cls-85"
+        points="458 302.2 403.5 344.8 403.5 495.1 458 302.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-20"
+      x1="0"
+      x2="1"
+      gradientTransform="translate(403.5 87697.8) scale(54.6 -54.6)"
+      xlink:href="#linear-gradient-7"
+    />
+    <clipPath id="clippath-22">
+      <polygon
+        class="cls-85"
+        points="576 663.8 630.1 776 630.1 471.9 576 663.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-21"
+      x1="2.2"
+      y1="1587.1"
+      x2="3.2"
+      y2="1587.1"
+      gradientTransform="translate(-219 491826.9) scale(309.5 -309.5)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#022640" />
+      <stop offset=".2" stop-color="#022640" />
+      <stop offset=".7" stop-color="#04455c" />
+      <stop offset="1" stop-color="#055369" />
+    </linearGradient>
+    <clipPath id="clippath-23">
+      <polygon
+        class="cls-85"
+        points="346.4 500.2 403.5 623.2 403.5 495.1 346.4 500.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-22"
+      x1="-5.1"
+      y1="1588.4"
+      x2="-4.1"
+      y2="1588.4"
+      gradientTransform="translate(-214259.5 1180.6) rotate(90) scale(135.1 -135.1)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#1585bf" />
+      <stop offset=".5" stop-color="#1585bf" />
+      <stop offset=".6" stop-color="#137db3" />
+      <stop offset=".7" stop-color="#106a94" />
+      <stop offset="1" stop-color="#0a4b62" />
+      <stop offset="1" stop-color="#094558" />
+    </linearGradient>
+    <clipPath id="clippath-24">
+      <polygon
+        class="cls-85"
+        points="251.6 428 359.9 323.8 403.5 344.8 251.6 428"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-23"
+      x1="0"
+      x2="1"
+      gradientTransform="translate(251.6 242093) scale(151.9 -151.9)"
+      xlink:href="#linear-gradient-8"
+    />
+    <clipPath id="clippath-25">
+      <polygon
+        class="cls-85"
+        points="251.6 428 205.6 676.5 188.7 488.4 251.6 428"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-24"
+      x1="0"
+      y1="1598.3"
+      x2="1"
+      y2="1598.3"
+      gradientTransform="translate(188.7 100948.4) scale(62.8 -62.8)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#06384a" />
+      <stop offset=".4" stop-color="#06384a" />
+      <stop offset="1" stop-color="#044d67" />
+    </linearGradient>
+    <clipPath id="clippath-26">
+      <polygon
+        class="cls-85"
+        points="245.1 792.7 456.3 792.7 403.5 623.2 245.1 792.7"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-25"
+      x1="4.5"
+      y1="1585.7"
+      x2="5.5"
+      y2="1585.7"
+      gradientTransform="translate(277973.4 1591.3) rotate(-90) scale(175.1 -175.1)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#055369" />
+      <stop offset=".4" stop-color="#055369" />
+      <stop offset=".5" stop-color="#07566d" />
+      <stop offset=".7" stop-color="#0e5f7b" />
+      <stop offset=".8" stop-color="#186c8d" />
+      <stop offset="1" stop-color="#186c8d" />
+    </linearGradient>
+    <clipPath id="clippath-27">
+      <polygon
+        class="cls-85"
+        points="456.3 792.7 463 792.7 576 663.8 403.5 623.2 456.3 792.7"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-26"
+      x1="3.8"
+      y1="1583.5"
+      x2="4.8"
+      y2="1583.5"
+      gradientTransform="translate(283788.2 1457.1) rotate(-90) scale(178.9 -178.9)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#052335" />
+      <stop offset="0" stop-color="#052335" />
+      <stop offset=".9" stop-color="#055369" />
+      <stop offset="1" stop-color="#055369" />
+    </linearGradient>
+    <clipPath id="clippath-28">
+      <polygon
+        class="cls-85"
+        points="403.5 623.2 346.4 500.2 274.7 760.9 403.5 623.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-27"
+      x1="0"
+      y1="1591.8"
+      x2="1"
+      y2="1591.8"
+      gradientTransform="translate(274.7 205569.4) scale(128.7 -128.7)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#055369" />
+      <stop offset=".4" stop-color="#055369" />
+      <stop offset=".8" stop-color="#02445a" />
+      <stop offset="1" stop-color="#02445a" />
+    </linearGradient>
+    <clipPath id="clippath-29">
+      <polygon
+        class="cls-85"
+        points="251.6 428 205.6 676.5 346.4 500.2 251.6 428"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-28"
+      x1="-3.2"
+      y1="1585.7"
+      x2="-2.2"
+      y2="1585.7"
+      gradientTransform="translate(-393762 1221) rotate(90) scale(248.5 -248.5)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#156888" />
+      <stop offset=".2" stop-color="#156888" />
+      <stop offset=".6" stop-color="#136585" />
+      <stop offset=".8" stop-color="#0d5d7d" />
+      <stop offset=".9" stop-color="#024e70" />
+      <stop offset=".9" stop-color="#004b6d" />
+      <stop offset="1" stop-color="#004b6d" />
+    </linearGradient>
+    <clipPath id="clippath-30">
+      <polygon
+        class="cls-85"
+        points="346.4 500.2 205.6 676.5 257.1 779.9 274.7 760.9 346.4 500.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-29"
+      x1="-2.8"
+      y1="1585.7"
+      x2="-1.8"
+      y2="1585.7"
+      gradientTransform="translate(-443269.2 1293.2) rotate(90) scale(279.7 -279.7)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#156888" />
+      <stop offset=".4" stop-color="#156888" />
+      <stop offset=".7" stop-color="#0f6081" />
+      <stop offset="1" stop-color="#004c6e" />
+      <stop offset="1" stop-color="#004b6d" />
+    </linearGradient>
+    <clipPath id="clippath-31">
+      <polygon
+        class="cls-85"
+        points="188.7 488.4 101.5 572.3 101.5 611.8 205.6 676.5 188.7 488.4"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-30"
+      x1="4.2"
+      y1="1585.7"
+      x2="5.2"
+      y2="1585.7"
+      gradientTransform="translate(298375.3 1469.5) rotate(-90) scale(188.1 -188.1)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#044d67" />
+      <stop offset=".3" stop-color="#044d67" />
+      <stop offset=".7" stop-color="#025c7a" />
+      <stop offset="1" stop-color="#025c7a" />
+    </linearGradient>
+    <clipPath id="clippath-32">
+      <polygon
+        class="cls-85"
+        points=".9 669.1 .9 788.5 101.5 611.8 91 582.5 .9 669.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-31"
+      x1="6.6"
+      y1="1574.1"
+      x2="7.6"
+      y2="1574.1"
+      gradientTransform="translate(94012 1089.9) rotate(-90) scale(59.7 -59.7)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#111920" />
+      <stop offset=".4" stop-color="#0f1f2a" />
+      <stop offset="1" stop-color="#0c2c40" />
+    </linearGradient>
+    <clipPath id="clippath-33">
+      <polygon
+        class="cls-85"
+        points=".9 788.5 205.6 676.5 101.5 611.8 .9 788.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-32"
+      x1="0"
+      y1="1589.5"
+      x2="1"
+      y2="1589.5"
+      gradientTransform="translate(.9 326030) scale(204.7 -204.7)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#111920" />
+      <stop offset=".3" stop-color="#0f212a" />
+      <stop offset=".8" stop-color="#0b3747" />
+      <stop offset="1" stop-color="#094558" />
+    </linearGradient>
+    <clipPath id="clippath-34">
+      <polygon
+        class="cls-85"
+        points=".9 788.5 0 789 0 792.7 245.1 792.7 257.1 779.9 205.6 676.5 .9 788.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-33"
+      x1="6.5"
+      y1="1585.6"
+      x2="7.5"
+      y2="1585.6"
+      gradientTransform="translate(193252.1 1591.3) rotate(-90) scale(121.8 -121.8)"
+      xlink:href="#linear-gradient-31"
+    />
+    <clipPath id="clippath-35">
+      <polygon
+        class="cls-85"
+        points="568.3 123.2 630.1 88.6 630.1 -15.3 568.3 123.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-34"
+      x1="5.6"
+      y1="1585.8"
+      x2="6.6"
+      y2="1585.8"
+      gradientTransform="translate(223528.8 916.2) rotate(-90) scale(140.6 -140.6)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-36">
+      <polygon
+        class="cls-85"
+        points="190.9 302.2 359.8 323.8 251.5 428 190.9 302.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-35"
+      x1="0"
+      y1="1590.4"
+      x2="1"
+      y2="1590.4"
+      gradientTransform="translate(190.9 268910.3) scale(168.9 -168.9)"
+      xlink:href="#linear-gradient-25"
+    />
+    <clipPath id="clippath-37">
+      <polygon
+        class="cls-85"
+        points="277.1 184.8 190.9 302.2 359.8 323.8 277.1 184.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-36"
+      x1="0"
+      y1="1590.4"
+      x2="1"
+      y2="1590.4"
+      gradientTransform="translate(190.9 268799.5) scale(168.9 -168.9)"
+      xlink:href="#linear-gradient-9"
+    />
+    <clipPath id="clippath-38">
+      <polygon
+        class="cls-85"
+        points="0 300.1 101.5 476.3 190.9 302.2 0 261.3 0 300.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-37"
+      x1="0"
+      y1="1589.3"
+      x2="1"
+      y2="1589.3"
+      gradientTransform="translate(-25.5 344280.2) scale(216.4 -216.4)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-39">
+      <polygon class="cls-85" points="0 261.3 190.9 302.2 0 154.4 0 261.3" />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-38"
+      x1="0"
+      y1="1582.3"
+      x2="1"
+      y2="1582.3"
+      gradientTransform="translate(190.9 -365653.8) rotate(-180) scale(231.2 -231.2)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#02586f" />
+      <stop offset="0" stop-color="#02586f" />
+      <stop offset=".3" stop-color="#035369" />
+      <stop offset=".7" stop-color="#084558" />
+      <stop offset=".7" stop-color="#094558" />
+      <stop offset="1" stop-color="#094558" />
+    </linearGradient>
+    <clipPath id="clippath-40">
+      <polygon
+        class="cls-85"
+        points="510.9 -17.3 470 167.7 630.1 -16.3 630.1 -17.3 510.9 -17.3"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-39"
+      x1="0"
+      y1="1590.6"
+      x2="1"
+      y2="1590.6"
+      gradientTransform="translate(470 256152.9) scale(161 -161)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-41">
+      <polygon
+        class="cls-85"
+        points="359.8 323.8 422.2 263.8 277.1 184.8 359.8 323.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-40"
+      x1="0"
+      y1="1591.1"
+      x2="1"
+      y2="1591.1"
+      gradientTransform="translate(277.1 231099.1) scale(145.1 -145.1)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#111920" />
+      <stop offset=".2" stop-color="#0f212a" />
+      <stop offset=".6" stop-color="#0b3747" />
+      <stop offset=".8" stop-color="#094558" />
+      <stop offset="1" stop-color="#094558" />
+    </linearGradient>
+    <clipPath id="clippath-42">
+      <polygon
+        class="cls-85"
+        points="403.4 -17.2 470 167.7 510.9 -17.3 403.4 -17.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-41"
+      y1="1593"
+      x2="1"
+      y2="1593"
+      gradientTransform="translate(403.4 171284.6) scale(107.5 -107.5)"
+      xlink:href="#linear-gradient-7"
+    />
+    <clipPath id="clippath-43">
+      <polygon
+        class="cls-85"
+        points="316 51.6 470 167.7 277.1 184.8 316 51.6"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-42"
+      x1="2.1"
+      y1="1581.9"
+      x2="3.1"
+      y2="1581.9"
+      gradientTransform="translate(303171.6 623) rotate(-90) scale(191.4 -191.4)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#0e1012" />
+      <stop offset=".2" stop-color="#0e1012" />
+      <stop offset=".8" stop-color="#043a4c" />
+      <stop offset="1" stop-color="#043a4c" />
+    </linearGradient>
+    <clipPath id="clippath-44">
+      <polygon
+        class="cls-85"
+        points="277.1 184.8 145.1 -.5 134.5 135.8 277.1 184.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-43"
+      x1="5.6"
+      y1="1588.9"
+      x2="6.6"
+      y2="1588.9"
+      gradientTransform="translate(-554.4 195975.1) scale(123.3 -123.3)"
+      xlink:href="#linear-gradient-32"
+    />
+    <clipPath id="clippath-45">
+      <polygon
+        class="cls-85"
+        points="0 154.4 190.9 302.2 134.5 135.8 0 126.1 0 154.4"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-44"
+      x1="0"
+      y1="1589.1"
+      x2="1"
+      y2="1589.1"
+      gradientTransform="translate(-40.3 367665.3) scale(231.2 -231.2)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#156888" />
+      <stop offset=".2" stop-color="#156888" />
+      <stop offset=".6" stop-color="#0e5e7f" />
+      <stop offset="1" stop-color="#004b6d" />
+    </linearGradient>
+    <clipPath id="clippath-46">
+      <polygon
+        class="cls-85"
+        points="0 -17.3 0 126.1 134.5 135.8 9.7 -17.3 0 -17.3"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-45"
+      x1="0"
+      y1="1590.2"
+      x2="1"
+      y2="1590.2"
+      gradientTransform="translate(-40.3 278091.8) scale(174.8 -174.8)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-47">
+      <polygon class="cls-85" points="0 656 .8 669.1 91 582.5 0 327.3 0 656" />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-46"
+      x1="2"
+      y1="1586.7"
+      x2="3"
+      y2="1586.7"
+      gradientTransform="translate(-811.6 547496.1) scale(344.7 -344.7)"
+      xlink:href="#linear-gradient-32"
+    />
+    <clipPath id="clippath-48">
+      <polygon
+        class="cls-85"
+        points="190.9 302.2 101.5 476.3 188.7 488.4 190.9 302.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-47"
+      x1="0"
+      y1="1594.5"
+      x2="1"
+      y2="1594.5"
+      gradientTransform="translate(101.5 142987.9) scale(89.4 -89.4)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#1585bf" />
+      <stop offset="0" stop-color="#1585bf" />
+      <stop offset=".1" stop-color="#1483bc" />
+      <stop offset=".4" stop-color="#0f6891" />
+      <stop offset=".6" stop-color="#0c5571" />
+      <stop offset=".9" stop-color="#09495e" />
+      <stop offset="1" stop-color="#094558" />
+    </linearGradient>
+    <clipPath id="clippath-49">
+      <polygon
+        class="cls-85"
+        points="145.1 -.5 316 51.6 277.1 184.8 145.1 -.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-48"
+      x1="0"
+      y1="1590.3"
+      x2="1"
+      y2="1590.3"
+      gradientTransform="translate(145.1 271905) scale(170.9 -170.9)"
+      xlink:href="#linear-gradient-44"
+    />
+    <clipPath id="clippath-50">
+      <polygon
+        class="cls-85"
+        points="145.1 -.5 316 51.6 403.4 -17.2 145.1 -.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-49"
+      x1="0"
+      y1="1582.6"
+      x2="1"
+      y2="1582.6"
+      gradientTransform="translate(403.4 -408874.2) rotate(-180) scale(258.4 -258.4)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-51">
+      <polygon
+        class="cls-85"
+        points="9.7 -17.3 134.5 135.8 145.1 -.5 139.8 -17.3 9.7 -17.3"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-50"
+      x1="0"
+      y1="1580.4"
+      x2="1"
+      y2="1580.4"
+      gradientTransform="translate(145.1 -235331.5) rotate(-180) scale(148.9 -148.9)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#061d26" />
+      <stop offset=".2" stop-color="#061d26" />
+      <stop offset=".4" stop-color="#042835" />
+      <stop offset=".9" stop-color="#02445a" />
+      <stop offset="1" stop-color="#02445a" />
+    </linearGradient>
+    <clipPath id="clippath-52">
+      <polygon
+        class="cls-85"
+        points="134.5 135.8 190.9 302.2 277.1 184.8 134.5 135.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-51"
+      x1="3.9"
+      y1="1589.4"
+      x2="4.9"
+      y2="1589.4"
+      gradientTransform="translate(-424.3 229012.8) scale(144 -144)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#111920" />
+      <stop offset=".2" stop-color="#0d2a36" />
+      <stop offset=".5" stop-color="#0a3d4e" />
+      <stop offset=".7" stop-color="#094558" />
+      <stop offset="1" stop-color="#094558" />
+    </linearGradient>
+    <clipPath id="clippath-53">
+      <polygon
+        class="cls-85"
+        points="188.7 488.4 101.5 476.3 101.5 572.3 188.7 488.4"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-52"
+      x1="0"
+      y1="1594.8"
+      x2="1"
+      y2="1594.8"
+      gradientTransform="translate(101.5 139528.6) scale(87.2 -87.2)"
+      xlink:href="#linear-gradient-9"
+    />
+    <clipPath id="clippath-54">
+      <polygon
+        class="cls-85"
+        points="277.1 184.8 470 167.7 422.2 263.8 277.1 184.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-53"
+      x1="0"
+      y1="1589.8"
+      x2="1"
+      y2="1589.8"
+      gradientTransform="translate(277.1 306820) scale(192.9 -192.9)"
+      xlink:href="#linear-gradient-9"
+    />
+    <clipPath id="clippath-55">
+      <polygon
+        class="cls-85"
+        points="188.7 488.4 190.9 302.2 251.5 428 188.7 488.4"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-54"
+      x1="0"
+      y1="1598.3"
+      x2="1"
+      y2="1598.3"
+      gradientTransform="translate(188.7 100791.4) scale(62.8 -62.8)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#086181" />
+      <stop offset="0" stop-color="#086181" />
+      <stop offset=".5" stop-color="#0d6484" />
+      <stop offset=".9" stop-color="#186c8d" />
+      <stop offset="1" stop-color="#186c8d" />
+    </linearGradient>
+    <clipPath id="clippath-56">
+      <rect class="cls-85" x="0" y="792.7" width="630.1" height="810" />
+    </clipPath>
+    <clipPath id="clippath-57">
+      <polygon
+        class="cls-85"
+        points="568.3 1462.1 630.1 1412.6 630.1 1496.7 568.3 1462.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-55"
+      x1="0"
+      x2="1"
+      gradientTransform="translate(178569 1406.1) rotate(90) scale(112.2)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-58">
+      <polygon
+        class="cls-85"
+        points="251.5 1157.3 346.3 1085.2 403.4 1240.5 251.5 1157.3"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-56"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(251.5 -239761.2) scale(151.9)"
+      xlink:href="#linear-gradient-2"
+    />
+    <clipPath id="clippath-59">
+      <polygon
+        class="cls-85"
+        points="458 1283.1 630.1 1161.9 630.1 1191.5 568.3 1462.1 458 1283.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-57"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(458 -284362.4) scale(180.2)"
+      xlink:href="#linear-gradient-3"
+    />
+    <clipPath id="clippath-60">
+      <polygon
+        class="cls-85"
+        points="403.4 1090.2 458 1283.1 576 1069.9 403.4 1090.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-58"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(403.4 -272424.4) scale(172.5)"
+      xlink:href="#linear-gradient-4"
+    />
+    <clipPath id="clippath-61">
+      <polygon
+        class="cls-85"
+        points="576 1069.9 630.1 1132.9 630.1 1161.9 458 1283.1 576 1069.9"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-59"
+      x1="0"
+      y1="1585.6"
+      x2="1"
+      y2="1585.6"
+      gradientTransform="translate(408.7 -385045.2) scale(243.6)"
+      xlink:href="#linear-gradient-5"
+    />
+    <clipPath id="clippath-62">
+      <polygon
+        class="cls-85"
+        points="630.1 1191.5 630.1 1412.6 568.3 1462.1 630.1 1191.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-60"
+      x1="0"
+      y1="1585.6"
+      x2="1"
+      y2="1585.6"
+      gradientTransform="translate(466.6 -424347.5) scale(268.5)"
+      xlink:href="#linear-gradient-6"
+    />
+    <clipPath id="clippath-63">
+      <polygon
+        class="cls-85"
+        points="458 1283.1 403.4 1240.5 403.4 1090.2 458 1283.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-61"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(403.4 -85319.5) scale(54.6)"
+      xlink:href="#linear-gradient-7"
+    />
+    <clipPath id="clippath-64">
+      <polygon
+        class="cls-85"
+        points="251.5 1157.3 359.8 1261.5 403.4 1240.5 251.5 1157.3"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-62"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(251.5 -239714.7) scale(151.9)"
+      xlink:href="#linear-gradient-8"
+    />
+    <clipPath id="clippath-65">
+      <polygon
+        class="cls-85"
+        points="0 1258.1 101.4 973.5 101.5 1109 0 1285.2 0 1258.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-63"
+      y1="1585.5"
+      y2="1585.5"
+      gradientTransform="translate(-25.5 -200170) scale(127)"
+      xlink:href="#linear-gradient-9"
+    />
+    <clipPath id="clippath-66">
+      <polygon
+        class="cls-85"
+        points="251.6 1157.3 346.4 1085.2 403.5 1240.5 251.6 1157.3"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-64"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(251.6 -239761.2) scale(151.9)"
+      xlink:href="#linear-gradient-2"
+    />
+    <clipPath id="clippath-67">
+      <polygon
+        class="cls-85"
+        points="458 1283.1 630.1 1161.9 630.1 1191.8 568.4 1462.1 458 1283.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-65"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(458 -284362.4) scale(180.2)"
+      xlink:href="#linear-gradient-3"
+    />
+    <clipPath id="clippath-68">
+      <polygon
+        class="cls-85"
+        points="403.5 1090.2 458 1283.1 576 1069.9 403.5 1090.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-66"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(403.5 -272424.4) scale(172.5)"
+      xlink:href="#linear-gradient-4"
+    />
+    <clipPath id="clippath-69">
+      <polygon
+        class="cls-85"
+        points="576 1069.9 576 921.5 630.1 1113.4 630.1 1132.8 576 1069.9"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-67"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(681 254895.3) rotate(-180) scale(160.1)"
+      xlink:href="#linear-gradient-13"
+    />
+    <clipPath id="clippath-70">
+      <polygon
+        class="cls-85"
+        points="576 1069.9 403.5 962.1 576 921.5 576 1069.9"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-68"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(235867 921.5) rotate(90) scale(148.4)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-71">
+      <polygon
+        class="cls-85"
+        points="576 1069.9 403.5 1090.2 403.5 962.1 576 1069.9"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-69"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(391.2 -174945.7) scale(111)"
+      xlink:href="#linear-gradient-15"
+    />
+    <clipPath id="clippath-72">
+      <polygon
+        class="cls-85"
+        points="576 1069.9 630.1 1132.8 630.1 1161.9 458 1283.1 576 1069.9"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-70"
+      x1="0"
+      y1="1585.6"
+      x2="1"
+      y2="1585.6"
+      gradientTransform="translate(408.8 -385045.2) scale(243.6)"
+      xlink:href="#linear-gradient-5"
+    />
+    <clipPath id="clippath-73">
+      <polygon
+        class="cls-85"
+        points="630.1 1191.8 630.1 1412.7 568.4 1462.1 630.1 1191.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-71"
+      x1="0"
+      y1="1585.6"
+      x2="1"
+      y2="1585.6"
+      gradientTransform="translate(466.7 -424347.4) scale(268.5)"
+      xlink:href="#linear-gradient-6"
+    />
+    <clipPath id="clippath-74">
+      <polygon
+        class="cls-85"
+        points="568.4 1462.1 458 1283.1 470 1417.6 568.4 1462.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-72"
+      x1="0"
+      y1="1585.5"
+      x2="1"
+      y2="1585.5"
+      gradientTransform="translate(333757.7 1267.5) rotate(90) scale(210.2)"
+      xlink:href="#linear-gradient-18"
+    />
+    <clipPath id="clippath-75">
+      <polygon
+        class="cls-85"
+        points="470 1417.6 422.2 1321.5 458 1283.1 470 1417.6"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-73"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(422.2 -74409.2) scale(47.8)"
+      xlink:href="#linear-gradient-19"
+    />
+    <clipPath id="clippath-76">
+      <polygon
+        class="cls-85"
+        points="458 1283.1 403.5 1240.5 403.5 1090.2 458 1283.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-74"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(403.5 -85319.5) scale(54.6)"
+      xlink:href="#linear-gradient-7"
+    />
+    <clipPath id="clippath-77">
+      <polygon
+        class="cls-85"
+        points="576 921.5 630.1 809.3 630.1 1113.4 576 921.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-75"
+      x1="0"
+      y1="1585.8"
+      x2="1"
+      y2="1585.8"
+      gradientTransform="translate(491409.5 826.1) rotate(90) scale(309.5)"
+      xlink:href="#linear-gradient-21"
+    />
+    <clipPath id="clippath-78">
+      <polygon
+        class="cls-85"
+        points="346.4 1085.2 403.5 962.1 403.5 1090.2 346.4 1085.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-76"
+      x1="0"
+      y1="1585.5"
+      x2="1"
+      y2="1585.5"
+      gradientTransform="translate(309.6 -213211.8) scale(135.1)"
+      xlink:href="#linear-gradient-22"
+    />
+    <clipPath id="clippath-79">
+      <polygon
+        class="cls-85"
+        points="251.6 1157.3 359.9 1261.5 403.5 1240.5 251.6 1157.3"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-77"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(251.6 -239714.7) scale(151.9)"
+      xlink:href="#linear-gradient-8"
+    />
+    <clipPath id="clippath-80">
+      <polygon
+        class="cls-85"
+        points="251.6 1157.3 205.6 908.8 188.7 1096.9 251.6 1157.3"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-78"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(188.7 -98570) scale(62.8)"
+      xlink:href="#linear-gradient-24"
+    />
+    <clipPath id="clippath-81">
+      <polygon
+        class="cls-85"
+        points="245.1 792.7 456.3 792.7 403.5 962.1 245.1 792.7"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-79"
+      x1="0"
+      x2="1"
+      gradientTransform="translate(277973.4 787) rotate(90) scale(175.1)"
+      xlink:href="#linear-gradient-25"
+    />
+    <clipPath id="clippath-82">
+      <polygon
+        class="cls-85"
+        points="456.3 792.7 463 792.7 576 921.5 403.5 962.1 456.3 792.7"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-80"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(552.1 284572.4) rotate(-180) scale(178.9)"
+      xlink:href="#linear-gradient-26"
+    />
+    <clipPath id="clippath-83">
+      <polygon
+        class="cls-85"
+        points="403.5 962.1 346.4 1085.2 274.7 824.4 403.5 962.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-81"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(274.7 -203191.1) scale(128.7)"
+      xlink:href="#linear-gradient-27"
+    />
+    <clipPath id="clippath-84">
+      <polygon
+        class="cls-85"
+        points="251.6 1157.3 205.6 908.8 346.4 1085.2 251.6 1157.3"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-82"
+      x1="0"
+      x2="1"
+      gradientTransform="translate(-393762 1157.3) rotate(-90) scale(248.5)"
+      xlink:href="#linear-gradient-28"
+    />
+    <clipPath id="clippath-85">
+      <polygon
+        class="cls-85"
+        points="346.4 1085.2 205.6 908.8 257.1 805.4 274.7 824.4 346.4 1085.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-83"
+      x1="0"
+      x2="1"
+      gradientTransform="translate(-443269.2 1085.2) rotate(-90) scale(279.7)"
+      xlink:href="#linear-gradient-29"
+    />
+    <clipPath id="clippath-86">
+      <polygon
+        class="cls-85"
+        points="188.7 1096.9 101.5 1013 101.5 973.5 205.6 908.8 188.7 1096.9"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-84"
+      x1="0"
+      x2="1"
+      gradientTransform="translate(298375.3 908.8) rotate(90) scale(188.1)"
+      xlink:href="#linear-gradient-30"
+    />
+    <clipPath id="clippath-87">
+      <polygon
+        class="cls-85"
+        points=".9 916.2 .9 796.8 101.5 973.5 91 1002.8 .9 916.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-85"
+      x1="0"
+      y1="1585.6"
+      x2="1"
+      y2="1585.6"
+      gradientTransform="translate(59.2 95547.4) rotate(-180) scale(59.7)"
+      xlink:href="#linear-gradient-31"
+    />
+    <clipPath id="clippath-88">
+      <polygon
+        class="cls-85"
+        points=".9 796.8 205.6 908.8 101.5 973.5 .9 796.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-86"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(.9 -323651.7) scale(204.7)"
+      xlink:href="#linear-gradient-32"
+    />
+    <clipPath id="clippath-89">
+      <polygon
+        class="cls-85"
+        points=".9 796.8 0 796.3 0 792.7 245.1 792.7 257.1 805.4 205.6 908.8 .9 796.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-87"
+      x1="0"
+      y1="1585.6"
+      x2="1"
+      y2="1585.6"
+      gradientTransform="translate(193252.1 787) rotate(90) scale(121.8)"
+      xlink:href="#linear-gradient-31"
+    />
+    <clipPath id="clippath-90">
+      <polygon
+        class="cls-85"
+        points="568.3 1462.1 630.1 1496.7 630.1 1600.7 568.3 1462.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-88"
+      x1="0"
+      y1="1585.8"
+      x2="1"
+      y2="1585.8"
+      gradientTransform="translate(223528.8 1462.1) rotate(90) scale(140.6)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-91">
+      <polygon
+        class="cls-85"
+        points="190.9 1283.1 359.8 1261.5 251.5 1157.3 190.9 1283.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-89"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(190.9 -266531.9) scale(168.9)"
+      xlink:href="#linear-gradient-25"
+    />
+    <clipPath id="clippath-92">
+      <polygon
+        class="cls-85"
+        points="277.1 1400.5 190.9 1283.1 359.8 1261.5 277.1 1400.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-90"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(190.9 -266421.2) scale(168.9)"
+      xlink:href="#linear-gradient-9"
+    />
+    <clipPath id="clippath-93">
+      <polygon
+        class="cls-85"
+        points="0 1285.2 101.5 1109 190.9 1283.1 0 1324 0 1285.2"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-91"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(-25.5 -341901.9) scale(216.4)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-94">
+      <polygon class="cls-85" points="0 1324 190.9 1283.1 0 1430.9 0 1324" />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-92"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(190.9 368032.1) rotate(-180) scale(231.2)"
+      xlink:href="#linear-gradient-38"
+    />
+    <clipPath id="clippath-95">
+      <polygon
+        class="cls-85"
+        points="510.9 1602.7 470 1417.6 630.1 1601.6 630.1 1602.7 510.9 1602.7"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-93"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(470 -253774.5) scale(161)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-96">
+      <polygon
+        class="cls-85"
+        points="359.8 1261.5 422.2 1321.5 277.1 1400.5 359.8 1261.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-94"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(277.1 -228720.7) scale(145.1)"
+      xlink:href="#linear-gradient-40"
+    />
+    <clipPath id="clippath-97">
+      <polygon
+        class="cls-85"
+        points="403.4 1602.6 470 1417.6 510.9 1602.7 403.4 1602.6"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-95"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(403.4 -168906.3) scale(107.5)"
+      xlink:href="#linear-gradient-7"
+    />
+    <clipPath id="clippath-98">
+      <polygon
+        class="cls-85"
+        points="316 1533.7 470 1417.6 277.1 1400.5 316 1533.7"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-96"
+      x1="0"
+      y1="1585.5"
+      x2="1"
+      y2="1585.5"
+      gradientTransform="translate(481.8 304951.9) rotate(-180) scale(191.4)"
+      xlink:href="#linear-gradient-42"
+    />
+    <clipPath id="clippath-99">
+      <polygon
+        class="cls-85"
+        points="277.1 1400.5 145.1 1585.8 134.5 1449.5 277.1 1400.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-97"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(195692.2 1419.7) rotate(90) scale(123.3)"
+      xlink:href="#linear-gradient-32"
+    />
+    <clipPath id="clippath-100">
+      <polygon
+        class="cls-85"
+        points="0 1430.9 190.9 1283.1 134.5 1449.5 0 1459.2 0 1430.9"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-98"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(-40.3 -365287) scale(231.2)"
+      xlink:href="#linear-gradient-44"
+    />
+    <clipPath id="clippath-101">
+      <polygon
+        class="cls-85"
+        points="0 1602.7 0 1459.2 134.5 1449.5 9.7 1602.7 0 1602.7"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-99"
+      x1="0"
+      y1="1585.6"
+      x2="1"
+      y2="1585.6"
+      gradientTransform="translate(-40.3 -275713.4) scale(174.8)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-102">
+      <polygon
+        class="cls-85"
+        points="0 929.3 .8 916.2 91 1002.8 0 1258 0 929.3"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-100"
+      x1="0"
+      y1="1585.5"
+      x2="1"
+      y2="1585.5"
+      gradientTransform="translate(546646.9 916.8) rotate(90) scale(344.7)"
+      xlink:href="#linear-gradient-32"
+    />
+    <clipPath id="clippath-103">
+      <polygon
+        class="cls-85"
+        points="190.9 1283.1 101.5 1109 188.7 1096.9 190.9 1283.1"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-101"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(101.5 -140609.6) scale(89.4)"
+      xlink:href="#linear-gradient-47"
+    />
+    <clipPath id="clippath-104">
+      <polygon
+        class="cls-85"
+        points="145.1 1585.8 316 1533.7 277.1 1400.5 145.1 1585.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-102"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(145.1 -269526.7) scale(170.9)"
+      xlink:href="#linear-gradient-44"
+    />
+    <clipPath id="clippath-105">
+      <polygon
+        class="cls-85"
+        points="145.1 1585.8 316 1533.7 403.4 1602.6 145.1 1585.8"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-103"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(403.4 411252.6) rotate(-180) scale(258.4)"
+      xlink:href="#linear-gradient"
+    />
+    <clipPath id="clippath-106">
+      <polygon
+        class="cls-85"
+        points="9.7 1602.7 134.5 1449.5 145.1 1585.8 139.8 1602.7 9.7 1602.7"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-104"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(145.1 237709.8) rotate(-180) scale(148.9)"
+      xlink:href="#linear-gradient-50"
+    />
+    <clipPath id="clippath-107">
+      <polygon
+        class="cls-85"
+        points="134.5 1449.5 190.9 1283.1 277.1 1400.5 134.5 1449.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-105"
+      x1="0"
+      y1="1585.5"
+      x2="1"
+      y2="1585.5"
+      gradientTransform="translate(228438.9 1296.9) rotate(90) scale(144)"
+      xlink:href="#linear-gradient-51"
+    />
+    <clipPath id="clippath-108">
+      <polygon
+        class="cls-85"
+        points="188.7 1096.9 101.5 1109 101.5 1013 188.7 1096.9"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-106"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(101.5 -137150.3) scale(87.2)"
+      xlink:href="#linear-gradient-9"
+    />
+    <clipPath id="clippath-109">
+      <polygon
+        class="cls-85"
+        points="277.1 1400.5 470 1417.6 422.2 1321.5 277.1 1400.5"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-107"
+      x1="0"
+      y1="1585.7"
+      x2="1"
+      y2="1585.7"
+      gradientTransform="translate(277.1 -304441.7) scale(192.9)"
+      xlink:href="#linear-gradient-9"
+    />
+    <clipPath id="clippath-110">
+      <polygon
+        class="cls-85"
+        points="188.7 1096.9 190.9 1283.1 251.5 1157.3 188.7 1096.9"
+      />
+    </clipPath>
+    <linearGradient
+      id="linear-gradient-108"
+      y1="1585.7"
+      y2="1585.7"
+      gradientTransform="translate(188.7 -98413.1) scale(62.8)"
+      xlink:href="#linear-gradient-54"
+    />
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Layer_1">
+      <g class="cls-216">
+        <g id="Graphics_-_Full_Page">
+          <g class="cls-107">
+            <g class="cls-196">
+              <rect
+                class="cls-210"
+                x="568.3"
+                y="88.6"
+                width="61.8"
+                height="84.1"
+              />
+            </g>
+            <g class="cls-144">
+              <rect
+                class="cls-36"
+                x="251.5"
+                y="344.8"
+                width="151.9"
+                height="155.3"
+              />
+            </g>
+            <g class="cls-33">
+              <rect
+                class="cls-105"
+                x="458"
+                y="123.2"
+                width="172.1"
+                height="300.2"
+              />
+            </g>
+            <polygon
+              class="cls-180"
+              points="403.4 495.1 403.4 344.8 346.3 500.2 403.4 495.1"
+            />
+            <g class="cls-125">
+              <rect
+                class="cls-86"
+                x="403.4"
+                y="302.2"
+                width="172.5"
+                height="213.1"
+              />
+            </g>
+            <g class="cls-15">
+              <rect
+                class="cls-110"
+                x="416.2"
+                y="273.5"
+                width="255.6"
+                height="270.6"
+                transform="translate(-131.5 326.8) rotate(-30)"
+              />
+            </g>
+            <g class="cls-16">
+              <rect
+                class="cls-179"
+                x="504.8"
+                y="125.9"
+                width="188.8"
+                height="265.2"
+                transform="translate(-49 334.2) rotate(-30)"
+              />
+            </g>
+            <polygon
+              class="cls-53"
+              points="458 302.2 422.2 263.8 359.8 323.8 403.4 344.8 458 302.2"
+            />
+            <g class="cls-131">
+              <rect
+                class="cls-163"
+                x="403.4"
+                y="302.2"
+                width="54.6"
+                height="192.8"
+              />
+            </g>
+            <g class="cls-57">
+              <rect
+                class="cls-135"
+                x="251.5"
+                y="323.8"
+                width="151.9"
+                height="104.2"
+              />
+            </g>
+            <g class="cls-60">
+              <rect class="cls-167" y="300.1" width="101.5" height="311.7" />
+            </g>
+            <polygon
+              class="cls-148"
+              points="568.4 123.2 630.1 172.7 630.1 63.9 568.4 123.2"
+            />
+            <g class="cls-80">
+              <rect
+                class="cls-47"
+                x="251.6"
+                y="344.8"
+                width="151.9"
+                height="155.3"
+              />
+            </g>
+            <g class="cls-150">
+              <rect
+                class="cls-171"
+                x="458"
+                y="123.2"
+                width="172"
+                height="300.2"
+              />
+            </g>
+            <polygon
+              class="cls-87"
+              points="403.5 495.1 403.5 344.8 346.4 500.2 403.5 495.1"
+            />
+            <g class="cls-207">
+              <rect
+                class="cls-48"
+                x="403.5"
+                y="302.2"
+                width="172.5"
+                height="213.1"
+              />
+            </g>
+            <g class="cls-155">
+              <rect
+                class="cls-6"
+                x="526.8"
+                y="453.2"
+                width="152.5"
+                height="210"
+                transform="translate(-198.3 376.3) rotate(-30)"
+              />
+            </g>
+            <g class="cls-24">
+              <rect
+                class="cls-152"
+                x="403.5"
+                y="515.4"
+                width="172.5"
+                height="148.4"
+              />
+            </g>
+            <g class="cls-195">
+              <rect
+                class="cls-5"
+                x="383"
+                y="460.5"
+                width="213.5"
+                height="197.2"
+                transform="translate(-214 319.8) rotate(-30)"
+              />
+            </g>
+            <g class="cls-17">
+              <rect
+                class="cls-208"
+                x="416.3"
+                y="273.5"
+                width="255.6"
+                height="270.6"
+                transform="translate(-131.5 326.8) rotate(-30)"
+              />
+            </g>
+            <g class="cls-30">
+              <rect
+                class="cls-160"
+                x="504.9"
+                y="125.9"
+                width="188.6"
+                height="264.9"
+                transform="translate(-48.9 334.2) rotate(-30)"
+              />
+            </g>
+            <g class="cls-166">
+              <rect
+                class="cls-224"
+                x="408.1"
+                y="120.2"
+                width="210.2"
+                height="185"
+                transform="translate(72.4 550.8) rotate(-60)"
+              />
+            </g>
+            <g class="cls-126">
+              <rect
+                class="cls-176"
+                x="422.2"
+                y="167.7"
+                width="47.8"
+                height="134.5"
+              />
+            </g>
+            <polygon
+              class="cls-53"
+              points="458 302.2 422.2 263.8 359.9 323.8 403.5 344.8 458 302.2"
+            />
+            <g class="cls-12">
+              <rect
+                class="cls-157"
+                x="403.5"
+                y="302.2"
+                width="54.6"
+                height="192.8"
+              />
+            </g>
+            <g class="cls-39">
+              <rect
+                class="cls-188"
+                x="457.9"
+                y="524.5"
+                width="290.4"
+                height="198.9"
+                transform="translate(-238.8 834.2) rotate(-60)"
+              />
+            </g>
+            <g class="cls-42">
+              <rect
+                class="cls-113"
+                x="318.2"
+                y="489.4"
+                width="113.5"
+                height="139.5"
+                transform="translate(-229.3 262.4) rotate(-30)"
+              />
+            </g>
+            <g class="cls-212">
+              <rect
+                class="cls-213"
+                x="251.6"
+                y="323.8"
+                width="151.9"
+                height="104.2"
+              />
+            </g>
+            <g class="cls-70">
+              <rect
+                class="cls-114"
+                x="188.7"
+                y="428"
+                width="62.8"
+                height="248.5"
+              />
+            </g>
+            <g class="cls-145">
+              <rect
+                class="cls-45"
+                x="245.1"
+                y="623.2"
+                width="211.2"
+                height="169.4"
+              />
+            </g>
+            <g class="cls-71">
+              <rect
+                class="cls-77"
+                x="372.7"
+                y="591.4"
+                width="234.1"
+                height="233"
+                transform="translate(-288.4 339.7) rotate(-30)"
+              />
+            </g>
+            <polygon
+              class="cls-154"
+              points="463 792.7 630.1 792.7 630.1 776 576 663.8 463 792.7"
+            />
+            <g class="cls-99">
+              <rect
+                class="cls-50"
+                x="274.7"
+                y="500.2"
+                width="128.7"
+                height="260.8"
+              />
+            </g>
+            <g class="cls-198">
+              <rect
+                class="cls-9"
+                x="205.6"
+                y="428"
+                width="140.8"
+                height="248.5"
+              />
+            </g>
+            <g class="cls-164">
+              <rect
+                class="cls-156"
+                x="205.6"
+                y="500.2"
+                width="140.8"
+                height="279.7"
+              />
+            </g>
+            <g class="cls-20">
+              <rect
+                class="cls-90"
+                x="101.5"
+                y="488.4"
+                width="104.1"
+                height="188.1"
+              />
+            </g>
+            <g class="cls-174">
+              <rect
+                class="cls-214"
+                x="-63.2"
+                y="590.4"
+                width="228.7"
+                height="190.1"
+                transform="translate(-568 387.1) rotate(-60)"
+              />
+            </g>
+            <g class="cls-25">
+              <rect
+                class="cls-202"
+                x=".9"
+                y="611.8"
+                width="204.7"
+                height="176.7"
+              />
+            </g>
+            <g class="cls-3">
+              <rect class="cls-130" y="676.5" width="257.1" height="116.2" />
+            </g>
+            <polygon
+              class="cls-148"
+              points="470 167.7 568.3 123.2 630.1 -15.3 630.1 -16.3 470 167.7"
+            />
+            <g class="cls-95">
+              <rect
+                class="cls-106"
+                x="568.3"
+                y="-15.3"
+                width="61.8"
+                height="138.6"
+              />
+            </g>
+            <g class="cls-92">
+              <rect
+                class="cls-89"
+                x="190.9"
+                y="302.2"
+                width="168.9"
+                height="125.8"
+              />
+            </g>
+            <g class="cls-204">
+              <rect
+                class="cls-187"
+                x="190.9"
+                y="184.8"
+                width="168.9"
+                height="139"
+              />
+            </g>
+            <g class="cls-11">
+              <rect class="cls-56" x="0" y="261.3" width="190.9" height="215" />
+            </g>
+            <g class="cls-186">
+              <rect class="cls-111" y="154.4" width="190.9" height="147.8" />
+            </g>
+            <polygon
+              class="cls-87"
+              points="316 51.6 470 167.7 403.4 -17.2 316 51.6"
+            />
+            <g class="cls-123">
+              <rect
+                class="cls-65"
+                x="470"
+                y="-17.3"
+                width="160.1"
+                height="185.1"
+              />
+            </g>
+            <g class="cls-138">
+              <rect
+                class="cls-49"
+                x="277.1"
+                y="184.8"
+                width="145.1"
+                height="139"
+              />
+            </g>
+            <g class="cls-61">
+              <rect
+                class="cls-205"
+                x="403.4"
+                y="-17.3"
+                width="107.5"
+                height="185"
+              />
+            </g>
+            <g class="cls-66">
+              <rect
+                class="cls-18"
+                x="267.7"
+                y="1.4"
+                width="211.8"
+                height="233.6"
+                transform="translate(84.4 382.6) rotate(-60)"
+              />
+            </g>
+            <g class="cls-222">
+              <rect
+                class="cls-44"
+                x="90"
+                y="-15.9"
+                width="231.8"
+                height="216.1"
+                transform="translate(23.1 224.4) rotate(-60)"
+              />
+            </g>
+            <g class="cls-118">
+              <rect
+                class="cls-102"
+                x="0"
+                y="126.1"
+                width="190.9"
+                height="176.1"
+              />
+            </g>
+            <g class="cls-122">
+              <rect
+                class="cls-189"
+                x="0"
+                y="-17.3"
+                width="134.5"
+                height="153.2"
+              />
+            </g>
+            <g class="cls-31">
+              <rect
+                class="cls-21"
+                x="-125.3"
+                y="373.3"
+                width="341.6"
+                height="249.7"
+                transform="translate(-408.7 288.5) rotate(-60)"
+              />
+            </g>
+            <g class="cls-97">
+              <rect
+                class="cls-76"
+                x="101.5"
+                y="302.2"
+                width="89.4"
+                height="186.2"
+              />
+            </g>
+            <g class="cls-201">
+              <rect
+                class="cls-199"
+                x="145.1"
+                y="-.5"
+                width="170.9"
+                height="185.3"
+              />
+            </g>
+            <g class="cls-151">
+              <rect
+                class="cls-104"
+                x="145.1"
+                y="-17.2"
+                width="258.4"
+                height="68.9"
+              />
+            </g>
+            <g class="cls-2">
+              <rect
+                class="cls-162"
+                x="9.7"
+                y="-17.3"
+                width="135.4"
+                height="153.2"
+              />
+            </g>
+            <polygon
+              class="cls-149"
+              points="139.8 -17.3 145.1 -.5 403.4 -17.2 401.7 -17.3 139.8 -17.3"
+            />
+            <g class="cls-136">
+              <rect
+                class="cls-134"
+                x="96.6"
+                y="109.8"
+                width="218.5"
+                height="218.5"
+                transform="translate(-94.6 209.7) rotate(-45)"
+              />
+            </g>
+            <g class="cls-185">
+              <rect
+                class="cls-72"
+                x="101.5"
+                y="476.3"
+                width="87.2"
+                height="96"
+              />
+            </g>
+            <g class="cls-54">
+              <rect
+                class="cls-14"
+                x="277.1"
+                y="167.7"
+                width="192.9"
+                height="96.1"
+              />
+            </g>
+            <g class="cls-181">
+              <rect
+                class="cls-116"
+                x="188.7"
+                y="302.2"
+                width="62.8"
+                height="186.2"
+              />
+            </g>
+          </g>
+        </g>
+        <g id="Graphics_-_Full_Page-2" data-name="Graphics_-_Full_Page">
+          <g class="cls-108">
+            <g class="cls-81">
+              <rect
+                class="cls-63"
+                x="568.3"
+                y="1412.6"
+                width="61.8"
+                height="84.1"
+              />
+            </g>
+            <g class="cls-206">
+              <rect
+                class="cls-43"
+                x="251.5"
+                y="1085.2"
+                width="151.9"
+                height="155.3"
+              />
+            </g>
+            <g class="cls-64">
+              <rect
+                class="cls-139"
+                x="458"
+                y="1161.9"
+                width="172.1"
+                height="300.2"
+              />
+            </g>
+            <polygon
+              class="cls-180"
+              points="403.4 1090.2 403.4 1240.5 346.3 1085.2 403.4 1090.2"
+            />
+            <g class="cls-75">
+              <rect
+                class="cls-74"
+                x="403.4"
+                y="1069.9"
+                width="172.5"
+                height="213.1"
+              />
+            </g>
+            <g class="cls-26">
+              <rect
+                class="cls-170"
+                x="408.7"
+                y="1048.7"
+                width="270.6"
+                height="255.6"
+                transform="translate(-746.9 1059.4) rotate(-60)"
+              />
+            </g>
+            <g class="cls-225">
+              <rect
+                class="cls-28"
+                x="466.6"
+                y="1232.4"
+                width="265.2"
+                height="188.8"
+                transform="translate(-849.4 1182.3) rotate(-60)"
+              />
+            </g>
+            <polygon
+              class="cls-53"
+              points="458 1283.1 422.2 1321.5 359.8 1261.5 403.4 1240.5 458 1283.1"
+            />
+            <g class="cls-211">
+              <rect
+                class="cls-4"
+                x="403.4"
+                y="1090.2"
+                width="54.6"
+                height="192.8"
+              />
+            </g>
+            <g class="cls-67">
+              <rect
+                class="cls-153"
+                x="251.5"
+                y="1157.3"
+                width="151.9"
+                height="104.2"
+              />
+            </g>
+            <g class="cls-221">
+              <rect
+                class="cls-217"
+                x="0"
+                y="973.5"
+                width="101.5"
+                height="311.7"
+              />
+            </g>
+            <polygon
+              class="cls-148"
+              points="568.4 1462.1 630.1 1412.7 630.1 1521.4 568.4 1462.1"
+            />
+            <g class="cls-55">
+              <rect
+                class="cls-40"
+                x="251.6"
+                y="1085.2"
+                width="151.9"
+                height="155.3"
+              />
+            </g>
+            <g class="cls-141">
+              <rect
+                class="cls-10"
+                x="458"
+                y="1161.9"
+                width="172"
+                height="300.2"
+              />
+            </g>
+            <polygon
+              class="cls-87"
+              points="403.5 1090.2 403.5 1240.5 346.4 1085.2 403.5 1090.2"
+            />
+            <g class="cls-219">
+              <rect
+                class="cls-137"
+                x="403.5"
+                y="1069.9"
+                width="172.5"
+                height="213.1"
+              />
+            </g>
+            <g class="cls-226">
+              <rect
+                class="cls-159"
+                x="498"
+                y="950.9"
+                width="210"
+                height="152.5"
+                transform="translate(-588 1035.8) rotate(-60)"
+              />
+            </g>
+            <g class="cls-59">
+              <rect
+                class="cls-51"
+                x="403.5"
+                y="921.5"
+                width="172.5"
+                height="148.4"
+              />
+            </g>
+            <g class="cls-35">
+              <rect
+                class="cls-13"
+                x="391.1"
+                y="919.4"
+                width="197.2"
+                height="213.5"
+                transform="translate(-643.8 937.2) rotate(-60)"
+              />
+            </g>
+            <g class="cls-172">
+              <rect
+                class="cls-27"
+                x="408.8"
+                y="1048.7"
+                width="270.6"
+                height="255.6"
+                transform="translate(-746.9 1059.4) rotate(-60)"
+              />
+            </g>
+            <g class="cls-183">
+              <rect
+                class="cls-101"
+                x="466.8"
+                y="1232.6"
+                width="264.9"
+                height="188.6"
+                transform="translate(-849.5 1182.4) rotate(-60)"
+              />
+            </g>
+            <g class="cls-143">
+              <rect
+                class="cls-84"
+                x="420.7"
+                y="1267.5"
+                width="185"
+                height="210.2"
+                transform="translate(-617.5 440.5) rotate(-30)"
+              />
+            </g>
+            <g class="cls-23">
+              <rect
+                class="cls-100"
+                x="422.2"
+                y="1283.1"
+                width="47.8"
+                height="134.5"
+              />
+            </g>
+            <polygon
+              class="cls-53"
+              points="458 1283.1 422.2 1321.5 359.9 1261.5 403.5 1240.5 458 1283.1"
+            />
+            <g class="cls-1">
+              <rect
+                class="cls-78"
+                x="403.5"
+                y="1090.2"
+                width="54.6"
+                height="192.8"
+              />
+            </g>
+            <g class="cls-165">
+              <rect
+                class="cls-62"
+                x="503.6"
+                y="816.2"
+                width="198.9"
+                height="290.4"
+                transform="translate(-399.9 430.3) rotate(-30)"
+              />
+            </g>
+            <g class="cls-168">
+              <rect
+                class="cls-94"
+                x="305.2"
+                y="969.4"
+                width="139.5"
+                height="113.5"
+                transform="translate(-701.2 837.8) rotate(-60)"
+              />
+            </g>
+            <g class="cls-22">
+              <rect
+                class="cls-140"
+                x="251.6"
+                y="1157.3"
+                width="151.9"
+                height="104.2"
+              />
+            </g>
+            <g class="cls-19">
+              <rect
+                class="cls-133"
+                x="188.7"
+                y="908.8"
+                width="62.8"
+                height="248.5"
+              />
+            </g>
+            <g class="cls-190">
+              <rect
+                class="cls-132"
+                x="245.1"
+                y="792.7"
+                width="211.2"
+                height="169.4"
+              />
+            </g>
+            <g class="cls-52">
+              <rect
+                class="cls-178"
+                x="373.3"
+                y="760.3"
+                width="233"
+                height="234.1"
+                transform="translate(-514.9 862.8) rotate(-60)"
+              />
+            </g>
+            <polygon
+              class="cls-154"
+              points="463 792.7 630.1 792.7 630.1 809.3 576 921.5 463 792.7"
+            />
+            <g class="cls-220">
+              <rect
+                class="cls-194"
+                x="274.7"
+                y="824.4"
+                width="128.7"
+                height="260.8"
+              />
+            </g>
+            <g class="cls-173">
+              <rect
+                class="cls-46"
+                x="205.6"
+                y="908.8"
+                width="140.8"
+                height="248.5"
+              />
+            </g>
+            <g class="cls-88">
+              <rect
+                class="cls-182"
+                x="205.6"
+                y="805.4"
+                width="140.8"
+                height="279.7"
+              />
+            </g>
+            <g class="cls-209">
+              <rect
+                class="cls-197"
+                x="101.5"
+                y="908.8"
+                width="104.1"
+                height="188.1"
+              />
+            </g>
+            <g class="cls-218">
+              <rect
+                class="cls-191"
+                x="-43.9"
+                y="785.5"
+                width="190.1"
+                height="228.7"
+                transform="translate(-443.1 146.2) rotate(-30)"
+              />
+            </g>
+            <g class="cls-83">
+              <rect
+                class="cls-203"
+                x=".9"
+                y="796.8"
+                width="204.7"
+                height="176.7"
+              />
+            </g>
+            <g class="cls-121">
+              <rect
+                class="cls-38"
+                x="0"
+                y="792.7"
+                width="257.1"
+                height="116.2"
+              />
+            </g>
+            <polygon
+              class="cls-148"
+              points="470 1417.6 568.3 1462.1 630.1 1600.7 630.1 1601.6 470 1417.6"
+            />
+            <g class="cls-117">
+              <rect
+                class="cls-146"
+                x="568.3"
+                y="1462.1"
+                width="61.8"
+                height="138.6"
+              />
+            </g>
+            <g class="cls-147">
+              <rect
+                class="cls-69"
+                x="190.9"
+                y="1157.3"
+                width="168.9"
+                height="125.8"
+              />
+            </g>
+            <g class="cls-93">
+              <rect
+                class="cls-128"
+                x="190.9"
+                y="1261.5"
+                width="168.9"
+                height="139"
+              />
+            </g>
+            <g class="cls-79">
+              <rect class="cls-112" x="0" y="1109" width="190.9" height="215" />
+            </g>
+            <g class="cls-215">
+              <rect
+                class="cls-127"
+                x="0"
+                y="1283.1"
+                width="190.9"
+                height="147.8"
+              />
+            </g>
+            <polygon
+              class="cls-87"
+              points="316 1533.7 470 1417.6 403.4 1602.6 316 1533.7"
+            />
+            <g class="cls-129">
+              <rect
+                class="cls-32"
+                x="470"
+                y="1417.6"
+                width="160.1"
+                height="185.1"
+              />
+            </g>
+            <g class="cls-124">
+              <rect
+                class="cls-115"
+                x="277.1"
+                y="1261.5"
+                width="145.1"
+                height="139"
+              />
+            </g>
+            <g class="cls-161">
+              <rect
+                class="cls-34"
+                x="403.4"
+                y="1417.6"
+                width="107.5"
+                height="185"
+              />
+            </g>
+            <g class="cls-96">
+              <rect
+                class="cls-103"
+                x="256.7"
+                y="1361.2"
+                width="233.6"
+                height="211.8"
+                transform="translate(-683.5 383.3) rotate(-30)"
+              />
+            </g>
+            <g class="cls-120">
+              <rect
+                class="cls-82"
+                x="97.8"
+                y="1377.2"
+                width="216.1"
+                height="231.8"
+                transform="translate(-719 303) rotate(-30)"
+              />
+            </g>
+            <g class="cls-29">
+              <rect
+                class="cls-192"
+                x="0"
+                y="1283.1"
+                width="190.9"
+                height="176.1"
+              />
+            </g>
+            <g class="cls-68">
+              <rect
+                class="cls-223"
+                x="0"
+                y="1449.5"
+                width="134.5"
+                height="153.2"
+              />
+            </g>
+            <g class="cls-58">
+              <rect
+                class="cls-37"
+                x="-79.4"
+                y="916.3"
+                width="249.7"
+                height="341.6"
+                transform="translate(-537.5 168.4) rotate(-30)"
+              />
+            </g>
+            <g class="cls-41">
+              <rect
+                class="cls-177"
+                x="101.5"
+                y="1096.9"
+                width="89.4"
+                height="186.2"
+              />
+            </g>
+            <g class="cls-98">
+              <rect
+                class="cls-200"
+                x="145.1"
+                y="1400.5"
+                width="170.9"
+                height="185.3"
+              />
+            </g>
+            <g class="cls-91">
+              <rect
+                class="cls-142"
+                x="145.1"
+                y="1533.7"
+                width="258.4"
+                height="68.9"
+              />
+            </g>
+            <g class="cls-193">
+              <rect
+                class="cls-169"
+                x="9.7"
+                y="1449.5"
+                width="135.4"
+                height="153.2"
+              />
+            </g>
+            <polygon
+              class="cls-149"
+              points="139.8 1602.7 145.1 1585.8 403.4 1602.6 401.7 1602.7 139.8 1602.7"
+            />
+            <g class="cls-7">
+              <rect
+                class="cls-184"
+                x="96.6"
+                y="1257"
+                width="218.5"
+                height="218.5"
+                transform="translate(-905.8 545.7) rotate(-45)"
+              />
+            </g>
+            <g class="cls-109">
+              <rect
+                class="cls-158"
+                x="101.5"
+                y="1013"
+                width="87.2"
+                height="96"
+              />
+            </g>
+            <g class="cls-73">
+              <rect
+                class="cls-8"
+                x="277.1"
+                y="1321.5"
+                width="192.9"
+                height="96.1"
+              />
+            </g>
+            <g class="cls-119">
+              <rect
+                class="cls-175"
+                x="188.7"
+                y="1096.9"
+                width="62.8"
+                height="186.2"
+              />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
