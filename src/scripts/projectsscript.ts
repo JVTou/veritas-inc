@@ -22,9 +22,8 @@ document.addEventListener("astro:page-load", () => {
       duration: 6,
     };
     const technum =
-      (new Date().getFullYear()/100 +
-        new Date().getMonth() * 10 +
-		new Date().getDate());
+      (new Date().getFullYear()/20 +
+        new Date().getMonth());
 
     const projnum =
       (new Date().getFullYear() * 7+
