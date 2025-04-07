@@ -1,0 +1,137 @@
+---
+const jobData = {
+  Field: [
+    {
+      title: "Installer 1",
+      location: "Various Job Sites",
+      description: `
+- Must maintain a valid driver's license.
+- Must maintain a strong safety record and contribute to a safe environment.
+- Follow direction from Installer 2, Lead Tech, and Foreman.
+- Learn basic terminating, cable pulling, and labeling techniques within 6 months.
+- Must complete any classes or certifications as instructed by Veritas.
+- Responsible for keeping track of any company-issued tools.
+      `,
+    },
+    {
+      title: "Installer 2",
+      location: "Various Job Sites",
+      description: `
+- Ability to work independently under Lead Tech and alongside fellow Installers.
+- Must maintain a valid driver's license and a strong safety record.
+- Responsible for pulling, terminating, labeling, and testing various cable types (CAT6A, fiber, coax, riser, etc.).
+- Install support structures: j-hooks, ladder racks, IT cabinets, etc.
+- Locate, trace, and identify cables.
+- Must complete any Veritas-required certifications.
+- Responsible for keeping track of any company-issued tools.
+      `,
+    },
+    {
+      title: "Lead Tech",
+      location: "Various Job Sites",
+      description: `
+- Responsible for advanced cabling tasks and supervision of Installers.
+- Fiber optic termination, fusion splicing, testing, and troubleshooting.
+- Update installation documentation and manage job site inventory.
+- Work independently under a Foreman or lead a team on larger assignments.
+- Maintain a valid driver’s license and ensure vehicle maintenance.
+- Submit daily status reports.
+- Complete all required Veritas certifications and trainings.
+      `,
+    },
+    {
+      title: "Foreman",
+      location: "Various Job Sites",
+      description: `
+- Oversees day-to-day job site operations.
+- Assigns tasks and supervises field staff.
+- Verifies installation quality and ensures plans are followed.
+- Maintains safety, site cleanliness, and tool accountability.
+- Coordinates with Project Manager or Lead Tech.
+- Troubleshoots issues and resolves conflicts.
+- Must maintain a valid driver's license and ensure vehicle maintenance.
+- Complete all required Veritas certifications.
+      `,
+    },
+  ],
+  Management: [
+    {
+      title: "Operations Manager",
+      location: "Headquarters / Remote",
+      description: `
+- Oversees daily operations across all departments.
+- Ensures company procedures are followed and improved upon.
+- Manages vendor relationships and resource allocation.
+- Maintains safety compliance and operational efficiency.
+- Reports performance metrics to executive team.
+- Must maintain a valid driver's license and may travel to sites.
+      `,
+    },
+    {
+      title: "Project Manager",
+      location: "Headquarters / Remote",
+      description: `
+- Manages project lifecycle from planning to closeout.
+- Coordinates clients, subcontractors, and internal teams.
+- Maintains timelines, budgets, and documentation.
+- Visits job sites to monitor progress and handle changes.
+- Manages change orders and risks.
+- Must maintain a valid driver's license and complete Veritas certifications.
+      `,
+    },
+    {
+      title: "Program Manager",
+      location: "Headquarters / Remote",
+      description: `
+- Oversees multiple projects for strategic alignment.
+- Coordinates project managers, timelines, and budgets.
+- Defines program goals and evaluates performance.
+- Mitigates risks and supports long-term planning.
+- Ensures communication across departments.
+- Must maintain a valid driver's license and support safety initiatives.
+      `,
+    },
+  ],
+};
+---
+
+<section class="max-w-7xl mx-auto px-4 py-12">
+  <h1 class="text-4xl font-bold mb-8 text-center">Available Positions</h1>
+
+  {
+    Object.entries(jobData).map(([department, jobs]) => (
+      <div class="mb-10">
+        <h2 class="text-lg font-semibold mb-4">{department}</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {jobs.map((job, index) => (
+            <div class="collapse bg-base-100 border border-base-300 rounded-lg">
+              <input
+                type="checkbox"
+                class="peer hidden"
+                id={`job-${department}-${index}`}
+              />
+              <label
+                for={`job-${department}-${index}`}
+                class="collapse-title font-semibold cursor-pointer"
+              >
+                {job.title}
+                <div class="text-xs font-normal text-primary-content">
+                  {job.location}
+                </div>
+              </label>
+              <div class="collapse-content text-sm text-primary-content whitespace-pre-line">
+                {job.description}
+
+                <div class="mt-4">
+                  <a href={`/apply?position=${encodeURIComponent(job.title)}`}>
+                    <button class="btn btn-sm btn-primary">Apply Now</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))
+  }
+</section>

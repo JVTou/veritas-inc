@@ -9,7 +9,7 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://veritas-inc.com/",
   integrations: [tailwind(), icon(), sitemap()],
-  output: "static",
+  output: "hybrid",
   prefetch: true,
   prefetch: {
     prefetchAll: true,

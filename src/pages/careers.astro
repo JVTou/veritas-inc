@@ -1,0 +1,131 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import featcareer from "../assets/featured/OpenGraph1.jpeg";
+import JobList from "../components/joblist.astro";
+---
+
+<MainLayout
+  title="Veritas | Careers"
+  seoTitle="Veritas | Careers"
+  seoDescription="Opportunities in low voltage careers at Veritas Managed Solutions"
+>
+  <section class="text-center py-16 w-screen">
+    <h1 class="text-4xl font-bold mt-4">Careers at Veritas</h1>
+  </section>
+
+  <section class="px-8 md:px-16 lg:px-32 mb-16">
+    <div
+      class="card bg-primary card-bordered border-primary-content rounded-lg mx-auto w-full lg:w-1/3"
+    >
+      <Image
+        class="w-full self-center rounded-lg"
+        src={featcareer}
+        loading="eager"
+        widths={[240, 540, 720, featcareer.width]}
+        sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${featcareer.width}px`}
+        transition:name="avcover"
+        alt="A Veritas audio video installation"
+      />
+      <div class="card-body">
+        <h2 class="card-title">What we're building</h2>
+        Veritas is proud to help build the next generation of data infrastructure
+        supporting America's key industries. We are committed to providing meaningful
+        careers and growing talent nationwide. Our opportunities range from technicians
+        to project managers, offering a path for driven individuals to grow, lead,
+        and make an impact in a rapidly evolving industry. Join us in shaping the
+        future — one project at a time.
+      </div>
+    </div>
+  </section>
+
+  <section class="px-8 md:px-16 lg:px-32 mb-16">
+    <h2 class="text-2xl font-bold mb-6 text-center">Benefits</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div
+        class="relative w-full flex flex-col justify-center items-center bg-primary shadow-sm border border-primary-content rounded-lg p-2"
+      >
+        <div class="p-3 text-center">
+          <div class="flex justify-center mb-4">
+            <Icon name="lucide:cross" class="text-4xl" />
+          </div>
+          <div class="flex justify-center mb-2">
+            <h5 class="text-white font-semibold">
+              Health and dental insurance
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative w-full flex flex-col justify-center items-center bg-primary shadow-sm border border-primary-content rounded-lg p-2"
+      >
+        <div class="p-3 text-center">
+          <div class="flex justify-center mb-4">
+            <Icon name="lucide:badge-dollar-sign" class="text-4xl" />
+          </div>
+          <div class="flex justify-center mb-2">
+            <h5 class="text-white font-semibold">
+              Competitive compensation packages
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative w-full flex flex-col justify-center items-center bg-primary shadow-sm border border-primary-content rounded-lg p-2"
+      >
+        <div class="p-3 text-center">
+          <div class="flex justify-center mb-4">
+            <Icon name="lucide:award" class="text-4xl" />
+          </div>
+          <div class="flex justify-center mb-2">
+            <h5 class="text-white font-semibold">
+              Pathways to specialisations in low-voltage fields
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative w-full flex flex-col justify-center items-center bg-primary shadow-sm border border-primary-content rounded-lg p-2"
+      >
+        <div class="p-3 text-center">
+          <div class="flex justify-center mb-4">
+            <Icon name="lucide:plane" class="text-4xl" />
+          </div>
+          <div class="flex justify-center mb-2">
+            <h5 class="text-white font-semibold">Travel opportunities</h5>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative w-full flex flex-col justify-center items-center bg-primary shadow-sm border border-primary-content rounded-lg p-2"
+      >
+        <div class="p-3 text-center">
+          <div class="flex justify-center mb-4">
+            <Icon name="lucide:graduation-cap" class="text-4xl" />
+          </div>
+          <div class="flex justify-center mb-2">
+            <h5 class="text-white font-semibold">
+              Regular classes to develop skills and gain experience
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative w-full flex flex-col justify-center items-center bg-primary shadow-sm border border-primary-content rounded-lg p-2"
+      >
+        <div class="p-3 text-center">
+          <div class="flex justify-center mb-4">
+            <Icon name="lucide:handshake" class="text-4xl" />
+          </div>
+          <div class="flex justify-center mb-2">
+            <h5 class="text-white font-semibold">
+              Regular in-person team events
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <JobList />
+</MainLayout>
