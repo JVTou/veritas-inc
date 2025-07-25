@@ -4,7 +4,19 @@
   >
     Contact Us
   </h2>
-  <form name="Contact Form" class="space-y-8" method="post" data-netlify="true">
+  <form
+    name="Contact Form"
+    class="space-y-8"
+    method="post"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+    data-netlify-recaptcha="true"
+  >
+    <p class="hidden">
+      <label>
+        First Name <input name="bot-field" type="text" />
+      </label>
+    </p>
     <label class="form-control w-full max-w-xs">
       <div class="label">
         <span class="label-text text-white">Your email:</span>
@@ -41,6 +53,7 @@
         class="textarea textarea-primary h-24"
         placeholder="Type your message"></textarea>
     </label>
+    <div data-netlify-recaptcha="true"></div>
     <button type="submit" class="btn btn-primary btn-wide text-white"
       >Send message</button
     >
